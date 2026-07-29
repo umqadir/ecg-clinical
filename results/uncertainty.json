@@ -1,0 +1,1127 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed_base": 20260716,
+  "calibration": {
+    "chapman_shaoxing": {
+      "s4d": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.08058233316686012,
+            "point": 0.08193334002288971,
+            "upper_95": 0.08323408816345029
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.07976532755163118,
+            "point": 0.08089110978978041,
+            "upper_95": 0.08266135210148455
+          },
+          "pooled_ece": {
+            "lower_95": 0.06070161014355441,
+            "point": 0.062159345001741306,
+            "upper_95": 0.06373355551907021
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0014740155006951066,
+            "point": -0.0014255096187548444,
+            "upper_95": -0.0013775327652311288
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0012253216287741967,
+            "point": -0.0006306948835796827,
+            "upper_95": -9.933611270839024e-05
+          },
+          "pooled_ece": {
+            "lower_95": -0.005034757935126598,
+            "point": -0.004636465795541528,
+            "upper_95": -0.004189346351696932
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.08196178204624596,
+            "point": 0.08335884964164456,
+            "upper_95": 0.08470461364823946
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.0804504846903979,
+            "point": 0.0815218046733601,
+            "upper_95": 0.08332833049770774
+          },
+          "pooled_ece": {
+            "lower_95": 0.0653269287298847,
+            "point": 0.06679581079728283,
+            "upper_95": 0.06842948669049476
+          }
+        }
+      },
+      "xresnet1d101": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.07929048960915465,
+            "point": 0.0806715313463975,
+            "upper_95": 0.08197137126436216
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.07860058211462868,
+            "point": 0.07980394349920127,
+            "upper_95": 0.08154702855676861
+          },
+          "pooled_ece": {
+            "lower_95": 0.06125159858349841,
+            "point": 0.0627025770284243,
+            "upper_95": 0.06430509104899548
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0005523881961375168,
+            "point": -0.0005361238463232609,
+            "upper_95": -0.000518590228932006
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0006676886912458195,
+            "point": -0.0004487464768740401,
+            "upper_95": -0.00026291797478703586
+          },
+          "pooled_ece": {
+            "lower_95": -0.0019000772726462212,
+            "point": -0.0017026759897458832,
+            "upper_95": -0.0015388549412536816
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.07981307717762069,
+            "point": 0.08120765519272076,
+            "upper_95": 0.08251670780684009
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.07906471035654354,
+            "point": 0.0802526899760753,
+            "upper_95": 0.08202350336174258
+          },
+          "pooled_ece": {
+            "lower_95": 0.0629488089669093,
+            "point": 0.06440525301817018,
+            "upper_95": 0.06605911858592513
+          }
+        }
+      }
+    },
+    "ningbo": {
+      "s4d": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.0851302869254243,
+            "point": 0.08587389611361412,
+            "upper_95": 0.0865932740988694
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.08474863872020041,
+            "point": 0.08546164020497755,
+            "upper_95": 0.08630947021467901
+          },
+          "pooled_ece": {
+            "lower_95": 0.06552330715265846,
+            "point": 0.06634045349422749,
+            "upper_95": 0.0671674211778364
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0015903298564257523,
+            "point": -0.001562097681663835,
+            "upper_95": -0.0015355215208974556
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0011564040129485597,
+            "point": -0.0007240613643889754,
+            "upper_95": -0.00044079027320217685
+          },
+          "pooled_ece": {
+            "lower_95": -0.005277083692884976,
+            "point": -0.005107038808950165,
+            "upper_95": -0.00493642305061433
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.08666556122519331,
+            "point": 0.08743599379527796,
+            "upper_95": 0.08817329330796143
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.08549109074218905,
+            "point": 0.08618570156936653,
+            "upper_95": 0.08714221694751371
+          },
+          "pooled_ece": {
+            "lower_95": 0.07061210009096248,
+            "point": 0.07144749230317765,
+            "upper_95": 0.07226634944887995
+          }
+        }
+      },
+      "xresnet1d101": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.08327788413046126,
+            "point": 0.0840035985686793,
+            "upper_95": 0.08472607530792912
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.08298777015842729,
+            "point": 0.08366833381891964,
+            "upper_95": 0.08453182624066236
+          },
+          "pooled_ece": {
+            "lower_95": 0.06554594950857334,
+            "point": 0.06638194476187265,
+            "upper_95": 0.06719738470174233
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0005724049884722311,
+            "point": -0.0005623959317513916,
+            "upper_95": -0.0005531556907210688
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0005605556243653438,
+            "point": -0.0004748496716694556,
+            "upper_95": -0.000307182472237078
+          },
+          "pooled_ece": {
+            "lower_95": -0.0018936281702158057,
+            "point": -0.001805910408442385,
+            "upper_95": -0.0017196019291020124
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.08383069300607299,
+            "point": 0.08456599450043069,
+            "upper_95": 0.08529540229950622
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.08341182901215123,
+            "point": 0.0841431834905891,
+            "upper_95": 0.08498274551223163
+          },
+          "pooled_ece": {
+            "lower_95": 0.06736640766227171,
+            "point": 0.06818785517031503,
+            "upper_95": 0.06902405070658285
+          }
+        }
+      }
+    },
+    "ptb_test": {
+      "s4d": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.026453184922381988,
+            "point": 0.028157480861711274,
+            "upper_95": 0.029842157626846957
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.013279068044443293,
+            "point": 0.011999489806897632,
+            "upper_95": 0.016554503396819634
+          },
+          "pooled_ece": {
+            "lower_95": 0.00521606637996266,
+            "point": 0.006334946683988192,
+            "upper_95": 0.008656146355587256
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0001265516741973922,
+            "point": -5.136990813509393e-05,
+            "upper_95": 2.26828689605117e-05
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0020008624106852696,
+            "point": -0.0007133348896779801,
+            "upper_95": 0.0008863829473926799
+          },
+          "pooled_ece": {
+            "lower_95": -0.002156278970395092,
+            "point": 0.0003751500379763333,
+            "upper_95": 0.0023231821115573
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.026456836857850677,
+            "point": 0.028208850769846368,
+            "upper_95": 0.029957572418118916
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.013769492735096202,
+            "point": 0.012712824696575612,
+            "upper_95": 0.01723199193936689
+          },
+          "pooled_ece": {
+            "lower_95": 0.005239322023843056,
+            "point": 0.0059597966460118584,
+            "upper_95": 0.008686260626271034
+          }
+        }
+      },
+      "xresnet1d101": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.024755287930072898,
+            "point": 0.026444187027584453,
+            "upper_95": 0.02811180867055678
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.01104299238097875,
+            "point": 0.009937543205650561,
+            "upper_95": 0.014140765580833006
+          },
+          "pooled_ece": {
+            "lower_95": 0.0024579131870740615,
+            "point": 0.002238893684218915,
+            "upper_95": 0.0050107157793276855
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -3.875398789923408e-05,
+            "point": -1.3776774365693162e-05,
+            "upper_95": 1.1396572160064003e-05
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0008867233928465404,
+            "point": -0.0002645695446173383,
+            "upper_95": 0.0006523995509657499
+          },
+          "pooled_ece": {
+            "lower_95": -0.00200597423497288,
+            "point": -0.0013292731247617033,
+            "upper_95": 0.0005751777281682464
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.024762155925502623,
+            "point": 0.026457963801950146,
+            "upper_95": 0.028139744740547548
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.011059364388166787,
+            "point": 0.0102021127502679,
+            "upper_95": 0.014416099222942643
+          },
+          "pooled_ece": {
+            "lower_95": 0.0030568683541197838,
+            "point": 0.0035681668089806184,
+            "upper_95": 0.0062152442662487
+          }
+        }
+      }
+    }
+  },
+  "calibration_model_contrasts": {
+    "chapman_shaoxing": {
+      "calibrated": {
+        "macro_brier": {
+          "lower_95": 0.0009603691169002497,
+          "point": 0.0012618086764922126,
+          "upper_95": 0.001564867942042447
+        },
+        "macro_per_label_ece": {
+          "lower_95": 0.00037180622711752777,
+          "point": 0.0010871662905791446,
+          "upper_95": 0.0018880007897115504
+        },
+        "pooled_ece": {
+          "lower_95": -0.0013003751730447158,
+          "point": -0.0005432320266829938,
+          "upper_95": 0.00022499369122472982
+        }
+      },
+      "uncalibrated": {
+        "macro_brier": {
+          "lower_95": 0.0018416079034597175,
+          "point": 0.002151194448923796,
+          "upper_95": 0.002469759800642667
+        },
+        "macro_per_label_ece": {
+          "lower_95": 0.0006601862211177385,
+          "point": 0.0012691146972847872,
+          "upper_95": 0.002038791956343242
+        },
+        "pooled_ece": {
+          "lower_95": 0.0016593934531197604,
+          "point": 0.002390557779112651,
+          "upper_95": 0.003087010907696327
+        }
+      }
+    },
+    "ningbo": {
+      "calibrated": {
+        "macro_brier": {
+          "lower_95": 0.0016975531694586772,
+          "point": 0.0018702975449348264,
+          "upper_95": 0.002055725624386966
+        },
+        "macro_per_label_ece": {
+          "lower_95": 0.0013696125856642633,
+          "point": 0.0017933063860579163,
+          "upper_95": 0.002191496349966334
+        },
+        "pooled_ece": {
+          "lower_95": -0.00044138654208096366,
+          "point": -4.1491267645160645e-05,
+          "upper_95": 0.00039074311176233434
+        }
+      },
+      "uncalibrated": {
+        "macro_brier": {
+          "lower_95": 0.00269399134170152,
+          "point": 0.0028699992948472697,
+          "upper_95": 0.0030641058022959585
+        },
+        "macro_per_label_ece": {
+          "lower_95": 0.0017544480847438433,
+          "point": 0.002042518078777436,
+          "upper_95": 0.0024842877405189226
+        },
+        "pooled_ece": {
+          "lower_95": 0.0028739209621971872,
+          "point": 0.0032596371328626195,
+          "upper_95": 0.003676430194575951
+        }
+      }
+    },
+    "ptb_test": {
+      "calibrated": {
+        "macro_brier": {
+          "lower_95": 0.0011507679373686597,
+          "point": 0.0017132938341268208,
+          "upper_95": 0.002285579982485073
+        },
+        "macro_per_label_ece": {
+          "lower_95": 0.0004924250151595329,
+          "point": 0.0020619466012470715,
+          "upper_95": 0.004156799845735638
+        },
+        "pooled_ece": {
+          "lower_95": 0.001108595152250154,
+          "point": 0.004096052999769277,
+          "upper_95": 0.005195956895212705
+        }
+      },
+      "uncalibrated": {
+        "macro_brier": {
+          "lower_95": 0.0011694607852586745,
+          "point": 0.0017508869678962216,
+          "upper_95": 0.0023472224785321834
+        },
+        "macro_per_label_ece": {
+          "lower_95": 0.0009818543954555818,
+          "point": 0.0025107119463077133,
+          "upper_95": 0.004639994939996478
+        },
+        "pooled_ece": {
+          "lower_95": 0.0006548816822007815,
+          "point": 0.00239162983703124,
+          "upper_95": 0.003859565965473376
+        }
+      }
+    }
+  },
+  "calibration_shift_deltas": {
+    "chapman_shaoxing": {
+      "s4d": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.05174177940914922,
+            "point": 0.05377585916117844,
+            "upper_95": 0.055903502316532724
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.06404718728172933,
+            "point": 0.06889161998288278,
+            "upper_95": 0.06852060107323739
+          },
+          "pooled_ece": {
+            "lower_95": 0.053017728296930425,
+            "point": 0.05582439831775311,
+            "upper_95": 0.05754158149277958
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0014627221701245812,
+            "point": -0.0013741397106197505,
+            "upper_95": -0.0012835445316473806
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.00161588469295491,
+            "point": 8.264000609829736e-05,
+            "upper_95": 0.0014783227599861031
+          },
+          "pooled_ece": {
+            "lower_95": -0.006997879394661741,
+            "point": -0.005011615833517861,
+            "upper_95": -0.0023663141250414425
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.053073797606000624,
+            "point": 0.05514999887179819,
+            "upper_95": 0.05736464239086611
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.0642640465530094,
+            "point": 0.06880897997678448,
+            "upper_95": 0.06865460487520034
+          },
+          "pooled_ece": {
+            "lower_95": 0.05768637141404291,
+            "point": 0.060836014151270976,
+            "upper_95": 0.062222179669380186
+          }
+        }
+      },
+      "xresnet1d101": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.05225176137526847,
+            "point": 0.05422734431881304,
+            "upper_95": 0.0563113434607453
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.06546177377560479,
+            "point": 0.0698664002935507,
+            "upper_95": 0.0697550517690874
+          },
+          "pooled_ece": {
+            "lower_95": 0.057053735825706255,
+            "point": 0.060463683344205384,
+            "upper_95": 0.06106816609130885
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0005529373826807768,
+            "point": -0.0005223470719575678,
+            "upper_95": -0.0004923710512145371
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0011402591212508278,
+            "point": -0.00018417693225670183,
+            "upper_95": 0.00046539834621088863
+          },
+          "pooled_ece": {
+            "lower_95": -0.002313251031319558,
+            "point": -0.0003734028649841799,
+            "upper_95": 0.0003221251224813948
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.052744336252601165,
+            "point": 0.05474969139077061,
+            "upper_95": 0.05686184505811807
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.0656201210144451,
+            "point": 0.0700505772258074,
+            "upper_95": 0.07014797040407517
+          },
+          "pooled_ece": {
+            "lower_95": 0.05777086664031649,
+            "point": 0.06083708620918957,
+            "upper_95": 0.06206286175054021
+          }
+        }
+      }
+    },
+    "ningbo": {
+      "s4d": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.055877161148891255,
+            "point": 0.05771641525190285,
+            "upper_95": 0.05943250157943726
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.0687446274604915,
+            "point": 0.07346215039807992,
+            "upper_95": 0.07241028295401618
+          },
+          "pooled_ece": {
+            "lower_95": 0.05752348928699157,
+            "point": 0.06000550681023929,
+            "upper_95": 0.06129311390878469
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0015900746503488073,
+            "point": -0.001510727773528741,
+            "upper_95": -0.0014277210131723834
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.0017379149190826734,
+            "point": -1.0726474710995304e-05,
+            "upper_95": 0.0012642842624431877
+          },
+          "pooled_ece": {
+            "lower_95": -0.007453850019661206,
+            "point": -0.005482188846926498,
+            "upper_95": -0.0029525017397150077
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.057334811355756604,
+            "point": 0.05922714302543159,
+            "upper_95": 0.06099633639527299
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.06888208808006423,
+            "point": 0.07347287687279092,
+            "upper_95": 0.07270017228639337
+          },
+          "pooled_ece": {
+            "lower_95": 0.06253353290337615,
+            "point": 0.06548769565716579,
+            "upper_95": 0.06640319688768165
+          }
+        }
+      },
+      "xresnet1d101": {
+        "calibrated": {
+          "macro_brier": {
+            "lower_95": 0.05578774881677186,
+            "point": 0.05755941154109484,
+            "upper_95": 0.059329528007747934
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.06941137672130793,
+            "point": 0.07373079061326908,
+            "upper_95": 0.07288388072167373
+          },
+          "pooled_ece": {
+            "lower_95": 0.061098393400404,
+            "point": 0.06414305107765374,
+            "upper_95": 0.06420622407458167
+          }
+        },
+        "calibrated_minus_uncalibrated": {
+          "macro_brier": {
+            "lower_95": -0.0005753307526580411,
+            "point": -0.0005486191573856984,
+            "upper_95": -0.0005225000979177893
+          },
+          "macro_per_label_ece": {
+            "lower_95": -0.001112997922930089,
+            "point": -0.00021028012705211728,
+            "upper_95": 0.0004629623666829834
+          },
+          "pooled_ece": {
+            "lower_95": -0.0023714100590927914,
+            "point": -0.0004766372836806816,
+            "upper_95": 0.00020733899596628901
+          }
+        },
+        "uncalibrated": {
+          "macro_brier": {
+            "lower_95": 0.056314306701498666,
+            "point": 0.05810803069848054,
+            "upper_95": 0.05989844779960864
+          },
+          "macro_per_label_ece": {
+            "lower_95": 0.0696387056834891,
+            "point": 0.07394107074032119,
+            "upper_95": 0.07327391268950618
+          },
+          "pooled_ece": {
+            "lower_95": 0.06173771642106761,
+            "point": 0.06461968836133442,
+            "upper_95": 0.06530110157857111
+          }
+        }
+      }
+    }
+  },
+  "cohort_macro_auroc": {
+    "chapman_shaoxing": {
+      "s4d": {
+        "lower_95": 0.8853659877964162,
+        "point": 0.8911735240809638,
+        "upper_95": 0.8960345628277337
+      },
+      "xresnet1d101": {
+        "lower_95": 0.8864464373208764,
+        "point": 0.8919263553169059,
+        "upper_95": 0.897117397935634
+      }
+    },
+    "ningbo": {
+      "s4d": {
+        "lower_95": 0.8860468078054652,
+        "point": 0.8886769351654127,
+        "upper_95": 0.8911818297923341
+      },
+      "xresnet1d101": {
+        "lower_95": 0.8842561220306883,
+        "point": 0.8868544861207754,
+        "upper_95": 0.8893166086905374
+      }
+    },
+    "ptb_test": {
+      "s4d": {
+        "lower_95": 0.9249767819519846,
+        "point": 0.9331428427101476,
+        "upper_95": 0.941041610606226
+      },
+      "xresnet1d101": {
+        "lower_95": 0.9290211539746225,
+        "point": 0.937112410542677,
+        "upper_95": 0.9446835312781604
+      }
+    }
+  },
+  "contributing_labels": {
+    "cohort_replicates_below_registered": 0,
+    "cohorts": {
+      "chapman_shaoxing": {
+        "s4d": {
+          "minimum_replicate_count": 13,
+          "point": 13,
+          "replicates_below_registered": 0
+        },
+        "xresnet1d101": {
+          "minimum_replicate_count": 13,
+          "point": 13,
+          "replicates_below_registered": 0
+        }
+      },
+      "ningbo": {
+        "s4d": {
+          "minimum_replicate_count": 13,
+          "point": 13,
+          "replicates_below_registered": 0
+        },
+        "xresnet1d101": {
+          "minimum_replicate_count": 13,
+          "point": 13,
+          "replicates_below_registered": 0
+        }
+      },
+      "ptb_test": {
+        "s4d": {
+          "minimum_replicate_count": 13,
+          "point": 13,
+          "replicates_below_registered": 0
+        },
+        "xresnet1d101": {
+          "minimum_replicate_count": 13,
+          "point": 13,
+          "replicates_below_registered": 0
+        }
+      }
+    },
+    "registered_headline_labels": 13,
+    "subgroup_replicates_below_eligible": 0,
+    "subgroups": [
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "44c855a5e862f01c",
+        "eligible_labels": 4,
+        "minimum_replicate_count": 4,
+        "point": 4,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "under_40"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "44c855a5e862f01c",
+        "eligible_labels": 4,
+        "minimum_replicate_count": 4,
+        "point": 4,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "under_40"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "44c855a5e862f01c",
+        "eligible_labels": 4,
+        "minimum_replicate_count": 4,
+        "point": 4,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "40_to_64"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "44c855a5e862f01c",
+        "eligible_labels": 4,
+        "minimum_replicate_count": 4,
+        "point": 4,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "40_to_64"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "44c855a5e862f01c",
+        "eligible_labels": 4,
+        "minimum_replicate_count": 4,
+        "point": 4,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "65_plus"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "44c855a5e862f01c",
+        "eligible_labels": 4,
+        "minimum_replicate_count": 4,
+        "point": 4,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "65_plus"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "5bd295b7e475cd5f",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "female"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "5bd295b7e475cd5f",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "female"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "5bd295b7e475cd5f",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "male"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ptb_test",
+        "eligible_label_digest": "5bd295b7e475cd5f",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "male"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "080b143a3703b19f",
+        "eligible_labels": 7,
+        "minimum_replicate_count": 7,
+        "point": 7,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "under_40"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "080b143a3703b19f",
+        "eligible_labels": 7,
+        "minimum_replicate_count": 7,
+        "point": 7,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "under_40"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "080b143a3703b19f",
+        "eligible_labels": 7,
+        "minimum_replicate_count": 7,
+        "point": 7,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "40_to_64"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "080b143a3703b19f",
+        "eligible_labels": 7,
+        "minimum_replicate_count": 7,
+        "point": 7,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "40_to_64"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "080b143a3703b19f",
+        "eligible_labels": 7,
+        "minimum_replicate_count": 7,
+        "point": 7,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "65_plus"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "080b143a3703b19f",
+        "eligible_labels": 7,
+        "minimum_replicate_count": 7,
+        "point": 7,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "65_plus"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "female"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "female"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "male"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "chapman_shaoxing",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "male"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ningbo",
+        "eligible_label_digest": "3e0d198450442765",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "under_40"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ningbo",
+        "eligible_label_digest": "3e0d198450442765",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "under_40"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ningbo",
+        "eligible_label_digest": "3e0d198450442765",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "40_to_64"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ningbo",
+        "eligible_label_digest": "3e0d198450442765",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "40_to_64"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ningbo",
+        "eligible_label_digest": "3e0d198450442765",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "65_plus"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ningbo",
+        "eligible_label_digest": "3e0d198450442765",
+        "eligible_labels": 14,
+        "minimum_replicate_count": 14,
+        "point": 14,
+        "replicates_below_eligible": 0,
+        "stratification": "age",
+        "subgroup": "65_plus"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ningbo",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "female"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ningbo",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "female"
+      },
+      {
+        "architecture": "xresnet1d101",
+        "cohort": "ningbo",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "male"
+      },
+      {
+        "architecture": "s4d",
+        "cohort": "ningbo",
+        "eligible_label_digest": "e00abd49d9702ca7",
+        "eligible_labels": 15,
+        "minimum_replicate_count": 15,
+        "point": 15,
+        "replicates_below_eligible": 0,
+        "stratification": "sex",
+        "subgroup": "male"
+      }
+    ]
+  },
+  "hospital_shift_difference_ningbo_minus_chapman": {
+    "s4d": {
+      "lower_95": -0.008236532199913233,
+      "point": -0.0024965889155511567,
+      "upper_95": 0.0036115587770881494
+    },
+    "xresnet1d101": {
+      "lower_95": -0.010647098527857422,
+      "point": -0.005071869196130452,
+      "upper_95": 0.0008101207831180372
+    }
+  },
+  "interval_type": "percentile",
+  "paired_model_contrasts": {
+    "chapman_shaoxing": {
+      "lower_95": -0.004716359031334663,
+      "point": -0.000752831235942053,
+      "upper_95": 0.0027062880134867276
+    },
+    "ningbo": {
+      "lower_95": -6.579625160682278e-05,
+      "point": 0.0018224490446372421,
+      "upper_95": 0.0036701345371454815
+    },
+    "ptb_test": {
+      "lower_95": -0.00942373030125715,
+      "point": -0.0039695678325294415,
+      "upper_95": 0.0013463975825810817
+    }
+  },
+  "shift_deltas": {
+    "chapman_shaoxing": {
+      "s4d": {
+        "lower_95": -0.05153588886907248,
+        "point": -0.04196931862918374,
+        "upper_95": -0.032429150961127466
+      },
+      "xresnet1d101": {
+        "lower_95": -0.054224442480068656,
+        "point": -0.04518605522577113,
+        "upper_95": -0.035354019593468455
+      }
+    },
+    "ningbo": {
+      "s4d": {
+        "lower_95": -0.05278413149013629,
+        "point": -0.044465907544734895,
+        "upper_95": -0.03570452037106914
+      },
+      "xresnet1d101": {
+        "lower_95": -0.05846679475420475,
+        "point": -0.05025792442190158,
+        "upper_95": -0.041747134083591465
+      }
+    }
+  }
+}

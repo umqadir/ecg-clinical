@@ -1,0 +1,416 @@
+{
+  "cohorts": {
+    "chapman_shaoxing": {
+      "architectures": {
+        "s4d": {
+          "bootstrap": {
+            "finite_replicates": 2000,
+            "fraction_above_point": 0.6965,
+            "mean": 0.08189444771975742,
+            "median": 0.08190501499873411,
+            "percentile_2_5": 0.0804504846903979,
+            "percentile_97_5": 0.08332833049770774,
+            "replicates": 2000
+          },
+          "point": 0.0815218046733601,
+          "registered_cross_check": {
+            "largest_percentile_difference": 0.0,
+            "passed": true,
+            "point_difference": 0.0,
+            "registered_lower_95": 0.0804504846903979,
+            "registered_point": 0.0815218046733601,
+            "registered_upper_95": 0.08332833049770774,
+            "tolerance": 1e-09
+          },
+          "subsample_curve": [
+            {
+              "clusters": 2049,
+              "fraction": 0.2,
+              "mean_ece": 0.08295621109316538,
+              "mean_records": 2049.0,
+              "median_ece": 0.08283276739727144
+            },
+            {
+              "clusters": 4099,
+              "fraction": 0.4,
+              "mean_ece": 0.08213911851296597,
+              "mean_records": 4099.0,
+              "median_ece": 0.08209757864936798
+            },
+            {
+              "clusters": 6476,
+              "fraction": 0.632,
+              "mean_ece": 0.08178514550397936,
+              "mean_records": 6476.0,
+              "median_ece": 0.08179948922325156
+            },
+            {
+              "clusters": 8198,
+              "fraction": 0.8,
+              "mean_ece": 0.0816054594735928,
+              "mean_records": 8198.0,
+              "median_ece": 0.08161247907747635
+            },
+            {
+              "clusters": 10247,
+              "fraction": 1.0,
+              "mean_ece": 0.08152180467336011,
+              "mean_records": 10247.0,
+              "median_ece": 0.0815218046733601
+            }
+          ]
+        },
+        "xresnet1d101": {
+          "bootstrap": {
+            "finite_replicates": 2000,
+            "fraction_above_point": 0.668,
+            "mean": 0.08057884398972201,
+            "median": 0.08057920690118106,
+            "percentile_2_5": 0.07906471035654354,
+            "percentile_97_5": 0.08202350336174258,
+            "replicates": 2000
+          },
+          "point": 0.0802526899760753,
+          "registered_cross_check": {
+            "largest_percentile_difference": 0.0,
+            "passed": true,
+            "point_difference": 0.0,
+            "registered_lower_95": 0.07906471035654354,
+            "registered_point": 0.0802526899760753,
+            "registered_upper_95": 0.08202350336174258,
+            "tolerance": 1e-09
+          },
+          "subsample_curve": [
+            {
+              "clusters": 2049,
+              "fraction": 0.2,
+              "mean_ece": 0.08142771246134176,
+              "mean_records": 2049.0,
+              "median_ece": 0.08142649392124274
+            },
+            {
+              "clusters": 4099,
+              "fraction": 0.4,
+              "mean_ece": 0.08077994022891356,
+              "mean_records": 4099.0,
+              "median_ece": 0.08078853525616699
+            },
+            {
+              "clusters": 6476,
+              "fraction": 0.632,
+              "mean_ece": 0.08047841182785138,
+              "mean_records": 6476.0,
+              "median_ece": 0.08044340749829094
+            },
+            {
+              "clusters": 8198,
+              "fraction": 0.8,
+              "mean_ece": 0.08034718480315518,
+              "mean_records": 8198.0,
+              "median_ece": 0.08035329382745693
+            },
+            {
+              "clusters": 10247,
+              "fraction": 1.0,
+              "mean_ece": 0.08025268997607529,
+              "mean_records": 10247.0,
+              "median_ece": 0.0802526899760753
+            }
+          ]
+        }
+      },
+      "cluster_unit": "record",
+      "records": 10247,
+      "registered_resample_clusters": {
+        "clusters": 10247,
+        "maximum_distinct_clusters": 6599,
+        "mean_distinct_clusters": 6476.2645,
+        "mean_distinct_fraction": 0.6320156631209135,
+        "minimum_distinct_clusters": 6363
+      }
+    },
+    "ningbo": {
+      "architectures": {
+        "s4d": {
+          "bootstrap": {
+            "finite_replicates": 2000,
+            "fraction_above_point": 0.6285,
+            "mean": 0.08632028651163379,
+            "median": 0.0863282362729092,
+            "percentile_2_5": 0.08549109074218905,
+            "percentile_97_5": 0.08714221694751371,
+            "replicates": 2000
+          },
+          "point": 0.08618570156936653,
+          "registered_cross_check": {
+            "largest_percentile_difference": 0.0,
+            "passed": true,
+            "point_difference": 0.0,
+            "registered_lower_95": 0.08549109074218905,
+            "registered_point": 0.08618570156936653,
+            "registered_upper_95": 0.08714221694751371,
+            "tolerance": 1e-09
+          },
+          "subsample_curve": [
+            {
+              "clusters": 6981,
+              "fraction": 0.2,
+              "mean_ece": 0.08661140426508307,
+              "mean_records": 6981.0,
+              "median_ece": 0.08657818903418962
+            },
+            {
+              "clusters": 13962,
+              "fraction": 0.4,
+              "mean_ece": 0.08636325587183251,
+              "mean_records": 13962.0,
+              "median_ece": 0.08637380465596162
+            },
+            {
+              "clusters": 22060,
+              "fraction": 0.632,
+              "mean_ece": 0.08627496335994411,
+              "mean_records": 22060.0,
+              "median_ece": 0.08627771485319574
+            },
+            {
+              "clusters": 27924,
+              "fraction": 0.8,
+              "mean_ece": 0.08622802420193644,
+              "mean_records": 27924.0,
+              "median_ece": 0.08622678652584678
+            },
+            {
+              "clusters": 34905,
+              "fraction": 1.0,
+              "mean_ece": 0.08618570156936654,
+              "mean_records": 34905.0,
+              "median_ece": 0.08618570156936653
+            }
+          ]
+        },
+        "xresnet1d101": {
+          "bootstrap": {
+            "finite_replicates": 2000,
+            "fraction_above_point": 0.5625,
+            "mean": 0.08420088014277832,
+            "median": 0.08420369874879871,
+            "percentile_2_5": 0.08341182901215123,
+            "percentile_97_5": 0.08498274551223163,
+            "replicates": 2000
+          },
+          "point": 0.0841431834905891,
+          "registered_cross_check": {
+            "largest_percentile_difference": 0.0,
+            "passed": true,
+            "point_difference": 0.0,
+            "registered_lower_95": 0.08341182901215123,
+            "registered_point": 0.0841431834905891,
+            "registered_upper_95": 0.08498274551223163,
+            "tolerance": 1e-09
+          },
+          "subsample_curve": [
+            {
+              "clusters": 6981,
+              "fraction": 0.2,
+              "mean_ece": 0.08438356269340094,
+              "mean_records": 6981.0,
+              "median_ece": 0.08434932351545232
+            },
+            {
+              "clusters": 13962,
+              "fraction": 0.4,
+              "mean_ece": 0.08423042572546528,
+              "mean_records": 13962.0,
+              "median_ece": 0.08425987330830223
+            },
+            {
+              "clusters": 22060,
+              "fraction": 0.632,
+              "mean_ece": 0.0841970762003189,
+              "mean_records": 22060.0,
+              "median_ece": 0.08418891051877614
+            },
+            {
+              "clusters": 27924,
+              "fraction": 0.8,
+              "mean_ece": 0.0841566495695932,
+              "mean_records": 27924.0,
+              "median_ece": 0.08416385392668566
+            },
+            {
+              "clusters": 34905,
+              "fraction": 1.0,
+              "mean_ece": 0.08414318349058911,
+              "mean_records": 34905.0,
+              "median_ece": 0.0841431834905891
+            }
+          ]
+        }
+      },
+      "cluster_unit": "record",
+      "records": 34905,
+      "registered_resample_clusters": {
+        "clusters": 34905,
+        "maximum_distinct_clusters": 22254,
+        "mean_distinct_clusters": 22065.4555,
+        "mean_distinct_fraction": 0.632157441627274,
+        "minimum_distinct_clusters": 21885
+      }
+    },
+    "ptb_test": {
+      "architectures": {
+        "s4d": {
+          "bootstrap": {
+            "finite_replicates": 2000,
+            "fraction_above_point": 0.9995,
+            "mean": 0.015454115317249759,
+            "median": 0.015451819988306486,
+            "percentile_2_5": 0.013769492735096202,
+            "percentile_97_5": 0.01723199193936689,
+            "replicates": 2000
+          },
+          "point": 0.012712824696575612,
+          "registered_cross_check": {
+            "largest_percentile_difference": 0.0,
+            "passed": true,
+            "point_difference": 0.0,
+            "registered_lower_95": 0.013769492735096202,
+            "registered_point": 0.012712824696575612,
+            "registered_upper_95": 0.01723199193936689,
+            "tolerance": 1e-09
+          },
+          "subsample_curve": [
+            {
+              "clusters": 381,
+              "fraction": 0.2,
+              "mean_ece": 0.020844410386339884,
+              "mean_records": 439.5525,
+              "median_ece": 0.02073535646766172
+            },
+            {
+              "clusters": 762,
+              "fraction": 0.4,
+              "mean_ece": 0.016787879281234406,
+              "mean_records": 879.045,
+              "median_ece": 0.01674892443825287
+            },
+            {
+              "clusters": 1203,
+              "fraction": 0.632,
+              "mean_ece": 0.01456788847939641,
+              "mean_records": 1389.465,
+              "median_ece": 0.014550599224661061
+            },
+            {
+              "clusters": 1523,
+              "fraction": 0.8,
+              "mean_ece": 0.013581041111871955,
+              "mean_records": 1758.125,
+              "median_ece": 0.013543939379135499
+            },
+            {
+              "clusters": 1904,
+              "fraction": 1.0,
+              "mean_ece": 0.01271282469657561,
+              "mean_records": 2198.0,
+              "median_ece": 0.012712824696575612
+            }
+          ]
+        },
+        "xresnet1d101": {
+          "bootstrap": {
+            "finite_replicates": 2000,
+            "fraction_above_point": 0.9995,
+            "mean": 0.01268508892489562,
+            "median": 0.012666357851050886,
+            "percentile_2_5": 0.011059364388166787,
+            "percentile_97_5": 0.014416099222942643,
+            "replicates": 2000
+          },
+          "point": 0.0102021127502679,
+          "registered_cross_check": {
+            "largest_percentile_difference": 0.0,
+            "passed": true,
+            "point_difference": 0.0,
+            "registered_lower_95": 0.011059364388166787,
+            "registered_point": 0.0102021127502679,
+            "registered_upper_95": 0.014416099222942643,
+            "tolerance": 1e-09
+          },
+          "subsample_curve": [
+            {
+              "clusters": 381,
+              "fraction": 0.2,
+              "mean_ece": 0.018240893311616414,
+              "mean_records": 439.5525,
+              "median_ece": 0.018201048942365138
+            },
+            {
+              "clusters": 762,
+              "fraction": 0.4,
+              "mean_ece": 0.013984134886906552,
+              "mean_records": 879.045,
+              "median_ece": 0.014019743791881999
+            },
+            {
+              "clusters": 1203,
+              "fraction": 0.632,
+              "mean_ece": 0.011830921804724425,
+              "mean_records": 1389.465,
+              "median_ece": 0.01186237076512263
+            },
+            {
+              "clusters": 1523,
+              "fraction": 0.8,
+              "mean_ece": 0.01085885435558934,
+              "mean_records": 1758.125,
+              "median_ece": 0.010864329698210568
+            },
+            {
+              "clusters": 1904,
+              "fraction": 1.0,
+              "mean_ece": 0.010202112750267903,
+              "mean_records": 2198.0,
+              "median_ece": 0.0102021127502679
+            }
+          ]
+        }
+      },
+      "cluster_unit": "patient_id",
+      "records": 2198,
+      "registered_resample_clusters": {
+        "clusters": 1904,
+        "maximum_distinct_clusters": 1247,
+        "mean_distinct_clusters": 1203.8155,
+        "mean_distinct_fraction": 0.6322560399159664,
+        "minimum_distinct_clusters": 1148
+      }
+    }
+  },
+  "hypothesis": "Expected calibration error is positively biased and the bias grows as the effective sample falls, so bootstrap replicates holding roughly 63.2 percent distinct clusters sit above the full-sample point estimate.",
+  "note": "Exploratory diagnostic of bootstrap behaviour for expected calibration error; it is not a registered analysis and it changes no reported quantity.",
+  "settings": {
+    "bootstrap_batch_size": 100,
+    "bootstrap_replicates": 2000,
+    "calibration_bins": 15,
+    "calibration_variant": "uncalibrated",
+    "cohort_seeds": {
+      "chapman_shaoxing": 20260717,
+      "ningbo": 20260718,
+      "ptb_test": 20260716
+    },
+    "headline_labels": 13,
+    "metric": "macro_per_label_ece",
+    "percentile_tolerance": 1e-09,
+    "subsample_draws": 400,
+    "subsample_fractions": [
+      0.2,
+      0.4,
+      0.632,
+      0.8,
+      1.0
+    ],
+    "subsample_seed_offset": 900
+  }
+}

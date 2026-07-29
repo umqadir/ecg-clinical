@@ -1,0 +1,515 @@
+{
+  "cohorts": {
+    "chapman_shaoxing": {
+      "age_available": 10247,
+      "age_missing": 0,
+      "duration_seconds": [
+        10.0
+      ],
+      "num_leads": [
+        12
+      ],
+      "records": 10247,
+      "sampling_frequency_hz": [
+        500.0
+      ],
+      "sex_counts": {
+        "female": 4514,
+        "male": 5733
+      }
+    },
+    "ningbo": {
+      "age_available": 34850,
+      "age_missing": 55,
+      "duration_seconds": [
+        10.0
+      ],
+      "num_leads": [
+        12
+      ],
+      "records": 34905,
+      "sampling_frequency_hz": [
+        500.0
+      ],
+      "sex_counts": {
+        "female": 15162,
+        "male": 19721,
+        "unknown": 22
+      }
+    },
+    "ptb-xl": {
+      "age_available": 21748,
+      "age_missing": 89,
+      "duration_seconds": [
+        10.0
+      ],
+      "num_leads": [
+        12
+      ],
+      "records": 21837,
+      "sampling_frequency_hz": [
+        500.0
+      ],
+      "sex_counts": {
+        "female": 10458,
+        "male": 11379
+      }
+    }
+  },
+  "eligibility_rule": {
+    "evaluation_cohorts": [
+      "ptb_validation",
+      "ptb_test",
+      "chapman_shaoxing",
+      "ningbo"
+    ],
+    "label_universe": "26 scored CinC 2021 diagnosis equivalence groups",
+    "min_negatives_each_evaluation_cohort": 25,
+    "min_negatives_each_subgroup": 10,
+    "min_positives_each_evaluation_cohort": 25,
+    "min_positives_each_subgroup": 10,
+    "min_ptb_train_positives": 100,
+    "model_target_rule": "at least one positive and negative in PTB train and every evaluation cohort, excluding prespecified semantic mismatches",
+    "semantic_exclusions": {
+      "251146004": "cross-hospital source mappings conflate low QRS voltage and poor R-wave progression"
+    }
+  },
+  "headline_label_keys": [
+    "733534002|164909002",
+    "713427006|59118001",
+    "270492004",
+    "39732003",
+    "698252002",
+    "426783006",
+    "284470004|63593006",
+    "164917005",
+    "47665007",
+    "426177001",
+    "427084000",
+    "164934002",
+    "59931005"
+  ],
+  "labels": [
+    {
+      "diagnosis": "atrial flutter",
+      "headline_eligible": false,
+      "label_key": "164890007",
+      "positive_counts": {
+        "chapman_shaoxing": 445,
+        "ningbo": 7615,
+        "ptb_test": 7,
+        "ptb_train": 59,
+        "ptb_validation": 7
+      },
+      "snomed_codes": [
+        "164890007"
+      ]
+    },
+    {
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "headline_eligible": true,
+      "label_key": "733534002|164909002",
+      "positive_counts": {
+        "chapman_shaoxing": 205,
+        "ningbo": 248,
+        "ptb_test": 54,
+        "ptb_train": 428,
+        "ptb_validation": 54
+      },
+      "snomed_codes": [
+        "733534002",
+        "164909002"
+      ]
+    },
+    {
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "headline_eligible": true,
+      "label_key": "713427006|59118001",
+      "positive_counts": {
+        "chapman_shaoxing": 454,
+        "ningbo": 1291,
+        "ptb_test": 54,
+        "ptb_train": 433,
+        "ptb_validation": 55
+      },
+      "snomed_codes": [
+        "713427006",
+        "59118001"
+      ]
+    },
+    {
+      "diagnosis": "1st degree av block",
+      "headline_eligible": true,
+      "label_key": "270492004",
+      "positive_counts": {
+        "chapman_shaoxing": 247,
+        "ningbo": 893,
+        "ptb_test": 79,
+        "ptb_train": 636,
+        "ptb_validation": 80
+      },
+      "snomed_codes": [
+        "270492004"
+      ]
+    },
+    {
+      "diagnosis": "left axis deviation",
+      "headline_eligible": true,
+      "label_key": "39732003",
+      "positive_counts": {
+        "chapman_shaoxing": 382,
+        "ningbo": 1163,
+        "ptb_test": 528,
+        "ptb_train": 4129,
+        "ptb_validation": 489
+      },
+      "snomed_codes": [
+        "39732003"
+      ]
+    },
+    {
+      "diagnosis": "prolonged pr interval",
+      "headline_eligible": false,
+      "label_key": "164947007",
+      "positive_counts": {
+        "chapman_shaoxing": 12,
+        "ningbo": 40,
+        "ptb_test": 34,
+        "ptb_train": 272,
+        "ptb_validation": 34
+      },
+      "snomed_codes": [
+        "164947007"
+      ]
+    },
+    {
+      "diagnosis": "prolonged qt interval",
+      "headline_eligible": false,
+      "label_key": "111975006",
+      "positive_counts": {
+        "chapman_shaoxing": 57,
+        "ningbo": 337,
+        "ptb_test": 11,
+        "ptb_train": 95,
+        "ptb_validation": 12
+      },
+      "snomed_codes": [
+        "111975006"
+      ]
+    },
+    {
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "headline_eligible": true,
+      "label_key": "698252002",
+      "positive_counts": {
+        "chapman_shaoxing": 235,
+        "ningbo": 536,
+        "ptb_test": 79,
+        "ptb_train": 630,
+        "ptb_validation": 78
+      },
+      "snomed_codes": [
+        "698252002"
+      ]
+    },
+    {
+      "diagnosis": "sinus rhythm",
+      "headline_eligible": true,
+      "label_key": "426783006",
+      "positive_counts": {
+        "chapman_shaoxing": 1826,
+        "ningbo": 6299,
+        "ptb_test": 1822,
+        "ptb_train": 14452,
+        "ptb_validation": 1784
+      },
+      "snomed_codes": [
+        "426783006"
+      ]
+    },
+    {
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "headline_eligible": true,
+      "label_key": "284470004|63593006",
+      "positive_counts": {
+        "chapman_shaoxing": 258,
+        "ningbo": 1063,
+        "ptb_test": 54,
+        "ptb_train": 446,
+        "ptb_validation": 55
+      },
+      "snomed_codes": [
+        "284470004",
+        "63593006"
+      ]
+    },
+    {
+      "diagnosis": "qwave abnormal",
+      "headline_eligible": true,
+      "label_key": "164917005",
+      "positive_counts": {
+        "chapman_shaoxing": 235,
+        "ningbo": 828,
+        "ptb_test": 55,
+        "ptb_train": 438,
+        "ptb_validation": 55
+      },
+      "snomed_codes": [
+        "164917005"
+      ]
+    },
+    {
+      "diagnosis": "right axis deviation",
+      "headline_eligible": true,
+      "label_key": "47665007",
+      "positive_counts": {
+        "chapman_shaoxing": 215,
+        "ningbo": 638,
+        "ptb_test": 26,
+        "ptb_train": 281,
+        "ptb_validation": 36
+      },
+      "snomed_codes": [
+        "47665007"
+      ]
+    },
+    {
+      "diagnosis": "sinus bradycardia",
+      "headline_eligible": true,
+      "label_key": "426177001",
+      "positive_counts": {
+        "chapman_shaoxing": 3889,
+        "ningbo": 12670,
+        "ptb_test": 64,
+        "ptb_train": 509,
+        "ptb_validation": 64
+      },
+      "snomed_codes": [
+        "426177001"
+      ]
+    },
+    {
+      "diagnosis": "sinus tachycardia",
+      "headline_eligible": true,
+      "label_key": "427084000",
+      "positive_counts": {
+        "chapman_shaoxing": 1568,
+        "ningbo": 5687,
+        "ptb_test": 82,
+        "ptb_train": 661,
+        "ptb_validation": 83
+      },
+      "snomed_codes": [
+        "427084000"
+      ]
+    },
+    {
+      "diagnosis": "t wave abnormal",
+      "headline_eligible": true,
+      "label_key": "164934002",
+      "positive_counts": {
+        "chapman_shaoxing": 1876,
+        "ningbo": 5167,
+        "ptb_test": 231,
+        "ptb_train": 1875,
+        "ptb_validation": 235
+      },
+      "snomed_codes": [
+        "164934002"
+      ]
+    },
+    {
+      "diagnosis": "t wave inversion",
+      "headline_eligible": true,
+      "label_key": "59931005",
+      "positive_counts": {
+        "chapman_shaoxing": 157,
+        "ningbo": 2720,
+        "ptb_test": 29,
+        "ptb_train": 235,
+        "ptb_validation": 30
+      },
+      "snomed_codes": [
+        "59931005"
+      ]
+    }
+  ],
+  "ptb_challenge_records_removed_in_v1_0_3": [
+    137,
+    139,
+    140,
+    141,
+    142,
+    143,
+    145,
+    456,
+    458,
+    459,
+    461,
+    462,
+    2506,
+    2511,
+    3795,
+    3798,
+    3800,
+    3801,
+    3832,
+    5817,
+    7777,
+    7779,
+    7782,
+    9821,
+    9825,
+    9888,
+    11810,
+    11814,
+    11815,
+    11817,
+    11838,
+    13791,
+    13793,
+    13796,
+    13797,
+    13799,
+    15742,
+    18150
+  ],
+  "ptb_splits_current_release": {
+    "ptb_test": {
+      "patients": 1904,
+      "records": 2198
+    },
+    "ptb_train": {
+      "patients": 15023,
+      "records": 17418
+    },
+    "ptb_validation": {
+      "patients": 1942,
+      "records": 2183
+    }
+  },
+  "schema_version": 1,
+  "source_sha256": {
+    "data/cache/challenge2021_headers.csv": "168e21b5479f70a8b6a4554dfe1d215b4846895ceb6833dfa40e035508c008a9",
+    "data/raw-metadata/cinc2021_dx_mapping_scored.csv": "fad13ad9f7ca230e7e6392ac8a264cb7cd157879525129f964c5f708eabb41d0",
+    "data/raw-metadata/cinc2021_weights.csv": "668cb04555a97e8977488cb4bb6088d0d2bf9e59557945deedf29d5065c14d2b",
+    "data/raw-metadata/ptb-xl/1.0.3/ptbxl_database.csv": "7600de9c1b27d181d850b3c6038a35d7c3ddb6bb33b702e3a20252a6859d216b"
+  },
+  "source_versions": {
+    "challenge_2021": "1.0.3",
+    "ptb_xl": "1.0.3",
+    "ptb_xl_plus": "1.0.1"
+  },
+  "subgroup_common_label_keys": {
+    "chapman_shaoxing": {
+      "age": [
+        "713427006|59118001",
+        "39732003",
+        "426783006",
+        "47665007",
+        "426177001",
+        "427084000",
+        "164934002"
+      ],
+      "sex": [
+        "164890007",
+        "733534002|164909002",
+        "713427006|59118001",
+        "270492004",
+        "39732003",
+        "111975006",
+        "698252002",
+        "426783006",
+        "284470004|63593006",
+        "164917005",
+        "47665007",
+        "426177001",
+        "427084000",
+        "164934002",
+        "59931005"
+      ]
+    },
+    "ningbo": {
+      "age": [
+        "164890007",
+        "713427006|59118001",
+        "270492004",
+        "39732003",
+        "111975006",
+        "698252002",
+        "426783006",
+        "284470004|63593006",
+        "164917005",
+        "47665007",
+        "426177001",
+        "427084000",
+        "164934002",
+        "59931005"
+      ],
+      "sex": [
+        "164890007",
+        "733534002|164909002",
+        "713427006|59118001",
+        "270492004",
+        "39732003",
+        "111975006",
+        "698252002",
+        "426783006",
+        "284470004|63593006",
+        "164917005",
+        "47665007",
+        "426177001",
+        "427084000",
+        "164934002",
+        "59931005"
+      ]
+    },
+    "ptb_test": {
+      "age": [
+        "39732003",
+        "426783006",
+        "426177001",
+        "164934002"
+      ],
+      "sex": [
+        "733534002|164909002",
+        "713427006|59118001",
+        "270492004",
+        "39732003",
+        "164947007",
+        "698252002",
+        "426783006",
+        "284470004|63593006",
+        "164917005",
+        "47665007",
+        "426177001",
+        "427084000",
+        "164934002",
+        "59931005"
+      ]
+    },
+    "ptb_validation": {
+      "age": [
+        "39732003",
+        "426783006",
+        "164934002"
+      ],
+      "sex": [
+        "733534002|164909002",
+        "713427006|59118001",
+        "270492004",
+        "39732003",
+        "164947007",
+        "698252002",
+        "426783006",
+        "284470004|63593006",
+        "164917005",
+        "47665007",
+        "426177001",
+        "427084000",
+        "164934002",
+        "59931005"
+      ]
+    }
+  }
+}

@@ -1,0 +1,321 @@
+cohort,stratification,subgroup,subgroup_records,label_key,diagnosis,positives,negatives
+ptb_validation,age,under_40,284,164890007,atrial flutter,0,284
+ptb_validation,age,40_to_64,894,164890007,atrial flutter,5,889
+ptb_validation,age,65_plus,1005,164890007,atrial flutter,2,1003
+ptb_validation,age,under_40,284,733534002|164909002,complete left bundle branch block / left bundle branch block,1,283
+ptb_validation,age,40_to_64,894,733534002|164909002,complete left bundle branch block / left bundle branch block,7,887
+ptb_validation,age,65_plus,1005,733534002|164909002,complete left bundle branch block / left bundle branch block,46,959
+ptb_validation,age,under_40,284,713427006|59118001,complete right bundle branch block / right bundle branch block,0,284
+ptb_validation,age,40_to_64,894,713427006|59118001,complete right bundle branch block / right bundle branch block,13,881
+ptb_validation,age,65_plus,1005,713427006|59118001,complete right bundle branch block / right bundle branch block,42,963
+ptb_validation,age,under_40,284,270492004,1st degree av block,1,283
+ptb_validation,age,40_to_64,894,270492004,1st degree av block,12,882
+ptb_validation,age,65_plus,1005,270492004,1st degree av block,67,938
+ptb_validation,age,under_40,284,39732003,left axis deviation,13,271
+ptb_validation,age,40_to_64,894,39732003,left axis deviation,175,719
+ptb_validation,age,65_plus,1005,39732003,left axis deviation,301,704
+ptb_validation,age,under_40,284,164947007,prolonged pr interval,1,283
+ptb_validation,age,40_to_64,894,164947007,prolonged pr interval,4,890
+ptb_validation,age,65_plus,1005,164947007,prolonged pr interval,29,976
+ptb_validation,age,under_40,284,111975006,prolonged qt interval,0,284
+ptb_validation,age,40_to_64,894,111975006,prolonged qt interval,1,893
+ptb_validation,age,65_plus,1005,111975006,prolonged qt interval,11,994
+ptb_validation,age,under_40,284,698252002,nonspecific intraventricular conduction disorder,2,282
+ptb_validation,age,40_to_64,894,698252002,nonspecific intraventricular conduction disorder,23,871
+ptb_validation,age,65_plus,1005,698252002,nonspecific intraventricular conduction disorder,53,952
+ptb_validation,age,under_40,284,426783006,sinus rhythm,266,18
+ptb_validation,age,40_to_64,894,426783006,sinus rhythm,810,84
+ptb_validation,age,65_plus,1005,426783006,sinus rhythm,708,297
+ptb_validation,age,under_40,284,284470004|63593006,premature atrial contraction / supraventricular premature beats,2,282
+ptb_validation,age,40_to_64,894,284470004|63593006,premature atrial contraction / supraventricular premature beats,12,882
+ptb_validation,age,65_plus,1005,284470004|63593006,premature atrial contraction / supraventricular premature beats,41,964
+ptb_validation,age,under_40,284,164917005,qwave abnormal,2,282
+ptb_validation,age,40_to_64,894,164917005,qwave abnormal,11,883
+ptb_validation,age,65_plus,1005,164917005,qwave abnormal,42,963
+ptb_validation,age,under_40,284,47665007,right axis deviation,8,276
+ptb_validation,age,40_to_64,894,47665007,right axis deviation,11,883
+ptb_validation,age,65_plus,1005,47665007,right axis deviation,17,988
+ptb_validation,age,under_40,284,426177001,sinus bradycardia,7,277
+ptb_validation,age,40_to_64,894,426177001,sinus bradycardia,23,871
+ptb_validation,age,65_plus,1005,426177001,sinus bradycardia,34,971
+ptb_validation,age,under_40,284,427084000,sinus tachycardia,9,275
+ptb_validation,age,40_to_64,894,427084000,sinus tachycardia,22,872
+ptb_validation,age,65_plus,1005,427084000,sinus tachycardia,52,953
+ptb_validation,age,under_40,284,164934002,t wave abnormal,16,268
+ptb_validation,age,40_to_64,894,164934002,t wave abnormal,84,810
+ptb_validation,age,65_plus,1005,164934002,t wave abnormal,135,870
+ptb_validation,age,under_40,284,59931005,t wave inversion,2,282
+ptb_validation,age,40_to_64,894,59931005,t wave inversion,8,886
+ptb_validation,age,65_plus,1005,59931005,t wave inversion,20,985
+ptb_validation,sex,female,1133,164890007,atrial flutter,5,1128
+ptb_validation,sex,male,1050,164890007,atrial flutter,2,1048
+ptb_validation,sex,female,1133,733534002|164909002,complete left bundle branch block / left bundle branch block,23,1110
+ptb_validation,sex,male,1050,733534002|164909002,complete left bundle branch block / left bundle branch block,31,1019
+ptb_validation,sex,female,1133,713427006|59118001,complete right bundle branch block / right bundle branch block,34,1099
+ptb_validation,sex,male,1050,713427006|59118001,complete right bundle branch block / right bundle branch block,21,1029
+ptb_validation,sex,female,1133,270492004,1st degree av block,43,1090
+ptb_validation,sex,male,1050,270492004,1st degree av block,37,1013
+ptb_validation,sex,female,1133,39732003,left axis deviation,286,847
+ptb_validation,sex,male,1050,39732003,left axis deviation,203,847
+ptb_validation,sex,female,1133,164947007,prolonged pr interval,15,1118
+ptb_validation,sex,male,1050,164947007,prolonged pr interval,19,1031
+ptb_validation,sex,female,1133,111975006,prolonged qt interval,5,1128
+ptb_validation,sex,male,1050,111975006,prolonged qt interval,7,1043
+ptb_validation,sex,female,1133,698252002,nonspecific intraventricular conduction disorder,41,1092
+ptb_validation,sex,male,1050,698252002,nonspecific intraventricular conduction disorder,37,1013
+ptb_validation,sex,female,1133,426783006,sinus rhythm,918,215
+ptb_validation,sex,male,1050,426783006,sinus rhythm,866,184
+ptb_validation,sex,female,1133,284470004|63593006,premature atrial contraction / supraventricular premature beats,32,1101
+ptb_validation,sex,male,1050,284470004|63593006,premature atrial contraction / supraventricular premature beats,23,1027
+ptb_validation,sex,female,1133,164917005,qwave abnormal,32,1101
+ptb_validation,sex,male,1050,164917005,qwave abnormal,23,1027
+ptb_validation,sex,female,1133,47665007,right axis deviation,13,1120
+ptb_validation,sex,male,1050,47665007,right axis deviation,23,1027
+ptb_validation,sex,female,1133,426177001,sinus bradycardia,43,1090
+ptb_validation,sex,male,1050,426177001,sinus bradycardia,21,1029
+ptb_validation,sex,female,1133,427084000,sinus tachycardia,37,1096
+ptb_validation,sex,male,1050,427084000,sinus tachycardia,46,1004
+ptb_validation,sex,female,1133,164934002,t wave abnormal,99,1034
+ptb_validation,sex,male,1050,164934002,t wave abnormal,136,914
+ptb_validation,sex,female,1133,59931005,t wave inversion,16,1117
+ptb_validation,sex,male,1050,59931005,t wave inversion,14,1036
+ptb_test,age,under_40,284,164890007,atrial flutter,0,284
+ptb_test,age,40_to_64,866,164890007,atrial flutter,1,865
+ptb_test,age,65_plus,1048,164890007,atrial flutter,6,1042
+ptb_test,age,under_40,284,733534002|164909002,complete left bundle branch block / left bundle branch block,0,284
+ptb_test,age,40_to_64,866,733534002|164909002,complete left bundle branch block / left bundle branch block,9,857
+ptb_test,age,65_plus,1048,733534002|164909002,complete left bundle branch block / left bundle branch block,45,1003
+ptb_test,age,under_40,284,713427006|59118001,complete right bundle branch block / right bundle branch block,0,284
+ptb_test,age,40_to_64,866,713427006|59118001,complete right bundle branch block / right bundle branch block,8,858
+ptb_test,age,65_plus,1048,713427006|59118001,complete right bundle branch block / right bundle branch block,46,1002
+ptb_test,age,under_40,284,270492004,1st degree av block,0,284
+ptb_test,age,40_to_64,866,270492004,1st degree av block,9,857
+ptb_test,age,65_plus,1048,270492004,1st degree av block,70,978
+ptb_test,age,under_40,284,39732003,left axis deviation,21,263
+ptb_test,age,40_to_64,866,39732003,left axis deviation,174,692
+ptb_test,age,65_plus,1048,39732003,left axis deviation,333,715
+ptb_test,age,under_40,284,164947007,prolonged pr interval,0,284
+ptb_test,age,40_to_64,866,164947007,prolonged pr interval,3,863
+ptb_test,age,65_plus,1048,164947007,prolonged pr interval,31,1017
+ptb_test,age,under_40,284,111975006,prolonged qt interval,1,283
+ptb_test,age,40_to_64,866,111975006,prolonged qt interval,4,862
+ptb_test,age,65_plus,1048,111975006,prolonged qt interval,6,1042
+ptb_test,age,under_40,284,698252002,nonspecific intraventricular conduction disorder,4,280
+ptb_test,age,40_to_64,866,698252002,nonspecific intraventricular conduction disorder,31,835
+ptb_test,age,65_plus,1048,698252002,nonspecific intraventricular conduction disorder,44,1004
+ptb_test,age,under_40,284,426783006,sinus rhythm,272,12
+ptb_test,age,40_to_64,866,426783006,sinus rhythm,789,77
+ptb_test,age,65_plus,1048,426783006,sinus rhythm,761,287
+ptb_test,age,under_40,284,284470004|63593006,premature atrial contraction / supraventricular premature beats,4,280
+ptb_test,age,40_to_64,866,284470004|63593006,premature atrial contraction / supraventricular premature beats,10,856
+ptb_test,age,65_plus,1048,284470004|63593006,premature atrial contraction / supraventricular premature beats,40,1008
+ptb_test,age,under_40,284,164917005,qwave abnormal,1,283
+ptb_test,age,40_to_64,866,164917005,qwave abnormal,16,850
+ptb_test,age,65_plus,1048,164917005,qwave abnormal,38,1010
+ptb_test,age,under_40,284,47665007,right axis deviation,9,275
+ptb_test,age,40_to_64,866,47665007,right axis deviation,8,858
+ptb_test,age,65_plus,1048,47665007,right axis deviation,9,1039
+ptb_test,age,under_40,284,426177001,sinus bradycardia,11,273
+ptb_test,age,40_to_64,866,426177001,sinus bradycardia,31,835
+ptb_test,age,65_plus,1048,426177001,sinus bradycardia,22,1026
+ptb_test,age,under_40,284,427084000,sinus tachycardia,7,277
+ptb_test,age,40_to_64,866,427084000,sinus tachycardia,27,839
+ptb_test,age,65_plus,1048,427084000,sinus tachycardia,48,1000
+ptb_test,age,under_40,284,164934002,t wave abnormal,13,271
+ptb_test,age,40_to_64,866,164934002,t wave abnormal,86,780
+ptb_test,age,65_plus,1048,164934002,t wave abnormal,132,916
+ptb_test,age,under_40,284,59931005,t wave inversion,0,284
+ptb_test,age,40_to_64,866,59931005,t wave inversion,6,860
+ptb_test,age,65_plus,1048,59931005,t wave inversion,23,1025
+ptb_test,sex,female,1132,164890007,atrial flutter,5,1127
+ptb_test,sex,male,1066,164890007,atrial flutter,2,1064
+ptb_test,sex,female,1132,733534002|164909002,complete left bundle branch block / left bundle branch block,23,1109
+ptb_test,sex,male,1066,733534002|164909002,complete left bundle branch block / left bundle branch block,31,1035
+ptb_test,sex,female,1132,713427006|59118001,complete right bundle branch block / right bundle branch block,36,1096
+ptb_test,sex,male,1066,713427006|59118001,complete right bundle branch block / right bundle branch block,18,1048
+ptb_test,sex,female,1132,270492004,1st degree av block,39,1093
+ptb_test,sex,male,1066,270492004,1st degree av block,40,1026
+ptb_test,sex,female,1132,39732003,left axis deviation,281,851
+ptb_test,sex,male,1066,39732003,left axis deviation,247,819
+ptb_test,sex,female,1132,164947007,prolonged pr interval,18,1114
+ptb_test,sex,male,1066,164947007,prolonged pr interval,16,1050
+ptb_test,sex,female,1132,111975006,prolonged qt interval,4,1128
+ptb_test,sex,male,1066,111975006,prolonged qt interval,7,1059
+ptb_test,sex,female,1132,698252002,nonspecific intraventricular conduction disorder,45,1087
+ptb_test,sex,male,1066,698252002,nonspecific intraventricular conduction disorder,34,1032
+ptb_test,sex,female,1132,426783006,sinus rhythm,938,194
+ptb_test,sex,male,1066,426783006,sinus rhythm,884,182
+ptb_test,sex,female,1132,284470004|63593006,premature atrial contraction / supraventricular premature beats,19,1113
+ptb_test,sex,male,1066,284470004|63593006,premature atrial contraction / supraventricular premature beats,35,1031
+ptb_test,sex,female,1132,164917005,qwave abnormal,30,1102
+ptb_test,sex,male,1066,164917005,qwave abnormal,25,1041
+ptb_test,sex,female,1132,47665007,right axis deviation,15,1117
+ptb_test,sex,male,1066,47665007,right axis deviation,11,1055
+ptb_test,sex,female,1132,426177001,sinus bradycardia,37,1095
+ptb_test,sex,male,1066,426177001,sinus bradycardia,27,1039
+ptb_test,sex,female,1132,427084000,sinus tachycardia,33,1099
+ptb_test,sex,male,1066,427084000,sinus tachycardia,49,1017
+ptb_test,sex,female,1132,164934002,t wave abnormal,92,1040
+ptb_test,sex,male,1066,164934002,t wave abnormal,139,927
+ptb_test,sex,female,1132,59931005,t wave inversion,11,1121
+ptb_test,sex,male,1066,59931005,t wave inversion,18,1048
+chapman_shaoxing,age,under_40,1262,164890007,atrial flutter,7,1255
+chapman_shaoxing,age,40_to_64,4503,164890007,atrial flutter,114,4389
+chapman_shaoxing,age,65_plus,4482,164890007,atrial flutter,324,4158
+chapman_shaoxing,age,under_40,1262,733534002|164909002,complete left bundle branch block / left bundle branch block,9,1253
+chapman_shaoxing,age,40_to_64,4503,733534002|164909002,complete left bundle branch block / left bundle branch block,37,4466
+chapman_shaoxing,age,65_plus,4482,733534002|164909002,complete left bundle branch block / left bundle branch block,159,4323
+chapman_shaoxing,age,under_40,1262,713427006|59118001,complete right bundle branch block / right bundle branch block,22,1240
+chapman_shaoxing,age,40_to_64,4503,713427006|59118001,complete right bundle branch block / right bundle branch block,99,4404
+chapman_shaoxing,age,65_plus,4482,713427006|59118001,complete right bundle branch block / right bundle branch block,333,4149
+chapman_shaoxing,age,under_40,1262,270492004,1st degree av block,6,1256
+chapman_shaoxing,age,40_to_64,4503,270492004,1st degree av block,76,4427
+chapman_shaoxing,age,65_plus,4482,270492004,1st degree av block,165,4317
+chapman_shaoxing,age,under_40,1262,39732003,left axis deviation,12,1250
+chapman_shaoxing,age,40_to_64,4503,39732003,left axis deviation,93,4410
+chapman_shaoxing,age,65_plus,4482,39732003,left axis deviation,277,4205
+chapman_shaoxing,age,under_40,1262,164947007,prolonged pr interval,1,1261
+chapman_shaoxing,age,40_to_64,4503,164947007,prolonged pr interval,4,4499
+chapman_shaoxing,age,65_plus,4482,164947007,prolonged pr interval,7,4475
+chapman_shaoxing,age,under_40,1262,111975006,prolonged qt interval,0,1262
+chapman_shaoxing,age,40_to_64,4503,111975006,prolonged qt interval,11,4492
+chapman_shaoxing,age,65_plus,4482,111975006,prolonged qt interval,46,4436
+chapman_shaoxing,age,under_40,1262,698252002,nonspecific intraventricular conduction disorder,9,1253
+chapman_shaoxing,age,40_to_64,4503,698252002,nonspecific intraventricular conduction disorder,67,4436
+chapman_shaoxing,age,65_plus,4482,698252002,nonspecific intraventricular conduction disorder,159,4323
+chapman_shaoxing,age,under_40,1262,426783006,sinus rhythm,352,910
+chapman_shaoxing,age,40_to_64,4503,426783006,sinus rhythm,942,3561
+chapman_shaoxing,age,65_plus,4482,426783006,sinus rhythm,532,3950
+chapman_shaoxing,age,under_40,1262,284470004|63593006,premature atrial contraction / supraventricular premature beats,7,1255
+chapman_shaoxing,age,40_to_64,4503,284470004|63593006,premature atrial contraction / supraventricular premature beats,56,4447
+chapman_shaoxing,age,65_plus,4482,284470004|63593006,premature atrial contraction / supraventricular premature beats,195,4287
+chapman_shaoxing,age,under_40,1262,164917005,qwave abnormal,4,1258
+chapman_shaoxing,age,40_to_64,4503,164917005,qwave abnormal,50,4453
+chapman_shaoxing,age,65_plus,4482,164917005,qwave abnormal,181,4301
+chapman_shaoxing,age,under_40,1262,47665007,right axis deviation,47,1215
+chapman_shaoxing,age,40_to_64,4503,47665007,right axis deviation,74,4429
+chapman_shaoxing,age,65_plus,4482,47665007,right axis deviation,94,4388
+chapman_shaoxing,age,under_40,1262,426177001,sinus bradycardia,383,879
+chapman_shaoxing,age,40_to_64,4503,426177001,sinus bradycardia,2149,2354
+chapman_shaoxing,age,65_plus,4482,426177001,sinus bradycardia,1357,3125
+chapman_shaoxing,age,under_40,1262,427084000,sinus tachycardia,375,887
+chapman_shaoxing,age,40_to_64,4503,427084000,sinus tachycardia,617,3886
+chapman_shaoxing,age,65_plus,4482,427084000,sinus tachycardia,576,3906
+chapman_shaoxing,age,under_40,1262,164934002,t wave abnormal,98,1164
+chapman_shaoxing,age,40_to_64,4503,164934002,t wave abnormal,603,3900
+chapman_shaoxing,age,65_plus,4482,164934002,t wave abnormal,1175,3307
+chapman_shaoxing,age,under_40,1262,59931005,t wave inversion,7,1255
+chapman_shaoxing,age,40_to_64,4503,59931005,t wave inversion,53,4450
+chapman_shaoxing,age,65_plus,4482,59931005,t wave inversion,97,4385
+chapman_shaoxing,sex,female,4514,164890007,atrial flutter,188,4326
+chapman_shaoxing,sex,male,5733,164890007,atrial flutter,257,5476
+chapman_shaoxing,sex,female,4514,733534002|164909002,complete left bundle branch block / left bundle branch block,67,4447
+chapman_shaoxing,sex,male,5733,733534002|164909002,complete left bundle branch block / left bundle branch block,138,5595
+chapman_shaoxing,sex,female,4514,713427006|59118001,complete right bundle branch block / right bundle branch block,148,4366
+chapman_shaoxing,sex,male,5733,713427006|59118001,complete right bundle branch block / right bundle branch block,306,5427
+chapman_shaoxing,sex,female,4514,270492004,1st degree av block,65,4449
+chapman_shaoxing,sex,male,5733,270492004,1st degree av block,182,5551
+chapman_shaoxing,sex,female,4514,39732003,left axis deviation,94,4420
+chapman_shaoxing,sex,male,5733,39732003,left axis deviation,288,5445
+chapman_shaoxing,sex,female,4514,164947007,prolonged pr interval,3,4511
+chapman_shaoxing,sex,male,5733,164947007,prolonged pr interval,9,5724
+chapman_shaoxing,sex,female,4514,111975006,prolonged qt interval,25,4489
+chapman_shaoxing,sex,male,5733,111975006,prolonged qt interval,32,5701
+chapman_shaoxing,sex,female,4514,698252002,nonspecific intraventricular conduction disorder,70,4444
+chapman_shaoxing,sex,male,5733,698252002,nonspecific intraventricular conduction disorder,165,5568
+chapman_shaoxing,sex,female,4514,426783006,sinus rhythm,1024,3490
+chapman_shaoxing,sex,male,5733,426783006,sinus rhythm,802,4931
+chapman_shaoxing,sex,female,4514,284470004|63593006,premature atrial contraction / supraventricular premature beats,97,4417
+chapman_shaoxing,sex,male,5733,284470004|63593006,premature atrial contraction / supraventricular premature beats,161,5572
+chapman_shaoxing,sex,female,4514,164917005,qwave abnormal,59,4455
+chapman_shaoxing,sex,male,5733,164917005,qwave abnormal,176,5557
+chapman_shaoxing,sex,female,4514,47665007,right axis deviation,100,4414
+chapman_shaoxing,sex,male,5733,47665007,right axis deviation,115,5618
+chapman_shaoxing,sex,female,4514,426177001,sinus bradycardia,1408,3106
+chapman_shaoxing,sex,male,5733,426177001,sinus bradycardia,2481,3252
+chapman_shaoxing,sex,female,4514,427084000,sinus tachycardia,769,3745
+chapman_shaoxing,sex,male,5733,427084000,sinus tachycardia,799,4934
+chapman_shaoxing,sex,female,4514,164934002,t wave abnormal,840,3674
+chapman_shaoxing,sex,male,5733,164934002,t wave abnormal,1036,4697
+chapman_shaoxing,sex,female,4514,59931005,t wave inversion,75,4439
+chapman_shaoxing,sex,male,5733,59931005,t wave inversion,82,5651
+ningbo,age,under_40,5970,164890007,atrial flutter,96,5874
+ningbo,age,40_to_64,14023,164890007,atrial flutter,1527,12496
+ningbo,age,65_plus,14857,164890007,atrial flutter,5961,8896
+ningbo,age,under_40,5970,733534002|164909002,complete left bundle branch block / left bundle branch block,2,5968
+ningbo,age,40_to_64,14023,733534002|164909002,complete left bundle branch block / left bundle branch block,47,13976
+ningbo,age,65_plus,14857,733534002|164909002,complete left bundle branch block / left bundle branch block,199,14658
+ningbo,age,under_40,5970,713427006|59118001,complete right bundle branch block / right bundle branch block,33,5937
+ningbo,age,40_to_64,14023,713427006|59118001,complete right bundle branch block / right bundle branch block,279,13744
+ningbo,age,65_plus,14857,713427006|59118001,complete right bundle branch block / right bundle branch block,977,13880
+ningbo,age,under_40,5970,270492004,1st degree av block,36,5934
+ningbo,age,40_to_64,14023,270492004,1st degree av block,227,13796
+ningbo,age,65_plus,14857,270492004,1st degree av block,630,14227
+ningbo,age,under_40,5970,39732003,left axis deviation,42,5928
+ningbo,age,40_to_64,14023,39732003,left axis deviation,307,13716
+ningbo,age,65_plus,14857,39732003,left axis deviation,812,14045
+ningbo,age,under_40,5970,164947007,prolonged pr interval,3,5967
+ningbo,age,40_to_64,14023,164947007,prolonged pr interval,10,14013
+ningbo,age,65_plus,14857,164947007,prolonged pr interval,27,14830
+ningbo,age,under_40,5970,111975006,prolonged qt interval,13,5957
+ningbo,age,40_to_64,14023,111975006,prolonged qt interval,81,13942
+ningbo,age,65_plus,14857,111975006,prolonged qt interval,240,14617
+ningbo,age,under_40,5970,698252002,nonspecific intraventricular conduction disorder,13,5957
+ningbo,age,40_to_64,14023,698252002,nonspecific intraventricular conduction disorder,122,13901
+ningbo,age,65_plus,14857,698252002,nonspecific intraventricular conduction disorder,397,14460
+ningbo,age,under_40,5970,426783006,sinus rhythm,1448,4522
+ningbo,age,40_to_64,14023,426783006,sinus rhythm,3162,10861
+ningbo,age,65_plus,14857,426783006,sinus rhythm,1687,13170
+ningbo,age,under_40,5970,284470004|63593006,premature atrial contraction / supraventricular premature beats,38,5932
+ningbo,age,40_to_64,14023,284470004|63593006,premature atrial contraction / supraventricular premature beats,202,13821
+ningbo,age,65_plus,14857,284470004|63593006,premature atrial contraction / supraventricular premature beats,823,14034
+ningbo,age,under_40,5970,164917005,qwave abnormal,29,5941
+ningbo,age,40_to_64,14023,164917005,qwave abnormal,220,13803
+ningbo,age,65_plus,14857,164917005,qwave abnormal,578,14279
+ningbo,age,under_40,5970,47665007,right axis deviation,167,5803
+ningbo,age,40_to_64,14023,47665007,right axis deviation,211,13812
+ningbo,age,65_plus,14857,47665007,right axis deviation,254,14603
+ningbo,age,under_40,5970,426177001,sinus bradycardia,1322,4648
+ningbo,age,40_to_64,14023,426177001,sinus bradycardia,6867,7156
+ningbo,age,65_plus,14857,426177001,sinus bradycardia,4481,10376
+ningbo,age,under_40,5970,427084000,sinus tachycardia,1911,4059
+ningbo,age,40_to_64,14023,427084000,sinus tachycardia,1847,12176
+ningbo,age,65_plus,14857,427084000,sinus tachycardia,1929,12928
+ningbo,age,under_40,5970,164934002,t wave abnormal,327,5643
+ningbo,age,40_to_64,14023,164934002,t wave abnormal,1686,12337
+ningbo,age,65_plus,14857,164934002,t wave abnormal,3139,11718
+ningbo,age,under_40,5970,59931005,t wave inversion,134,5836
+ningbo,age,40_to_64,14023,59931005,t wave inversion,769,13254
+ningbo,age,65_plus,14857,59931005,t wave inversion,1815,13042
+ningbo,sex,female,15162,164890007,atrial flutter,3111,12051
+ningbo,sex,male,19721,164890007,atrial flutter,4499,15222
+ningbo,sex,female,15162,733534002|164909002,complete left bundle branch block / left bundle branch block,99,15063
+ningbo,sex,male,19721,733534002|164909002,complete left bundle branch block / left bundle branch block,149,19572
+ningbo,sex,female,15162,713427006|59118001,complete right bundle branch block / right bundle branch block,388,14774
+ningbo,sex,male,19721,713427006|59118001,complete right bundle branch block / right bundle branch block,903,18818
+ningbo,sex,female,15162,270492004,1st degree av block,254,14908
+ningbo,sex,male,19721,270492004,1st degree av block,639,19082
+ningbo,sex,female,15162,39732003,left axis deviation,297,14865
+ningbo,sex,male,19721,39732003,left axis deviation,865,18856
+ningbo,sex,female,15162,164947007,prolonged pr interval,8,15154
+ningbo,sex,male,19721,164947007,prolonged pr interval,32,19689
+ningbo,sex,female,15162,111975006,prolonged qt interval,157,15005
+ningbo,sex,male,19721,111975006,prolonged qt interval,180,19541
+ningbo,sex,female,15162,698252002,nonspecific intraventricular conduction disorder,209,14953
+ningbo,sex,male,19721,698252002,nonspecific intraventricular conduction disorder,325,19396
+ningbo,sex,female,15162,426783006,sinus rhythm,3490,11672
+ningbo,sex,male,19721,426783006,sinus rhythm,2807,16914
+ningbo,sex,female,15162,284470004|63593006,premature atrial contraction / supraventricular premature beats,414,14748
+ningbo,sex,male,19721,284470004|63593006,premature atrial contraction / supraventricular premature beats,648,19073
+ningbo,sex,female,15162,164917005,qwave abnormal,213,14949
+ningbo,sex,male,19721,164917005,qwave abnormal,615,19106
+ningbo,sex,female,15162,47665007,right axis deviation,288,14874
+ningbo,sex,male,19721,47665007,right axis deviation,347,19374
+ningbo,sex,female,15162,426177001,sinus bradycardia,4676,10486
+ningbo,sex,male,19721,426177001,sinus bradycardia,7993,11728
+ningbo,sex,female,15162,427084000,sinus tachycardia,2735,12427
+ningbo,sex,male,19721,427084000,sinus tachycardia,2951,16770
+ningbo,sex,female,15162,164934002,t wave abnormal,2293,12869
+ningbo,sex,male,19721,164934002,t wave abnormal,2867,16854
+ningbo,sex,female,15162,59931005,t wave inversion,1296,13866
+ningbo,sex,male,19721,59931005,t wave inversion,1423,18298

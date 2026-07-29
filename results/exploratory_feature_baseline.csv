@@ -1,0 +1,217 @@
+section,cohort,external_cohort,label_key,diagnosis,headline,finding_class,feature,orientation,metric,value,lower_95,upper_95
+detection_failure,ptb_test,,,,,,r_peak,,failure_rate,0.0,,
+detection_failure,ptb_test,,,,,,p_wave,,failure_rate,0.5204731574158326,,
+detection_failure,ptb_test,,,,,,t_wave_end,,failure_rate,0.029572338489535943,,
+feature_validation,ptb_test,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,univariate_auroc,0.9552666647141518,,
+feature_validation,ptb_test,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,univariate_auroc,0.9574323389736733,,
+feature_validation,ptb_test,,39732003,left axis deviation,True,geometric,frontal_axis_degrees,-1.0,univariate_auroc,0.8779849392124841,,
+feature_validation,ptb_test,,47665007,right axis deviation,True,geometric,frontal_axis_degrees,1.0,univariate_auroc,0.8769655758606035,,
+feature_validation,ptb_test,,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,qrs_duration_ms,1.0,univariate_auroc,0.9729563985627419,,
+feature_validation,ptb_test,,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,qrs_duration_ms,1.0,univariate_auroc,0.9619869402985075,,
+feature_validation,ptb_test,,164947007,prolonged pr interval,False,,pr_interval_ms,1.0,univariate_auroc,0.8900584795321638,,
+feature_validation,ptb_test,,111975006,prolonged qt interval,False,,qt_interval_ms,1.0,univariate_auroc,0.6739782366549567,,
+rate_detector_check,ptb_test,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,positives,64.0,,
+rate_detector_check,ptb_test,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,share_of_positives_on_the_defining_side,0.953125,,
+rate_detector_check,ptb_test,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,median_measured_rate_bpm,49.586776859504134,,
+rate_detector_check,ptb_test,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,auroc_excluding_competing_rhythm_negatives,0.9532674050632911,,
+rate_detector_check,ptb_test,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,records_after_exclusion,2039.0,,
+rate_detector_check,ptb_test,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,positives,82.0,,
+rate_detector_check,ptb_test,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,share_of_positives_on_the_defining_side,0.9512195121951219,,
+rate_detector_check,ptb_test,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,median_measured_rate_bpm,109.0909090909091,,
+rate_detector_check,ptb_test,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,auroc_excluding_competing_rhythm_negatives,0.9772486508717924,,
+rate_detector_check,ptb_test,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,records_after_exclusion,2039.0,,
+detection_failure,chapman_shaoxing,,,,,,r_peak,,failure_rate,0.0,,
+detection_failure,chapman_shaoxing,,,,,,p_wave,,failure_rate,0.5543085781204254,,
+detection_failure,chapman_shaoxing,,,,,,t_wave_end,,failure_rate,0.050941739045574315,,
+feature_validation,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,univariate_auroc,0.9874822567195963,,
+feature_validation,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,univariate_auroc,0.8333642327480595,,
+feature_validation,chapman_shaoxing,,39732003,left axis deviation,True,geometric,frontal_axis_degrees,-1.0,univariate_auroc,0.9445081904135144,,
+feature_validation,chapman_shaoxing,,47665007,right axis deviation,True,geometric,frontal_axis_degrees,1.0,univariate_auroc,0.8490996253848151,,
+feature_validation,chapman_shaoxing,,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,qrs_duration_ms,1.0,univariate_auroc,0.876038686298036,,
+feature_validation,chapman_shaoxing,,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,qrs_duration_ms,1.0,univariate_auroc,0.9499186013924358,,
+feature_validation,chapman_shaoxing,,164947007,prolonged pr interval,False,,pr_interval_ms,1.0,univariate_auroc,0.893600701293009,,
+feature_validation,chapman_shaoxing,,111975006,prolonged qt interval,False,,qt_interval_ms,1.0,univariate_auroc,0.7937820814139325,,
+rate_detector_check,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,positives,3889.0,,
+rate_detector_check,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,share_of_positives_on_the_defining_side,0.9892003085626125,,
+rate_detector_check,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,median_measured_rate_bpm,55.81395348837209,,
+rate_detector_check,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,auroc_excluding_competing_rhythm_negatives,0.996561969545132,,
+rate_detector_check,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,records_after_exclusion,7306.0,,
+rate_detector_check,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,positives,1568.0,,
+rate_detector_check,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,share_of_positives_on_the_defining_side,0.9591836734693877,,
+rate_detector_check,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,median_measured_rate_bpm,109.0909090909091,,
+rate_detector_check,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,auroc_excluding_competing_rhythm_negatives,0.9929522948513668,,
+rate_detector_check,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,records_after_exclusion,7306.0,,
+detection_failure,ningbo,,,,,,r_peak,,failure_rate,0.0,,
+detection_failure,ningbo,,,,,,p_wave,,failure_rate,0.5520126056438905,,
+detection_failure,ningbo,,,,,,t_wave_end,,failure_rate,0.0396218306832832,,
+feature_validation,ningbo,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,univariate_auroc,0.9756588063678696,,
+feature_validation,ningbo,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,univariate_auroc,0.9105399762062218,,
+feature_validation,ningbo,,39732003,left axis deviation,True,geometric,frontal_axis_degrees,-1.0,univariate_auroc,0.9368207682666909,,
+feature_validation,ningbo,,47665007,right axis deviation,True,geometric,frontal_axis_degrees,1.0,univariate_auroc,0.8308072244396827,,
+feature_validation,ningbo,,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,qrs_duration_ms,1.0,univariate_auroc,0.9582208640064336,,
+feature_validation,ningbo,,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,qrs_duration_ms,1.0,univariate_auroc,0.9554771288953825,,
+feature_validation,ningbo,,164947007,prolonged pr interval,False,,pr_interval_ms,1.0,univariate_auroc,0.8772654498879283,,
+feature_validation,ningbo,,111975006,prolonged qt interval,False,,qt_interval_ms,1.0,univariate_auroc,0.7410933352159362,,
+rate_detector_check,ningbo,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,positives,12670.0,,
+rate_detector_check,ningbo,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,share_of_positives_on_the_defining_side,0.9795580110497237,,
+rate_detector_check,ningbo,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,median_measured_rate_bpm,55.81395348837209,,
+rate_detector_check,ningbo,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,auroc_excluding_competing_rhythm_negatives,0.9838858231779812,,
+rate_detector_check,ningbo,,426177001,sinus bradycardia,True,geometric,heart_rate_bpm,-1.0,records_after_exclusion,27059.0,,
+rate_detector_check,ningbo,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,positives,5687.0,,
+rate_detector_check,ningbo,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,share_of_positives_on_the_defining_side,0.9609636011957096,,
+rate_detector_check,ningbo,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,median_measured_rate_bpm,111.11111111111111,,
+rate_detector_check,ningbo,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,auroc_excluding_competing_rhythm_negatives,0.9824402397274337,,
+rate_detector_check,ningbo,,427084000,sinus tachycardia,True,geometric,heart_rate_bpm,1.0,records_after_exclusion,27141.0,,
+macro_performance,ptb_test,,,,,,,,macro_auroc,0.8561523851520456,0.8449821748689585,0.867343386561776
+label_performance,ptb_test,,164890007,atrial flutter,False,,,,auroc,0.9036969420356001,0.7957712649517635,0.997747899721584
+label_performance,ptb_test,,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,auroc,0.9889355306799337,0.980912457346641,0.9944646217669211
+label_performance,ptb_test,,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,auroc,0.9955517551133223,0.9928170043896489,0.9978809696954123
+label_performance,ptb_test,,270492004,1st degree av block,True,geometric,,,auroc,0.8019665354448301,0.7578038968038894,0.8435923649796773
+label_performance,ptb_test,,39732003,left axis deviation,True,geometric,,,auroc,0.8959705588822355,0.8805892722978698,0.9103532160349698
+label_performance,ptb_test,,164947007,prolonged pr interval,False,,,,auroc,0.7730374035011417,0.7039960967929924,0.8397759938230229
+label_performance,ptb_test,,111975006,prolonged qt interval,False,,,,auroc,0.8050047803134223,0.692138986466143,0.8933403252056386
+label_performance,ptb_test,,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,auroc,0.6588311897778388,0.5981445769487086,0.7199399782241689
+label_performance,ptb_test,,426783006,sinus rhythm,True,interpretive,,,auroc,0.8497355022537777,0.8207724430380365,0.8745382449173484
+label_performance,ptb_test,,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,auroc,0.7439365671641791,0.6739517658059734,0.8046101193405835
+label_performance,ptb_test,,164917005,qwave abnormal,True,unclassified,,,auroc,0.6260806855300556,0.5499911445489124,0.7014670841758528
+label_performance,ptb_test,,47665007,right axis deviation,True,geometric,,,auroc,0.9975031874203145,0.9951148915881379,0.9992063657849503
+label_performance,ptb_test,,426177001,sinus bradycardia,True,geometric,,,auroc,0.9506941190253045,0.9250288437510952,0.9708246470953141
+label_performance,ptb_test,,427084000,sinus tachycardia,True,geometric,,,auroc,0.9541415002996911,0.9225103961565595,0.9766767345870366
+label_performance,ptb_test,,164934002,t wave abnormal,True,interpretive,,,auroc,0.7899387513012323,0.761402151327893,0.8154991154268478
+label_performance,ptb_test,,59931005,t wave inversion,True,interpretive,,,auroc,0.8766951240838778,0.8273189764798883,0.9186100248567414
+macro_performance,chapman_shaoxing,,,,,,,,macro_auroc,0.8119407196124323,0.8055536858399661,0.8182454363166564
+label_performance,chapman_shaoxing,,164890007,atrial flutter,False,,,,auroc,0.7365428747630041,0.711899936024474,0.7612225141989615
+label_performance,chapman_shaoxing,,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,auroc,0.7310146166588135,0.6856975056505653,0.7714703595578885
+label_performance,chapman_shaoxing,,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,auroc,0.9738372864551728,0.9650536761490838,0.9810266096238648
+label_performance,chapman_shaoxing,,270492004,1st degree av block,True,geometric,,,auroc,0.7621769230769231,0.7379756809686132,0.7869710245049898
+label_performance,chapman_shaoxing,,39732003,left axis deviation,True,geometric,,,auroc,0.9563637907563627,0.9476178173305909,0.9641378465189602
+label_performance,chapman_shaoxing,,164947007,prolonged pr interval,False,,,,auroc,0.7618140368018238,0.6643584091449983,0.85658408792826
+label_performance,chapman_shaoxing,,111975006,prolonged qt interval,False,,,,auroc,0.7414613570235697,0.6665012786664086,0.8100059638850586
+label_performance,chapman_shaoxing,,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,auroc,0.672606064212307,0.637660761123355,0.7060553831858437
+label_performance,chapman_shaoxing,,426783006,sinus rhythm,True,interpretive,,,auroc,0.6196149692529226,0.609451587574639,0.6303930946517767
+label_performance,chapman_shaoxing,,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,auroc,0.7657108866264519,0.7386952800269445,0.7900421214561598
+label_performance,chapman_shaoxing,,164917005,qwave abnormal,True,unclassified,,,auroc,0.6482705859351756,0.6179691397708272,0.6794388109571244
+label_performance,chapman_shaoxing,,47665007,right axis deviation,True,geometric,,,auroc,0.9826823930863099,0.9786967664480803,0.9861499680603157
+label_performance,chapman_shaoxing,,426177001,sinus bradycardia,True,geometric,,,auroc,0.9893074820609763,0.9871750931093761,0.9913204325025937
+label_performance,chapman_shaoxing,,427084000,sinus tachycardia,True,geometric,,,auroc,0.8704335735331118,0.8630382037739673,0.8772587335430695
+label_performance,chapman_shaoxing,,164934002,t wave abnormal,True,interpretive,,,auroc,0.7493006875447498,0.736201989195396,0.7620502598854032
+label_performance,chapman_shaoxing,,59931005,t wave inversion,True,interpretive,,,auroc,0.8339100957623428,0.7983638867259124,0.8657004549753847
+macro_performance,ningbo,,,,,,,,macro_auroc,0.8294223213811989,0.8263175268539223,0.8324066455613695
+label_performance,ningbo,,164890007,atrial flutter,False,,,,auroc,0.6522120258395334,0.6450537407347746,0.6588559696131283
+label_performance,ningbo,,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,auroc,0.9753526960526524,0.9586870419976243,0.9881724313288975
+label_performance,ningbo,,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,auroc,0.9878200301716711,0.9848783065720482,0.9904678172206357
+label_performance,ningbo,,270492004,1st degree av block,True,geometric,,,auroc,0.735865998944579,0.7230717413509602,0.7478411940051177
+label_performance,ningbo,,39732003,left axis deviation,True,geometric,,,auroc,0.9452148473982407,0.9414711368632162,0.9489675535963797
+label_performance,ningbo,,164947007,prolonged pr interval,False,,,,auroc,0.6773777427219274,0.6130821045620299,0.7435756576359057
+label_performance,ningbo,,111975006,prolonged qt interval,False,,,,auroc,0.7182790965658707,0.6855781765970896,0.7488503213404879
+label_performance,ningbo,,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,auroc,0.6620481490826295,0.6403358294969874,0.6833361327405615
+label_performance,ningbo,,426783006,sinus rhythm,True,interpretive,,,auroc,0.6013710455911135,0.5952220469660204,0.6074428856553095
+label_performance,ningbo,,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,auroc,0.773295225118687,0.7607148450966441,0.7849324653960523
+label_performance,ningbo,,164917005,qwave abnormal,True,unclassified,,,auroc,0.6625256115767375,0.6446298768489663,0.6802226354771455
+label_performance,ningbo,,47665007,right axis deviation,True,geometric,,,auroc,0.9693180686098372,0.9652904665086162,0.9726150151704476
+label_performance,ningbo,,426177001,sinus bradycardia,True,geometric,,,auroc,0.9791897591008296,0.9776557843628952,0.980731489165905
+label_performance,ningbo,,427084000,sinus tachycardia,True,geometric,,,auroc,0.9365746836448305,0.9335173822028519,0.9395836209299732
+label_performance,ningbo,,164934002,t wave abnormal,True,interpretive,,,auroc,0.7239265821969906,0.7162865057132535,0.7318659497545207
+label_performance,ningbo,,59931005,t wave inversion,True,interpretive,,,auroc,0.8299874804667867,0.8213102103061248,0.8384477536273782
+macro_shift_delta,,chapman_shaoxing,,,,,,,macro_shift_delta,-0.04421166553961331,-0.05701783350336575,-0.031084470307321987
+shift_delta,,chapman_shaoxing,164890007,atrial flutter,False,,,,shift_delta,-0.16715406727259607,-0.2675493509124677,-0.052829135074681885
+shift_delta,,chapman_shaoxing,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,shift_delta,-0.25792091402112016,-0.3043981063609251,-0.2158550115843969
+shift_delta,,chapman_shaoxing,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,shift_delta,-0.02171446865814952,-0.03047420730469764,-0.01409523026860037
+shift_delta,,chapman_shaoxing,270492004,1st degree av block,True,geometric,,,shift_delta,-0.03978961236790701,-0.08645576415451613,0.008433276580669578
+shift_delta,,chapman_shaoxing,39732003,left axis deviation,True,geometric,,,shift_delta,0.06039323187412715,0.042994154847133995,0.07788980664280166
+shift_delta,,chapman_shaoxing,164947007,prolonged pr interval,False,,,,shift_delta,-0.011223366699317894,-0.12557039259012426,0.1016298732909208
+shift_delta,,chapman_shaoxing,111975006,prolonged qt interval,False,,,,shift_delta,-0.06354342328985252,-0.1844062253066618,0.06659341215462994
+shift_delta,,chapman_shaoxing,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,shift_delta,0.01377487443446812,-0.060371715371406454,0.08324486873018506
+shift_delta,,chapman_shaoxing,426783006,sinus rhythm,True,interpretive,,,shift_delta,-0.2301205330008551,-0.25713335503145623,-0.19778004939917
+shift_delta,,chapman_shaoxing,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,shift_delta,0.021774319462272818,-0.04603290412040137,0.09461903651655729
+shift_delta,,chapman_shaoxing,164917005,qwave abnormal,True,unclassified,,,shift_delta,0.022189900405120033,-0.057465261557077,0.10565950149775678
+shift_delta,,chapman_shaoxing,47665007,right axis deviation,True,geometric,,,shift_delta,-0.014820794334004628,-0.019151163525184155,-0.010819294920170483
+shift_delta,,chapman_shaoxing,426177001,sinus bradycardia,True,geometric,,,shift_delta,0.038613363035671755,0.01883714128742438,0.0646360470956697
+shift_delta,,chapman_shaoxing,427084000,sinus tachycardia,True,geometric,,,shift_delta,-0.08370792676657934,-0.10727131285420981,-0.05155624206544518
+shift_delta,,chapman_shaoxing,164934002,t wave abnormal,True,interpretive,,,shift_delta,-0.04063806375648249,-0.06954452580514242,-0.010403252102570234
+shift_delta,,chapman_shaoxing,59931005,t wave inversion,True,interpretive,,,shift_delta,-0.04278502832153508,-0.09929962235942787,0.016929031859253395
+macro_shift_delta,,ningbo,,,,,,,macro_shift_delta,-0.026730063770846746,-0.03807391701736308,-0.015013714293337787
+shift_delta,,ningbo,164890007,atrial flutter,False,,,,shift_delta,-0.2514849161960667,-0.3465157422940706,-0.14310833555714048
+shift_delta,,ningbo,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,shift_delta,-0.01358283462728127,-0.029877681018897404,0.0015296018149804564
+shift_delta,,ningbo,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,shift_delta,-0.007731724941651197,-0.0114392975163258,-0.0039384196367188125
+shift_delta,,ningbo,270492004,1st degree av block,True,geometric,,,shift_delta,-0.06610053650025105,-0.1102568783151092,-0.02073356172636703
+shift_delta,,ningbo,39732003,left axis deviation,True,geometric,,,shift_delta,0.04924428851600515,0.03404128914365415,0.06485277017304208
+shift_delta,,ningbo,164947007,prolonged pr interval,False,,,,shift_delta,-0.09565966077921428,-0.1863774006396938,-0.0032881943096929288
+shift_delta,,ningbo,111975006,prolonged qt interval,False,,,,shift_delta,-0.08672568374755152,-0.1789852110496885,0.025891033223457864
+shift_delta,,ningbo,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,shift_delta,0.003216959304790712,-0.06297936349122836,0.06883673675616002
+shift_delta,,ningbo,426783006,sinus rhythm,True,interpretive,,,shift_delta,-0.24836445666266416,-0.27466310715727404,-0.2193537606068764
+shift_delta,,ningbo,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,shift_delta,0.029358657954507872,-0.03210752716826331,0.0996679836568262
+shift_delta,,ningbo,164917005,qwave abnormal,True,unclassified,,,shift_delta,0.036444926046681925,-0.04104014535343882,0.11565172257438025
+shift_delta,,ningbo,47665007,right axis deviation,True,geometric,,,shift_delta,-0.02818511881047736,-0.03247707021349829,-0.024107328676223568
+shift_delta,,ningbo,426177001,sinus bradycardia,True,geometric,,,shift_delta,0.028495640075525075,0.008327637889670222,0.0546464681490439
+shift_delta,,ningbo,427084000,sinus tachycardia,True,geometric,,,shift_delta,-0.017566816654860595,-0.04042456000929863,0.013945920398425227
+shift_delta,,ningbo,164934002,t wave abnormal,True,interpretive,,,shift_delta,-0.06601216910424168,-0.09263050700322059,-0.03656260151147013
+shift_delta,,ningbo,59931005,t wave inversion,True,interpretive,,,shift_delta,-0.04670764361709112,-0.08964546998790915,0.0036778944049562063
+model_comparison,,chapman_shaoxing,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,feature_model_shift_delta,-0.25792091402112016,,
+model_comparison,,chapman_shaoxing,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,xresnet1d101_shift_delta,-0.0996534659947373,-0.1249600510683018,-0.0755891924703891
+model_comparison,,chapman_shaoxing,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,feature_model_shift_delta,-0.02171446865814952,,
+model_comparison,,chapman_shaoxing,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,xresnet1d101_shift_delta,-0.0211553946434487,-0.0296780069139021,-0.0137846980890404
+model_comparison,,chapman_shaoxing,270492004,1st degree av block,True,geometric,,,feature_model_shift_delta,-0.03978961236790701,,
+model_comparison,,chapman_shaoxing,270492004,1st degree av block,True,geometric,,,xresnet1d101_shift_delta,-0.0070095003205351,-0.0181945787748569,0.0028709705478291
+model_comparison,,chapman_shaoxing,39732003,left axis deviation,True,geometric,,,feature_model_shift_delta,0.06039323187412715,,
+model_comparison,,chapman_shaoxing,39732003,left axis deviation,True,geometric,,,xresnet1d101_shift_delta,0.0176912812964581,0.006145808507707,0.0308576361228319
+model_comparison,,chapman_shaoxing,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,feature_model_shift_delta,0.01377487443446812,,
+model_comparison,,chapman_shaoxing,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,xresnet1d101_shift_delta,-0.0655879063491389,-0.1380201226279885,0.0127077780927883
+model_comparison,,chapman_shaoxing,426783006,sinus rhythm,True,interpretive,,,feature_model_shift_delta,-0.2301205330008551,,
+model_comparison,,chapman_shaoxing,426783006,sinus rhythm,True,interpretive,,,xresnet1d101_shift_delta,-0.0892916802464367,-0.1047096257656161,-0.0730183425766475
+model_comparison,,chapman_shaoxing,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,feature_model_shift_delta,0.021774319462272818,,
+model_comparison,,chapman_shaoxing,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,xresnet1d101_shift_delta,-0.0485308259940318,-0.0944684449766374,0.0046422082473608
+model_comparison,,chapman_shaoxing,164917005,qwave abnormal,True,unclassified,,,feature_model_shift_delta,0.022189900405120033,,
+model_comparison,,chapman_shaoxing,164917005,qwave abnormal,True,unclassified,,,xresnet1d101_shift_delta,-0.0085894460789521,-0.0682557847518149,0.0544045701086969
+model_comparison,,chapman_shaoxing,47665007,right axis deviation,True,geometric,,,feature_model_shift_delta,-0.014820794334004628,,
+model_comparison,,chapman_shaoxing,47665007,right axis deviation,True,geometric,,,xresnet1d101_shift_delta,-0.0232202117733674,-0.0326882752169563,-0.0133707376031804
+model_comparison,,chapman_shaoxing,426177001,sinus bradycardia,True,geometric,,,feature_model_shift_delta,0.038613363035671755,,
+model_comparison,,chapman_shaoxing,426177001,sinus bradycardia,True,geometric,,,xresnet1d101_shift_delta,0.0257036196752842,0.0052493799920339,0.0532257815279692
+model_comparison,,chapman_shaoxing,427084000,sinus tachycardia,True,geometric,,,feature_model_shift_delta,-0.08370792676657934,,
+model_comparison,,chapman_shaoxing,427084000,sinus tachycardia,True,geometric,,,xresnet1d101_shift_delta,-0.0005084703662813,-0.0046426508755032,0.0053650320534258
+model_comparison,,chapman_shaoxing,164934002,t wave abnormal,True,interpretive,,,feature_model_shift_delta,-0.04063806375648249,,
+model_comparison,,chapman_shaoxing,164934002,t wave abnormal,True,interpretive,,,xresnet1d101_shift_delta,-0.1618978770190988,-0.1826166971633363,-0.1405814488090843
+model_comparison,,chapman_shaoxing,59931005,t wave inversion,True,interpretive,,,feature_model_shift_delta,-0.04278502832153508,,
+model_comparison,,chapman_shaoxing,59931005,t wave inversion,True,interpretive,,,xresnet1d101_shift_delta,-0.1053688401207387,-0.1389310123918701,-0.0719063034197719
+rank_correlation,,chapman_shaoxing,,,,,,,spearman_rho,0.5934065934065934,,
+rank_correlation,,chapman_shaoxing,,,,,,,p_value,0.03252444027009699,,
+finding_class_summary,,chapman_shaoxing,,,,geometric,,,feature_model_mean_shift_delta,-0.04556387446256597,,
+finding_class_summary,,chapman_shaoxing,,,,geometric,,,xresnet1d101_mean_shift_delta,-0.015450306018089647,,
+finding_class_summary,,chapman_shaoxing,,,,interpretive,,,feature_model_mean_shift_delta,-0.07494218766110114,,
+finding_class_summary,,chapman_shaoxing,,,,interpretive,,,xresnet1d101_mean_shift_delta,-0.10553657593385328,,
+finding_class_summary,,chapman_shaoxing,,,,unclassified,,,feature_model_mean_shift_delta,0.021982109933696425,,
+finding_class_summary,,chapman_shaoxing,,,,unclassified,,,xresnet1d101_mean_shift_delta,-0.02856013603649195,,
+model_comparison,,ningbo,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,feature_model_shift_delta,-0.01358283462728127,,
+model_comparison,,ningbo,733534002|164909002,complete left bundle branch block / left bundle branch block,True,geometric,,,xresnet1d101_shift_delta,-0.0010657781010612,-0.0047017958083836,0.00299301115938
+model_comparison,,ningbo,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,feature_model_shift_delta,-0.007731724941651197,,
+model_comparison,,ningbo,713427006|59118001,complete right bundle branch block / right bundle branch block,True,geometric,,,xresnet1d101_shift_delta,-0.0032870881603417,-0.0059803289209492,-0.00077026246287
+model_comparison,,ningbo,270492004,1st degree av block,True,geometric,,,feature_model_shift_delta,-0.06610053650025105,,
+model_comparison,,ningbo,270492004,1st degree av block,True,geometric,,,xresnet1d101_shift_delta,-0.006626094101105,-0.0144669996859615,0.0022487667481299
+model_comparison,,ningbo,39732003,left axis deviation,True,geometric,,,feature_model_shift_delta,0.04924428851600515,,
+model_comparison,,ningbo,39732003,left axis deviation,True,geometric,,,xresnet1d101_shift_delta,0.0154954294073741,0.0040834099180024,0.0277055655185661
+model_comparison,,ningbo,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,feature_model_shift_delta,0.003216959304790712,,
+model_comparison,,ningbo,698252002,nonspecific intraventricular conduction disorder,True,interpretive,,,xresnet1d101_shift_delta,-0.2291628975829494,-0.294028669814548,-0.1593967984322092
+model_comparison,,ningbo,426783006,sinus rhythm,True,interpretive,,,feature_model_shift_delta,-0.24836445666266416,,
+model_comparison,,ningbo,426783006,sinus rhythm,True,interpretive,,,xresnet1d101_shift_delta,-0.1217585367831696,-0.1362978054684338,-0.1060983837173743
+model_comparison,,ningbo,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,feature_model_shift_delta,0.029358657954507872,,
+model_comparison,,ningbo,284470004|63593006,premature atrial contraction / supraventricular premature beats,True,unclassified,,,xresnet1d101_shift_delta,-0.0341656407459187,-0.0739619070016133,0.0151788673601155
+model_comparison,,ningbo,164917005,qwave abnormal,True,unclassified,,,feature_model_shift_delta,0.036444926046681925,,
+model_comparison,,ningbo,164917005,qwave abnormal,True,unclassified,,,xresnet1d101_shift_delta,-0.0048352448648039,-0.0613275080317276,0.0537741842035456
+model_comparison,,ningbo,47665007,right axis deviation,True,geometric,,,feature_model_shift_delta,-0.02818511881047736,,
+model_comparison,,ningbo,47665007,right axis deviation,True,geometric,,,xresnet1d101_shift_delta,-0.0277123930627966,-0.0338753495579812,-0.0191480926137077
+model_comparison,,ningbo,426177001,sinus bradycardia,True,geometric,,,feature_model_shift_delta,0.028495640075525075,,
+model_comparison,,ningbo,426177001,sinus bradycardia,True,geometric,,,xresnet1d101_shift_delta,0.0088960052898678,-0.0118555185608736,0.0365331423314388
+model_comparison,,ningbo,427084000,sinus tachycardia,True,geometric,,,feature_model_shift_delta,-0.017566816654860595,,
+model_comparison,,ningbo,427084000,sinus tachycardia,True,geometric,,,xresnet1d101_shift_delta,-0.0070472706240581,-0.0107499426997043,-0.0016369648667439
+model_comparison,,ningbo,164934002,t wave abnormal,True,interpretive,,,feature_model_shift_delta,-0.06601216910424168,,
+model_comparison,,ningbo,164934002,t wave abnormal,True,interpretive,,,xresnet1d101_shift_delta,-0.1482972955436275,-0.1671539000364894,-0.1272711783403035
+model_comparison,,ningbo,59931005,t wave inversion,True,interpretive,,,feature_model_shift_delta,-0.04670764361709112,,
+model_comparison,,ningbo,59931005,t wave inversion,True,interpretive,,,xresnet1d101_shift_delta,-0.0937862126121327,-0.1117885333773184,-0.073990195137316
+rank_correlation,,ningbo,,,,,,,spearman_rho,0.5164835164835164,,
+rank_correlation,,ningbo,,,,,,,p_value,0.07074904067496371,,
+finding_class_summary,,ningbo,,,,geometric,,,feature_model_mean_shift_delta,-0.007918157563284465,,
+finding_class_summary,,ningbo,,,,geometric,,,xresnet1d101_mean_shift_delta,-0.0030495984788743856,,
+finding_class_summary,,ningbo,,,,interpretive,,,feature_model_mean_shift_delta,-0.08946682751980156,,
+finding_class_summary,,ningbo,,,,interpretive,,,xresnet1d101_mean_shift_delta,-0.1482512356304698,,
+finding_class_summary,,ningbo,,,,unclassified,,,feature_model_mean_shift_delta,0.0329017920005949,,
+finding_class_summary,,ningbo,,,,unclassified,,,xresnet1d101_mean_shift_delta,-0.019500442805361298,,

@@ -1,0 +1,52 @@
+{
+  "cohort": "chapman_shaoxing",
+  "completed_seed_passes": [
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "efb2935180f527d3c29c7677e58d162b821c160afa6e64a079b59d4ed4c1fa8d",
+      "seed": 17
+    },
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "ceb8f5e3b266842129400841f755878004d63c2b2fa7c46648ed841fa27551fd",
+      "seed": 29
+    },
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "8c8547bf072cb34fd085d403ea218ef4b24254538c9f454cf4ba1ec1d4df4d5f",
+      "seed": 43
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "83ef17091351bd502dec4d5547d40c9538c0257f2204f632a196eed8fbeb7bfd",
+      "seed": 17
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "471909b44f454e6c18d2e06ca3987ae13c5fb739289bd29e7cc03dbb660e528c",
+      "seed": 29
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "ca8ba691fa6df54420a9f3698b7fae98282d74b568cc9d6a3fb67ca3a4e64552",
+      "seed": 43
+    }
+  ],
+  "device": "mps",
+  "ensemble_file": "artifacts/predictions/protected/chapman_shaoxing/ensembles.npz",
+  "ensemble_sha256": "0d9332b6922020081cf1a941ee5da00a4cba3437be5763967f5b752385ca9598",
+  "evaluation_seal_choices_commit": "c2234694631d15b2fd8bef89b35d38b8e48d7fd9",
+  "record_indices_sha256": "8067b491eeb4e8d1569529680437e1e04abe8f9baaf110f32cc1971836b39dfc",
+  "records": 10247,
+  "schema_version": 2,
+  "sealed_checkpoint_sha256": {
+    "s4d-seed-17": "adc2e2c2834f17d217e458e7dd36f833c022a9b6ee35c44a27ba4b6d22a7ecf7",
+    "s4d-seed-29": "a71b3aea1bd8fa9da3c0563a5194eb56740208633492bbb6bb9f78032a6a6625",
+    "s4d-seed-43": "c23cb8aa9de465833aaa2982a4b40a44d9725d00d5d0ea08c7ccb9eb0cad2340",
+    "xresnet1d101-seed-17": "77f4c6e8f7c5c28c3fb3376390f0b9f91bfb2702356aafea8f3a399cc6ba1c80",
+    "xresnet1d101-seed-29": "899e1dcd8873caaffebdab05456a1c585730337b27c574c2ef59bc8e77602613",
+    "xresnet1d101-seed-43": "306d3d59dd97d340c07df5ff42330cdcc8eb5c73ac93c6006824ff480e5bf2e1"
+  },
+  "status": "complete",
+  "targets_sha256": "b8600a9ef74165039ea3e8820d94b6cb74bb99845b92ecd8035a9d348a3f87b7"
+}

@@ -1,0 +1,98 @@
+{
+  "attrition": {
+    "chapman_shaoxing": {
+      "excluded_records": 0,
+      "included_records": 10247,
+      "reasons": {},
+      "source_records": 10247
+    },
+    "ningbo": {
+      "excluded_records": 0,
+      "included_records": 34905,
+      "reasons": {},
+      "source_records": 34905
+    },
+    "ptb_xl": {
+      "excluded_records": 0,
+      "included_records": 21799,
+      "reasons": {},
+      "source_records": 21799
+    }
+  },
+  "cohorts": {
+    "chapman_shaoxing": {
+      "absolute_maximum_mv": 20.203125,
+      "absolute_maximum_record_id": "JS03682",
+      "all_samples_finite": true,
+      "finite_samples": 122964000,
+      "invalid_records": 0,
+      "maximum_mv": 20.203125,
+      "minimum_mv": -16.859375,
+      "records": 10247,
+      "signal_dtype": "float16",
+      "signal_shape": [
+        10247,
+        12,
+        1000
+      ],
+      "signals_sha256": "cb7992ace207bd691e4c84b048dbd39dc7a1e918028c1a50c36d62c08188d867",
+      "targets_sha256": "bb43966559f02f92cb03f7edf4c5d60532d731c30536cb55a02f9e0674b8628f",
+      "total_samples": 122964000,
+      "valid_records": 10247
+    },
+    "ningbo": {
+      "absolute_maximum_mv": 41.125,
+      "absolute_maximum_record_id": "JS37173",
+      "all_samples_finite": true,
+      "finite_samples": 418860000,
+      "invalid_records": 0,
+      "maximum_mv": 41.125,
+      "minimum_mv": -39.28125,
+      "records": 34905,
+      "signal_dtype": "float16",
+      "signal_shape": [
+        34905,
+        12,
+        1000
+      ],
+      "signals_sha256": "f72d80c421d306d7574d1c5630d8b282d58d9ea88de07f9bf7b6b7e411314843",
+      "targets_sha256": "ceaa43cf10ef02387c1e4e912fab2f39eda71c2b8e28eb98b58b77bfb55278b8",
+      "total_samples": 418860000,
+      "valid_records": 34905
+    },
+    "ptb_xl": {
+      "absolute_maximum_mv": 20.03125,
+      "absolute_maximum_record_id": "HR20045",
+      "all_samples_finite": true,
+      "finite_samples": 261588000,
+      "invalid_records": 0,
+      "maximum_mv": 17.21875,
+      "minimum_mv": -20.03125,
+      "records": 21799,
+      "signal_dtype": "float16",
+      "signal_shape": [
+        21799,
+        12,
+        1000
+      ],
+      "signals_sha256": "10571aa22c11feef5182a45fbc53eaf11a955a317434c3380c0854e06354e5a1",
+      "targets_sha256": "4fd4de7d395b2a2ba98019ad558d9f6faca22259b3530e129b92133ce5783440",
+      "total_samples": 261588000,
+      "valid_records": 21799
+    }
+  },
+  "known_source_anomalies": {
+    "S23074": "Ningbo Challenge header ID is S23074 but its declared and checksummed signal matrix is JS23074.mat; the header ID remains the evaluation record ID"
+  },
+  "ptb_patient_split": {
+    "patients": 18869,
+    "patients_crossing_folds": 0
+  },
+  "schema_version": 1,
+  "target_count_reconciliation": {
+    "all_counts_match_preregistration": true,
+    "labels": 16,
+    "output": "data/derived/waveform_target_counts.csv"
+  },
+  "validation_rule": "12 expected leads, 10 seconds, finite physical mV samples, interpretable gains and units"
+}

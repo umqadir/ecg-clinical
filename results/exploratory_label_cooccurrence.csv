@@ -1,0 +1,508 @@
+cohort,row_label,column_label,row_positives,column_positives,joint_positives,conditional_column_given_row
+ptb_test,complete left bundle branch block / left bundle branch block,complete left bundle branch block / left bundle branch block,54,54,54,1.0
+ptb_test,complete left bundle branch block / left bundle branch block,complete right bundle branch block / right bundle branch block,54,54,0,0.0
+ptb_test,complete left bundle branch block / left bundle branch block,1st degree av block,54,79,7,0.12962962962962962
+ptb_test,complete left bundle branch block / left bundle branch block,left axis deviation,54,528,26,0.48148148148148145
+ptb_test,complete left bundle branch block / left bundle branch block,nonspecific intraventricular conduction disorder,54,79,0,0.0
+ptb_test,complete left bundle branch block / left bundle branch block,sinus rhythm,54,1822,32,0.5925925925925926
+ptb_test,complete left bundle branch block / left bundle branch block,premature atrial contraction / supraventricular premature beats,54,54,1,0.018518518518518517
+ptb_test,complete left bundle branch block / left bundle branch block,qwave abnormal,54,55,1,0.018518518518518517
+ptb_test,complete left bundle branch block / left bundle branch block,right axis deviation,54,26,0,0.0
+ptb_test,complete left bundle branch block / left bundle branch block,sinus bradycardia,54,64,2,0.037037037037037035
+ptb_test,complete left bundle branch block / left bundle branch block,sinus tachycardia,54,82,7,0.12962962962962962
+ptb_test,complete left bundle branch block / left bundle branch block,t wave abnormal,54,231,0,0.0
+ptb_test,complete left bundle branch block / left bundle branch block,t wave inversion,54,29,0,0.0
+ptb_test,complete right bundle branch block / right bundle branch block,complete left bundle branch block / left bundle branch block,54,54,0,0.0
+ptb_test,complete right bundle branch block / right bundle branch block,complete right bundle branch block / right bundle branch block,54,54,54,1.0
+ptb_test,complete right bundle branch block / right bundle branch block,1st degree av block,54,79,10,0.18518518518518517
+ptb_test,complete right bundle branch block / right bundle branch block,left axis deviation,54,528,22,0.4074074074074074
+ptb_test,complete right bundle branch block / right bundle branch block,nonspecific intraventricular conduction disorder,54,79,0,0.0
+ptb_test,complete right bundle branch block / right bundle branch block,sinus rhythm,54,1822,34,0.6296296296296297
+ptb_test,complete right bundle branch block / right bundle branch block,premature atrial contraction / supraventricular premature beats,54,54,3,0.05555555555555555
+ptb_test,complete right bundle branch block / right bundle branch block,qwave abnormal,54,55,2,0.037037037037037035
+ptb_test,complete right bundle branch block / right bundle branch block,right axis deviation,54,26,8,0.14814814814814814
+ptb_test,complete right bundle branch block / right bundle branch block,sinus bradycardia,54,64,1,0.018518518518518517
+ptb_test,complete right bundle branch block / right bundle branch block,sinus tachycardia,54,82,2,0.037037037037037035
+ptb_test,complete right bundle branch block / right bundle branch block,t wave abnormal,54,231,0,0.0
+ptb_test,complete right bundle branch block / right bundle branch block,t wave inversion,54,29,0,0.0
+ptb_test,1st degree av block,complete left bundle branch block / left bundle branch block,79,54,7,0.08860759493670886
+ptb_test,1st degree av block,complete right bundle branch block / right bundle branch block,79,54,10,0.12658227848101267
+ptb_test,1st degree av block,1st degree av block,79,79,79,1.0
+ptb_test,1st degree av block,left axis deviation,79,528,37,0.46835443037974683
+ptb_test,1st degree av block,nonspecific intraventricular conduction disorder,79,79,7,0.08860759493670886
+ptb_test,1st degree av block,sinus rhythm,79,1822,61,0.7721518987341772
+ptb_test,1st degree av block,premature atrial contraction / supraventricular premature beats,79,54,6,0.0759493670886076
+ptb_test,1st degree av block,qwave abnormal,79,55,5,0.06329113924050633
+ptb_test,1st degree av block,right axis deviation,79,26,3,0.0379746835443038
+ptb_test,1st degree av block,sinus bradycardia,79,64,2,0.02531645569620253
+ptb_test,1st degree av block,sinus tachycardia,79,82,4,0.05063291139240506
+ptb_test,1st degree av block,t wave abnormal,79,231,5,0.06329113924050633
+ptb_test,1st degree av block,t wave inversion,79,29,2,0.02531645569620253
+ptb_test,left axis deviation,complete left bundle branch block / left bundle branch block,528,54,26,0.04924242424242424
+ptb_test,left axis deviation,complete right bundle branch block / right bundle branch block,528,54,22,0.041666666666666664
+ptb_test,left axis deviation,1st degree av block,528,79,37,0.07007575757575757
+ptb_test,left axis deviation,left axis deviation,528,528,528,1.0
+ptb_test,left axis deviation,nonspecific intraventricular conduction disorder,528,79,21,0.03977272727272727
+ptb_test,left axis deviation,sinus rhythm,528,1822,409,0.7746212121212122
+ptb_test,left axis deviation,premature atrial contraction / supraventricular premature beats,528,54,11,0.020833333333333332
+ptb_test,left axis deviation,qwave abnormal,528,55,10,0.01893939393939394
+ptb_test,left axis deviation,right axis deviation,528,26,0,0.0
+ptb_test,left axis deviation,sinus bradycardia,528,64,18,0.03409090909090909
+ptb_test,left axis deviation,sinus tachycardia,528,82,27,0.05113636363636364
+ptb_test,left axis deviation,t wave abnormal,528,231,47,0.08901515151515152
+ptb_test,left axis deviation,t wave inversion,528,29,9,0.017045454545454544
+ptb_test,nonspecific intraventricular conduction disorder,complete left bundle branch block / left bundle branch block,79,54,0,0.0
+ptb_test,nonspecific intraventricular conduction disorder,complete right bundle branch block / right bundle branch block,79,54,0,0.0
+ptb_test,nonspecific intraventricular conduction disorder,1st degree av block,79,79,7,0.08860759493670886
+ptb_test,nonspecific intraventricular conduction disorder,left axis deviation,79,528,21,0.26582278481012656
+ptb_test,nonspecific intraventricular conduction disorder,nonspecific intraventricular conduction disorder,79,79,79,1.0
+ptb_test,nonspecific intraventricular conduction disorder,sinus rhythm,79,1822,58,0.7341772151898734
+ptb_test,nonspecific intraventricular conduction disorder,premature atrial contraction / supraventricular premature beats,79,54,2,0.02531645569620253
+ptb_test,nonspecific intraventricular conduction disorder,qwave abnormal,79,55,3,0.0379746835443038
+ptb_test,nonspecific intraventricular conduction disorder,right axis deviation,79,26,1,0.012658227848101266
+ptb_test,nonspecific intraventricular conduction disorder,sinus bradycardia,79,64,6,0.0759493670886076
+ptb_test,nonspecific intraventricular conduction disorder,sinus tachycardia,79,82,4,0.05063291139240506
+ptb_test,nonspecific intraventricular conduction disorder,t wave abnormal,79,231,7,0.08860759493670886
+ptb_test,nonspecific intraventricular conduction disorder,t wave inversion,79,29,0,0.0
+ptb_test,sinus rhythm,complete left bundle branch block / left bundle branch block,1822,54,32,0.01756311745334797
+ptb_test,sinus rhythm,complete right bundle branch block / right bundle branch block,1822,54,34,0.018660812294182216
+ptb_test,sinus rhythm,1st degree av block,1822,79,61,0.033479692645444564
+ptb_test,sinus rhythm,left axis deviation,1822,528,409,0.22447859495060374
+ptb_test,sinus rhythm,nonspecific intraventricular conduction disorder,1822,79,58,0.031833150384193196
+ptb_test,sinus rhythm,sinus rhythm,1822,1822,1822,1.0
+ptb_test,sinus rhythm,premature atrial contraction / supraventricular premature beats,1822,54,42,0.02305159165751921
+ptb_test,sinus rhythm,qwave abnormal,1822,55,45,0.02469813391877058
+ptb_test,sinus rhythm,right axis deviation,1822,26,17,0.009330406147091108
+ptb_test,sinus rhythm,sinus bradycardia,1822,64,36,0.019758507135016465
+ptb_test,sinus rhythm,sinus tachycardia,1822,82,24,0.013172338090010977
+ptb_test,sinus rhythm,t wave abnormal,1822,231,187,0.1026344676180022
+ptb_test,sinus rhythm,t wave inversion,1822,29,22,0.012074643249176729
+ptb_test,premature atrial contraction / supraventricular premature beats,complete left bundle branch block / left bundle branch block,54,54,1,0.018518518518518517
+ptb_test,premature atrial contraction / supraventricular premature beats,complete right bundle branch block / right bundle branch block,54,54,3,0.05555555555555555
+ptb_test,premature atrial contraction / supraventricular premature beats,1st degree av block,54,79,6,0.1111111111111111
+ptb_test,premature atrial contraction / supraventricular premature beats,left axis deviation,54,528,11,0.2037037037037037
+ptb_test,premature atrial contraction / supraventricular premature beats,nonspecific intraventricular conduction disorder,54,79,2,0.037037037037037035
+ptb_test,premature atrial contraction / supraventricular premature beats,sinus rhythm,54,1822,42,0.7777777777777778
+ptb_test,premature atrial contraction / supraventricular premature beats,premature atrial contraction / supraventricular premature beats,54,54,54,1.0
+ptb_test,premature atrial contraction / supraventricular premature beats,qwave abnormal,54,55,1,0.018518518518518517
+ptb_test,premature atrial contraction / supraventricular premature beats,right axis deviation,54,26,0,0.0
+ptb_test,premature atrial contraction / supraventricular premature beats,sinus bradycardia,54,64,1,0.018518518518518517
+ptb_test,premature atrial contraction / supraventricular premature beats,sinus tachycardia,54,82,3,0.05555555555555555
+ptb_test,premature atrial contraction / supraventricular premature beats,t wave abnormal,54,231,8,0.14814814814814814
+ptb_test,premature atrial contraction / supraventricular premature beats,t wave inversion,54,29,0,0.0
+ptb_test,qwave abnormal,complete left bundle branch block / left bundle branch block,55,54,1,0.01818181818181818
+ptb_test,qwave abnormal,complete right bundle branch block / right bundle branch block,55,54,2,0.03636363636363636
+ptb_test,qwave abnormal,1st degree av block,55,79,5,0.09090909090909091
+ptb_test,qwave abnormal,left axis deviation,55,528,10,0.18181818181818182
+ptb_test,qwave abnormal,nonspecific intraventricular conduction disorder,55,79,3,0.05454545454545454
+ptb_test,qwave abnormal,sinus rhythm,55,1822,45,0.8181818181818182
+ptb_test,qwave abnormal,premature atrial contraction / supraventricular premature beats,55,54,1,0.01818181818181818
+ptb_test,qwave abnormal,qwave abnormal,55,55,55,1.0
+ptb_test,qwave abnormal,right axis deviation,55,26,0,0.0
+ptb_test,qwave abnormal,sinus bradycardia,55,64,1,0.01818181818181818
+ptb_test,qwave abnormal,sinus tachycardia,55,82,2,0.03636363636363636
+ptb_test,qwave abnormal,t wave abnormal,55,231,6,0.10909090909090909
+ptb_test,qwave abnormal,t wave inversion,55,29,4,0.07272727272727272
+ptb_test,right axis deviation,complete left bundle branch block / left bundle branch block,26,54,0,0.0
+ptb_test,right axis deviation,complete right bundle branch block / right bundle branch block,26,54,8,0.3076923076923077
+ptb_test,right axis deviation,1st degree av block,26,79,3,0.11538461538461539
+ptb_test,right axis deviation,left axis deviation,26,528,0,0.0
+ptb_test,right axis deviation,nonspecific intraventricular conduction disorder,26,79,1,0.038461538461538464
+ptb_test,right axis deviation,sinus rhythm,26,1822,17,0.6538461538461539
+ptb_test,right axis deviation,premature atrial contraction / supraventricular premature beats,26,54,0,0.0
+ptb_test,right axis deviation,qwave abnormal,26,55,0,0.0
+ptb_test,right axis deviation,right axis deviation,26,26,26,1.0
+ptb_test,right axis deviation,sinus bradycardia,26,64,0,0.0
+ptb_test,right axis deviation,sinus tachycardia,26,82,1,0.038461538461538464
+ptb_test,right axis deviation,t wave abnormal,26,231,0,0.0
+ptb_test,right axis deviation,t wave inversion,26,29,0,0.0
+ptb_test,sinus bradycardia,complete left bundle branch block / left bundle branch block,64,54,2,0.03125
+ptb_test,sinus bradycardia,complete right bundle branch block / right bundle branch block,64,54,1,0.015625
+ptb_test,sinus bradycardia,1st degree av block,64,79,2,0.03125
+ptb_test,sinus bradycardia,left axis deviation,64,528,18,0.28125
+ptb_test,sinus bradycardia,nonspecific intraventricular conduction disorder,64,79,6,0.09375
+ptb_test,sinus bradycardia,sinus rhythm,64,1822,36,0.5625
+ptb_test,sinus bradycardia,premature atrial contraction / supraventricular premature beats,64,54,1,0.015625
+ptb_test,sinus bradycardia,qwave abnormal,64,55,1,0.015625
+ptb_test,sinus bradycardia,right axis deviation,64,26,0,0.0
+ptb_test,sinus bradycardia,sinus bradycardia,64,64,64,1.0
+ptb_test,sinus bradycardia,sinus tachycardia,64,82,0,0.0
+ptb_test,sinus bradycardia,t wave abnormal,64,231,5,0.078125
+ptb_test,sinus bradycardia,t wave inversion,64,29,1,0.015625
+ptb_test,sinus tachycardia,complete left bundle branch block / left bundle branch block,82,54,7,0.08536585365853659
+ptb_test,sinus tachycardia,complete right bundle branch block / right bundle branch block,82,54,2,0.024390243902439025
+ptb_test,sinus tachycardia,1st degree av block,82,79,4,0.04878048780487805
+ptb_test,sinus tachycardia,left axis deviation,82,528,27,0.32926829268292684
+ptb_test,sinus tachycardia,nonspecific intraventricular conduction disorder,82,79,4,0.04878048780487805
+ptb_test,sinus tachycardia,sinus rhythm,82,1822,24,0.2926829268292683
+ptb_test,sinus tachycardia,premature atrial contraction / supraventricular premature beats,82,54,3,0.036585365853658534
+ptb_test,sinus tachycardia,qwave abnormal,82,55,2,0.024390243902439025
+ptb_test,sinus tachycardia,right axis deviation,82,26,1,0.012195121951219513
+ptb_test,sinus tachycardia,sinus bradycardia,82,64,0,0.0
+ptb_test,sinus tachycardia,sinus tachycardia,82,82,82,1.0
+ptb_test,sinus tachycardia,t wave abnormal,82,231,9,0.10975609756097561
+ptb_test,sinus tachycardia,t wave inversion,82,29,0,0.0
+ptb_test,t wave abnormal,complete left bundle branch block / left bundle branch block,231,54,0,0.0
+ptb_test,t wave abnormal,complete right bundle branch block / right bundle branch block,231,54,0,0.0
+ptb_test,t wave abnormal,1st degree av block,231,79,5,0.021645021645021644
+ptb_test,t wave abnormal,left axis deviation,231,528,47,0.20346320346320346
+ptb_test,t wave abnormal,nonspecific intraventricular conduction disorder,231,79,7,0.030303030303030304
+ptb_test,t wave abnormal,sinus rhythm,231,1822,187,0.8095238095238095
+ptb_test,t wave abnormal,premature atrial contraction / supraventricular premature beats,231,54,8,0.03463203463203463
+ptb_test,t wave abnormal,qwave abnormal,231,55,6,0.025974025974025976
+ptb_test,t wave abnormal,right axis deviation,231,26,0,0.0
+ptb_test,t wave abnormal,sinus bradycardia,231,64,5,0.021645021645021644
+ptb_test,t wave abnormal,sinus tachycardia,231,82,9,0.03896103896103896
+ptb_test,t wave abnormal,t wave abnormal,231,231,231,1.0
+ptb_test,t wave abnormal,t wave inversion,231,29,5,0.021645021645021644
+ptb_test,t wave inversion,complete left bundle branch block / left bundle branch block,29,54,0,0.0
+ptb_test,t wave inversion,complete right bundle branch block / right bundle branch block,29,54,0,0.0
+ptb_test,t wave inversion,1st degree av block,29,79,2,0.06896551724137931
+ptb_test,t wave inversion,left axis deviation,29,528,9,0.3103448275862069
+ptb_test,t wave inversion,nonspecific intraventricular conduction disorder,29,79,0,0.0
+ptb_test,t wave inversion,sinus rhythm,29,1822,22,0.7586206896551724
+ptb_test,t wave inversion,premature atrial contraction / supraventricular premature beats,29,54,0,0.0
+ptb_test,t wave inversion,qwave abnormal,29,55,4,0.13793103448275862
+ptb_test,t wave inversion,right axis deviation,29,26,0,0.0
+ptb_test,t wave inversion,sinus bradycardia,29,64,1,0.034482758620689655
+ptb_test,t wave inversion,sinus tachycardia,29,82,0,0.0
+ptb_test,t wave inversion,t wave abnormal,29,231,5,0.1724137931034483
+ptb_test,t wave inversion,t wave inversion,29,29,29,1.0
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,complete left bundle branch block / left bundle branch block,205,205,205,1.0
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,complete right bundle branch block / right bundle branch block,205,454,34,0.16585365853658537
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,1st degree av block,205,247,9,0.04390243902439024
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,left axis deviation,205,382,22,0.1073170731707317
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,nonspecific intraventricular conduction disorder,205,235,16,0.07804878048780488
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,sinus rhythm,205,1826,11,0.05365853658536585
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,premature atrial contraction / supraventricular premature beats,205,258,9,0.04390243902439024
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,qwave abnormal,205,235,18,0.08780487804878048
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,right axis deviation,205,215,3,0.014634146341463415
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,sinus bradycardia,205,3889,37,0.18048780487804877
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,sinus tachycardia,205,1568,39,0.1902439024390244
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,t wave abnormal,205,1876,38,0.18536585365853658
+chapman_shaoxing,complete left bundle branch block / left bundle branch block,t wave inversion,205,157,12,0.05853658536585366
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,complete left bundle branch block / left bundle branch block,454,205,34,0.07488986784140969
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,complete right bundle branch block / right bundle branch block,454,454,454,1.0
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,1st degree av block,454,247,20,0.04405286343612335
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,left axis deviation,454,382,32,0.07048458149779736
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,nonspecific intraventricular conduction disorder,454,235,5,0.011013215859030838
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,sinus rhythm,454,1826,26,0.05726872246696035
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,premature atrial contraction / supraventricular premature beats,454,258,12,0.02643171806167401
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,qwave abnormal,454,235,19,0.04185022026431718
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,right axis deviation,454,215,20,0.04405286343612335
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,sinus bradycardia,454,3889,122,0.2687224669603524
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,sinus tachycardia,454,1568,60,0.13215859030837004
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,t wave abnormal,454,1876,92,0.2026431718061674
+chapman_shaoxing,complete right bundle branch block / right bundle branch block,t wave inversion,454,157,13,0.028634361233480177
+chapman_shaoxing,1st degree av block,complete left bundle branch block / left bundle branch block,247,205,9,0.03643724696356275
+chapman_shaoxing,1st degree av block,complete right bundle branch block / right bundle branch block,247,454,20,0.08097165991902834
+chapman_shaoxing,1st degree av block,1st degree av block,247,247,247,1.0
+chapman_shaoxing,1st degree av block,left axis deviation,247,382,21,0.08502024291497975
+chapman_shaoxing,1st degree av block,nonspecific intraventricular conduction disorder,247,235,5,0.020242914979757085
+chapman_shaoxing,1st degree av block,sinus rhythm,247,1826,30,0.1214574898785425
+chapman_shaoxing,1st degree av block,premature atrial contraction / supraventricular premature beats,247,258,15,0.06072874493927125
+chapman_shaoxing,1st degree av block,qwave abnormal,247,235,22,0.08906882591093117
+chapman_shaoxing,1st degree av block,right axis deviation,247,215,5,0.020242914979757085
+chapman_shaoxing,1st degree av block,sinus bradycardia,247,3889,158,0.6396761133603239
+chapman_shaoxing,1st degree av block,sinus tachycardia,247,1568,56,0.22672064777327935
+chapman_shaoxing,1st degree av block,t wave abnormal,247,1876,65,0.2631578947368421
+chapman_shaoxing,1st degree av block,t wave inversion,247,157,5,0.020242914979757085
+chapman_shaoxing,left axis deviation,complete left bundle branch block / left bundle branch block,382,205,22,0.05759162303664921
+chapman_shaoxing,left axis deviation,complete right bundle branch block / right bundle branch block,382,454,32,0.08376963350785341
+chapman_shaoxing,left axis deviation,1st degree av block,382,247,21,0.0549738219895288
+chapman_shaoxing,left axis deviation,left axis deviation,382,382,382,1.0
+chapman_shaoxing,left axis deviation,nonspecific intraventricular conduction disorder,382,235,29,0.07591623036649214
+chapman_shaoxing,left axis deviation,sinus rhythm,382,1826,45,0.11780104712041885
+chapman_shaoxing,left axis deviation,premature atrial contraction / supraventricular premature beats,382,258,17,0.04450261780104712
+chapman_shaoxing,left axis deviation,qwave abnormal,382,235,43,0.112565445026178
+chapman_shaoxing,left axis deviation,right axis deviation,382,215,0,0.0
+chapman_shaoxing,left axis deviation,sinus bradycardia,382,3889,106,0.2774869109947644
+chapman_shaoxing,left axis deviation,sinus tachycardia,382,1568,68,0.17801047120418848
+chapman_shaoxing,left axis deviation,t wave abnormal,382,1876,107,0.2801047120418848
+chapman_shaoxing,left axis deviation,t wave inversion,382,157,8,0.020942408376963352
+chapman_shaoxing,nonspecific intraventricular conduction disorder,complete left bundle branch block / left bundle branch block,235,205,16,0.06808510638297872
+chapman_shaoxing,nonspecific intraventricular conduction disorder,complete right bundle branch block / right bundle branch block,235,454,5,0.02127659574468085
+chapman_shaoxing,nonspecific intraventricular conduction disorder,1st degree av block,235,247,5,0.02127659574468085
+chapman_shaoxing,nonspecific intraventricular conduction disorder,left axis deviation,235,382,29,0.12340425531914893
+chapman_shaoxing,nonspecific intraventricular conduction disorder,nonspecific intraventricular conduction disorder,235,235,235,1.0
+chapman_shaoxing,nonspecific intraventricular conduction disorder,sinus rhythm,235,1826,2,0.00851063829787234
+chapman_shaoxing,nonspecific intraventricular conduction disorder,premature atrial contraction / supraventricular premature beats,235,258,12,0.05106382978723404
+chapman_shaoxing,nonspecific intraventricular conduction disorder,qwave abnormal,235,235,20,0.0851063829787234
+chapman_shaoxing,nonspecific intraventricular conduction disorder,right axis deviation,235,215,4,0.01702127659574468
+chapman_shaoxing,nonspecific intraventricular conduction disorder,sinus bradycardia,235,3889,37,0.1574468085106383
+chapman_shaoxing,nonspecific intraventricular conduction disorder,sinus tachycardia,235,1568,11,0.04680851063829787
+chapman_shaoxing,nonspecific intraventricular conduction disorder,t wave abnormal,235,1876,68,0.28936170212765955
+chapman_shaoxing,nonspecific intraventricular conduction disorder,t wave inversion,235,157,12,0.05106382978723404
+chapman_shaoxing,sinus rhythm,complete left bundle branch block / left bundle branch block,1826,205,11,0.006024096385542169
+chapman_shaoxing,sinus rhythm,complete right bundle branch block / right bundle branch block,1826,454,26,0.014238773274917854
+chapman_shaoxing,sinus rhythm,1st degree av block,1826,247,30,0.01642935377875137
+chapman_shaoxing,sinus rhythm,left axis deviation,1826,382,45,0.024644030668127054
+chapman_shaoxing,sinus rhythm,nonspecific intraventricular conduction disorder,1826,235,2,0.001095290251916758
+chapman_shaoxing,sinus rhythm,sinus rhythm,1826,1826,1826,1.0
+chapman_shaoxing,sinus rhythm,premature atrial contraction / supraventricular premature beats,1826,258,36,0.019715224534501644
+chapman_shaoxing,sinus rhythm,qwave abnormal,1826,235,23,0.012595837897042717
+chapman_shaoxing,sinus rhythm,right axis deviation,1826,215,5,0.002738225629791895
+chapman_shaoxing,sinus rhythm,sinus bradycardia,1826,3889,0,0.0
+chapman_shaoxing,sinus rhythm,sinus tachycardia,1826,1568,0,0.0
+chapman_shaoxing,sinus rhythm,t wave abnormal,1826,1876,197,0.10788608981380066
+chapman_shaoxing,sinus rhythm,t wave inversion,1826,157,14,0.007667031763417305
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,complete left bundle branch block / left bundle branch block,258,205,9,0.03488372093023256
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,complete right bundle branch block / right bundle branch block,258,454,12,0.046511627906976744
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,1st degree av block,258,247,15,0.05813953488372093
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,left axis deviation,258,382,17,0.06589147286821706
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,nonspecific intraventricular conduction disorder,258,235,12,0.046511627906976744
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,sinus rhythm,258,1826,36,0.13953488372093023
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,premature atrial contraction / supraventricular premature beats,258,258,258,1.0
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,qwave abnormal,258,235,16,0.06201550387596899
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,right axis deviation,258,215,3,0.011627906976744186
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,sinus bradycardia,258,3889,101,0.39147286821705424
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,sinus tachycardia,258,1568,101,0.39147286821705424
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,t wave abnormal,258,1876,76,0.29457364341085274
+chapman_shaoxing,premature atrial contraction / supraventricular premature beats,t wave inversion,258,157,8,0.031007751937984496
+chapman_shaoxing,qwave abnormal,complete left bundle branch block / left bundle branch block,235,205,18,0.07659574468085106
+chapman_shaoxing,qwave abnormal,complete right bundle branch block / right bundle branch block,235,454,19,0.08085106382978724
+chapman_shaoxing,qwave abnormal,1st degree av block,235,247,22,0.09361702127659574
+chapman_shaoxing,qwave abnormal,left axis deviation,235,382,43,0.1829787234042553
+chapman_shaoxing,qwave abnormal,nonspecific intraventricular conduction disorder,235,235,20,0.0851063829787234
+chapman_shaoxing,qwave abnormal,sinus rhythm,235,1826,23,0.09787234042553192
+chapman_shaoxing,qwave abnormal,premature atrial contraction / supraventricular premature beats,235,258,16,0.06808510638297872
+chapman_shaoxing,qwave abnormal,qwave abnormal,235,235,235,1.0
+chapman_shaoxing,qwave abnormal,right axis deviation,235,215,7,0.029787234042553193
+chapman_shaoxing,qwave abnormal,sinus bradycardia,235,3889,73,0.31063829787234043
+chapman_shaoxing,qwave abnormal,sinus tachycardia,235,1568,44,0.18723404255319148
+chapman_shaoxing,qwave abnormal,t wave abnormal,235,1876,114,0.4851063829787234
+chapman_shaoxing,qwave abnormal,t wave inversion,235,157,23,0.09787234042553192
+chapman_shaoxing,right axis deviation,complete left bundle branch block / left bundle branch block,215,205,3,0.013953488372093023
+chapman_shaoxing,right axis deviation,complete right bundle branch block / right bundle branch block,215,454,20,0.09302325581395349
+chapman_shaoxing,right axis deviation,1st degree av block,215,247,5,0.023255813953488372
+chapman_shaoxing,right axis deviation,left axis deviation,215,382,0,0.0
+chapman_shaoxing,right axis deviation,nonspecific intraventricular conduction disorder,215,235,4,0.018604651162790697
+chapman_shaoxing,right axis deviation,sinus rhythm,215,1826,5,0.023255813953488372
+chapman_shaoxing,right axis deviation,premature atrial contraction / supraventricular premature beats,215,258,3,0.013953488372093023
+chapman_shaoxing,right axis deviation,qwave abnormal,215,235,7,0.03255813953488372
+chapman_shaoxing,right axis deviation,right axis deviation,215,215,215,1.0
+chapman_shaoxing,right axis deviation,sinus bradycardia,215,3889,29,0.13488372093023257
+chapman_shaoxing,right axis deviation,sinus tachycardia,215,1568,60,0.27906976744186046
+chapman_shaoxing,right axis deviation,t wave abnormal,215,1876,52,0.24186046511627907
+chapman_shaoxing,right axis deviation,t wave inversion,215,157,5,0.023255813953488372
+chapman_shaoxing,sinus bradycardia,complete left bundle branch block / left bundle branch block,3889,205,37,0.009514013885317562
+chapman_shaoxing,sinus bradycardia,complete right bundle branch block / right bundle branch block,3889,454,122,0.031370532270506554
+chapman_shaoxing,sinus bradycardia,1st degree av block,3889,247,158,0.04062741064541013
+chapman_shaoxing,sinus bradycardia,left axis deviation,3889,382,106,0.027256364103882748
+chapman_shaoxing,sinus bradycardia,nonspecific intraventricular conduction disorder,3889,235,37,0.009514013885317562
+chapman_shaoxing,sinus bradycardia,sinus rhythm,3889,1826,0,0.0
+chapman_shaoxing,sinus bradycardia,premature atrial contraction / supraventricular premature beats,3889,258,101,0.025970686551812807
+chapman_shaoxing,sinus bradycardia,qwave abnormal,3889,235,73,0.018770892260221137
+chapman_shaoxing,sinus bradycardia,right axis deviation,3889,215,29,0.007456929802005657
+chapman_shaoxing,sinus bradycardia,sinus bradycardia,3889,3889,3889,1.0
+chapman_shaoxing,sinus bradycardia,sinus tachycardia,3889,1568,0,0.0
+chapman_shaoxing,sinus bradycardia,t wave abnormal,3889,1876,599,0.15402417073797892
+chapman_shaoxing,sinus bradycardia,t wave inversion,3889,157,56,0.014399588583183338
+chapman_shaoxing,sinus tachycardia,complete left bundle branch block / left bundle branch block,1568,205,39,0.024872448979591837
+chapman_shaoxing,sinus tachycardia,complete right bundle branch block / right bundle branch block,1568,454,60,0.03826530612244898
+chapman_shaoxing,sinus tachycardia,1st degree av block,1568,247,56,0.03571428571428571
+chapman_shaoxing,sinus tachycardia,left axis deviation,1568,382,68,0.04336734693877551
+chapman_shaoxing,sinus tachycardia,nonspecific intraventricular conduction disorder,1568,235,11,0.00701530612244898
+chapman_shaoxing,sinus tachycardia,sinus rhythm,1568,1826,0,0.0
+chapman_shaoxing,sinus tachycardia,premature atrial contraction / supraventricular premature beats,1568,258,101,0.06441326530612244
+chapman_shaoxing,sinus tachycardia,qwave abnormal,1568,235,44,0.02806122448979592
+chapman_shaoxing,sinus tachycardia,right axis deviation,1568,215,60,0.03826530612244898
+chapman_shaoxing,sinus tachycardia,sinus bradycardia,1568,3889,0,0.0
+chapman_shaoxing,sinus tachycardia,sinus tachycardia,1568,1568,1568,1.0
+chapman_shaoxing,sinus tachycardia,t wave abnormal,1568,1876,286,0.18239795918367346
+chapman_shaoxing,sinus tachycardia,t wave inversion,1568,157,24,0.015306122448979591
+chapman_shaoxing,t wave abnormal,complete left bundle branch block / left bundle branch block,1876,205,38,0.02025586353944563
+chapman_shaoxing,t wave abnormal,complete right bundle branch block / right bundle branch block,1876,454,92,0.04904051172707889
+chapman_shaoxing,t wave abnormal,1st degree av block,1876,247,65,0.03464818763326226
+chapman_shaoxing,t wave abnormal,left axis deviation,1876,382,107,0.0570362473347548
+chapman_shaoxing,t wave abnormal,nonspecific intraventricular conduction disorder,1876,235,68,0.03624733475479744
+chapman_shaoxing,t wave abnormal,sinus rhythm,1876,1826,197,0.10501066098081023
+chapman_shaoxing,t wave abnormal,premature atrial contraction / supraventricular premature beats,1876,258,76,0.04051172707889126
+chapman_shaoxing,t wave abnormal,qwave abnormal,1876,235,114,0.060767590618336885
+chapman_shaoxing,t wave abnormal,right axis deviation,1876,215,52,0.02771855010660981
+chapman_shaoxing,t wave abnormal,sinus bradycardia,1876,3889,599,0.31929637526652455
+chapman_shaoxing,t wave abnormal,sinus tachycardia,1876,1568,286,0.15245202558635396
+chapman_shaoxing,t wave abnormal,t wave abnormal,1876,1876,1876,1.0
+chapman_shaoxing,t wave abnormal,t wave inversion,1876,157,69,0.036780383795309166
+chapman_shaoxing,t wave inversion,complete left bundle branch block / left bundle branch block,157,205,12,0.07643312101910828
+chapman_shaoxing,t wave inversion,complete right bundle branch block / right bundle branch block,157,454,13,0.08280254777070063
+chapman_shaoxing,t wave inversion,1st degree av block,157,247,5,0.03184713375796178
+chapman_shaoxing,t wave inversion,left axis deviation,157,382,8,0.050955414012738856
+chapman_shaoxing,t wave inversion,nonspecific intraventricular conduction disorder,157,235,12,0.07643312101910828
+chapman_shaoxing,t wave inversion,sinus rhythm,157,1826,14,0.08917197452229299
+chapman_shaoxing,t wave inversion,premature atrial contraction / supraventricular premature beats,157,258,8,0.050955414012738856
+chapman_shaoxing,t wave inversion,qwave abnormal,157,235,23,0.1464968152866242
+chapman_shaoxing,t wave inversion,right axis deviation,157,215,5,0.03184713375796178
+chapman_shaoxing,t wave inversion,sinus bradycardia,157,3889,56,0.35668789808917195
+chapman_shaoxing,t wave inversion,sinus tachycardia,157,1568,24,0.15286624203821655
+chapman_shaoxing,t wave inversion,t wave abnormal,157,1876,69,0.4394904458598726
+chapman_shaoxing,t wave inversion,t wave inversion,157,157,157,1.0
+ningbo,complete left bundle branch block / left bundle branch block,complete left bundle branch block / left bundle branch block,248,248,248,1.0
+ningbo,complete left bundle branch block / left bundle branch block,complete right bundle branch block / right bundle branch block,248,1291,0,0.0
+ningbo,complete left bundle branch block / left bundle branch block,1st degree av block,248,893,15,0.06048387096774194
+ningbo,complete left bundle branch block / left bundle branch block,left axis deviation,248,1163,57,0.22983870967741934
+ningbo,complete left bundle branch block / left bundle branch block,nonspecific intraventricular conduction disorder,248,536,5,0.020161290322580645
+ningbo,complete left bundle branch block / left bundle branch block,sinus rhythm,248,6299,23,0.09274193548387097
+ningbo,complete left bundle branch block / left bundle branch block,premature atrial contraction / supraventricular premature beats,248,1063,18,0.07258064516129033
+ningbo,complete left bundle branch block / left bundle branch block,qwave abnormal,248,828,4,0.016129032258064516
+ningbo,complete left bundle branch block / left bundle branch block,right axis deviation,248,638,6,0.024193548387096774
+ningbo,complete left bundle branch block / left bundle branch block,sinus bradycardia,248,12670,28,0.11290322580645161
+ningbo,complete left bundle branch block / left bundle branch block,sinus tachycardia,248,5687,44,0.1774193548387097
+ningbo,complete left bundle branch block / left bundle branch block,t wave abnormal,248,5167,15,0.06048387096774194
+ningbo,complete left bundle branch block / left bundle branch block,t wave inversion,248,2720,2,0.008064516129032258
+ningbo,complete right bundle branch block / right bundle branch block,complete left bundle branch block / left bundle branch block,1291,248,0,0.0
+ningbo,complete right bundle branch block / right bundle branch block,complete right bundle branch block / right bundle branch block,1291,1291,1291,1.0
+ningbo,complete right bundle branch block / right bundle branch block,1st degree av block,1291,893,80,0.061967467079783116
+ningbo,complete right bundle branch block / right bundle branch block,left axis deviation,1291,1163,127,0.0983733539891557
+ningbo,complete right bundle branch block / right bundle branch block,nonspecific intraventricular conduction disorder,1291,536,14,0.010844306738962044
+ningbo,complete right bundle branch block / right bundle branch block,sinus rhythm,1291,6299,112,0.08675445391169635
+ningbo,complete right bundle branch block / right bundle branch block,premature atrial contraction / supraventricular premature beats,1291,1063,58,0.044926413632842756
+ningbo,complete right bundle branch block / right bundle branch block,qwave abnormal,1291,828,58,0.044926413632842756
+ningbo,complete right bundle branch block / right bundle branch block,right axis deviation,1291,638,44,0.03408210689388071
+ningbo,complete right bundle branch block / right bundle branch block,sinus bradycardia,1291,12670,355,0.2749806351665376
+ningbo,complete right bundle branch block / right bundle branch block,sinus tachycardia,1291,5687,157,0.12161115414407436
+ningbo,complete right bundle branch block / right bundle branch block,t wave abnormal,1291,5167,266,0.20604182804027885
+ningbo,complete right bundle branch block / right bundle branch block,t wave inversion,1291,2720,161,0.12470952749806352
+ningbo,1st degree av block,complete left bundle branch block / left bundle branch block,893,248,15,0.0167973124300112
+ningbo,1st degree av block,complete right bundle branch block / right bundle branch block,893,1291,80,0.08958566629339305
+ningbo,1st degree av block,1st degree av block,893,893,893,1.0
+ningbo,1st degree av block,left axis deviation,893,1163,56,0.06270996640537514
+ningbo,1st degree av block,nonspecific intraventricular conduction disorder,893,536,5,0.005599104143337066
+ningbo,1st degree av block,sinus rhythm,893,6299,88,0.09854423292273236
+ningbo,1st degree av block,premature atrial contraction / supraventricular premature beats,893,1063,77,0.08622620380739082
+ningbo,1st degree av block,qwave abnormal,893,828,45,0.05039193729003359
+ningbo,1st degree av block,right axis deviation,893,638,6,0.006718924972004479
+ningbo,1st degree av block,sinus bradycardia,893,12670,595,0.6662933930571109
+ningbo,1st degree av block,sinus tachycardia,893,5687,147,0.16461366181410975
+ningbo,1st degree av block,t wave abnormal,893,5167,183,0.20492721164613661
+ningbo,1st degree av block,t wave inversion,893,2720,117,0.13101903695408734
+ningbo,left axis deviation,complete left bundle branch block / left bundle branch block,1163,248,57,0.049011177987962166
+ningbo,left axis deviation,complete right bundle branch block / right bundle branch block,1163,1291,127,0.10920034393809114
+ningbo,left axis deviation,1st degree av block,1163,893,56,0.04815133276010318
+ningbo,left axis deviation,left axis deviation,1163,1163,1163,1.0
+ningbo,left axis deviation,nonspecific intraventricular conduction disorder,1163,536,32,0.027515047291487533
+ningbo,left axis deviation,sinus rhythm,1163,6299,108,0.09286328460877043
+ningbo,left axis deviation,premature atrial contraction / supraventricular premature beats,1163,1063,58,0.04987102321582115
+ningbo,left axis deviation,qwave abnormal,1163,828,91,0.07824591573516768
+ningbo,left axis deviation,right axis deviation,1163,638,0,0.0
+ningbo,left axis deviation,sinus bradycardia,1163,12670,372,0.31986242476354254
+ningbo,left axis deviation,sinus tachycardia,1163,5687,177,0.15219260533104043
+ningbo,left axis deviation,t wave abnormal,1163,5167,268,0.23043852106620807
+ningbo,left axis deviation,t wave inversion,1163,2720,134,0.11521926053310404
+ningbo,nonspecific intraventricular conduction disorder,complete left bundle branch block / left bundle branch block,536,248,5,0.009328358208955223
+ningbo,nonspecific intraventricular conduction disorder,complete right bundle branch block / right bundle branch block,536,1291,14,0.026119402985074626
+ningbo,nonspecific intraventricular conduction disorder,1st degree av block,536,893,5,0.009328358208955223
+ningbo,nonspecific intraventricular conduction disorder,left axis deviation,536,1163,32,0.05970149253731343
+ningbo,nonspecific intraventricular conduction disorder,nonspecific intraventricular conduction disorder,536,536,536,1.0
+ningbo,nonspecific intraventricular conduction disorder,sinus rhythm,536,6299,10,0.018656716417910446
+ningbo,nonspecific intraventricular conduction disorder,premature atrial contraction / supraventricular premature beats,536,1063,101,0.1884328358208955
+ningbo,nonspecific intraventricular conduction disorder,qwave abnormal,536,828,16,0.029850746268656716
+ningbo,nonspecific intraventricular conduction disorder,right axis deviation,536,638,18,0.033582089552238806
+ningbo,nonspecific intraventricular conduction disorder,sinus bradycardia,536,12670,30,0.055970149253731345
+ningbo,nonspecific intraventricular conduction disorder,sinus tachycardia,536,5687,63,0.11753731343283583
+ningbo,nonspecific intraventricular conduction disorder,t wave abnormal,536,5167,138,0.2574626865671642
+ningbo,nonspecific intraventricular conduction disorder,t wave inversion,536,2720,81,0.15111940298507462
+ningbo,sinus rhythm,complete left bundle branch block / left bundle branch block,6299,248,23,0.0036513732338466424
+ningbo,sinus rhythm,complete right bundle branch block / right bundle branch block,6299,1291,112,0.017780600095253216
+ningbo,sinus rhythm,1st degree av block,6299,893,88,0.01397047150341324
+ningbo,sinus rhythm,left axis deviation,6299,1163,108,0.017145578663279884
+ningbo,sinus rhythm,nonspecific intraventricular conduction disorder,6299,536,10,0.0015875535799333227
+ningbo,sinus rhythm,sinus rhythm,6299,6299,6299,1.0
+ningbo,sinus rhythm,premature atrial contraction / supraventricular premature beats,6299,1063,115,0.01825686616923321
+ningbo,sinus rhythm,qwave abnormal,6299,828,93,0.014764248293379901
+ningbo,sinus rhythm,right axis deviation,6299,638,29,0.004603905381806636
+ningbo,sinus rhythm,sinus bradycardia,6299,12670,6,0.0009525321479599936
+ningbo,sinus rhythm,sinus tachycardia,6299,5687,0,0.0
+ningbo,sinus rhythm,t wave abnormal,6299,5167,514,0.08160025400857279
+ningbo,sinus rhythm,t wave inversion,6299,2720,254,0.0403238609303064
+ningbo,premature atrial contraction / supraventricular premature beats,complete left bundle branch block / left bundle branch block,1063,248,18,0.016933207902163686
+ningbo,premature atrial contraction / supraventricular premature beats,complete right bundle branch block / right bundle branch block,1063,1291,58,0.05456255879586077
+ningbo,premature atrial contraction / supraventricular premature beats,1st degree av block,1063,893,77,0.07243650047036689
+ningbo,premature atrial contraction / supraventricular premature beats,left axis deviation,1063,1163,58,0.05456255879586077
+ningbo,premature atrial contraction / supraventricular premature beats,nonspecific intraventricular conduction disorder,1063,536,101,0.09501411100658513
+ningbo,premature atrial contraction / supraventricular premature beats,sinus rhythm,1063,6299,115,0.10818438381937912
+ningbo,premature atrial contraction / supraventricular premature beats,premature atrial contraction / supraventricular premature beats,1063,1063,1063,1.0
+ningbo,premature atrial contraction / supraventricular premature beats,qwave abnormal,1063,828,42,0.03951081843838194
+ningbo,premature atrial contraction / supraventricular premature beats,right axis deviation,1063,638,21,0.01975540921919097
+ningbo,premature atrial contraction / supraventricular premature beats,sinus bradycardia,1063,12670,357,0.33584195672624645
+ningbo,premature atrial contraction / supraventricular premature beats,sinus tachycardia,1063,5687,478,0.44967074317968014
+ningbo,premature atrial contraction / supraventricular premature beats,t wave abnormal,1063,5167,268,0.2521166509877705
+ningbo,premature atrial contraction / supraventricular premature beats,t wave inversion,1063,2720,146,0.13734713076199437
+ningbo,qwave abnormal,complete left bundle branch block / left bundle branch block,828,248,4,0.004830917874396135
+ningbo,qwave abnormal,complete right bundle branch block / right bundle branch block,828,1291,58,0.07004830917874397
+ningbo,qwave abnormal,1st degree av block,828,893,45,0.05434782608695652
+ningbo,qwave abnormal,left axis deviation,828,1163,91,0.10990338164251208
+ningbo,qwave abnormal,nonspecific intraventricular conduction disorder,828,536,16,0.01932367149758454
+ningbo,qwave abnormal,sinus rhythm,828,6299,93,0.11231884057971014
+ningbo,qwave abnormal,premature atrial contraction / supraventricular premature beats,828,1063,42,0.050724637681159424
+ningbo,qwave abnormal,qwave abnormal,828,828,828,1.0
+ningbo,qwave abnormal,right axis deviation,828,638,38,0.04589371980676329
+ningbo,qwave abnormal,sinus bradycardia,828,12670,253,0.3055555555555556
+ningbo,qwave abnormal,sinus tachycardia,828,5687,146,0.17632850241545894
+ningbo,qwave abnormal,t wave abnormal,828,5167,322,0.3888888888888889
+ningbo,qwave abnormal,t wave inversion,828,2720,271,0.3272946859903382
+ningbo,right axis deviation,complete left bundle branch block / left bundle branch block,638,248,6,0.009404388714733543
+ningbo,right axis deviation,complete right bundle branch block / right bundle branch block,638,1291,44,0.06896551724137931
+ningbo,right axis deviation,1st degree av block,638,893,6,0.009404388714733543
+ningbo,right axis deviation,left axis deviation,638,1163,0,0.0
+ningbo,right axis deviation,nonspecific intraventricular conduction disorder,638,536,18,0.02821316614420063
+ningbo,right axis deviation,sinus rhythm,638,6299,29,0.045454545454545456
+ningbo,right axis deviation,premature atrial contraction / supraventricular premature beats,638,1063,21,0.032915360501567396
+ningbo,right axis deviation,qwave abnormal,638,828,38,0.05956112852664577
+ningbo,right axis deviation,right axis deviation,638,638,638,1.0
+ningbo,right axis deviation,sinus bradycardia,638,12670,96,0.15047021943573669
+ningbo,right axis deviation,sinus tachycardia,638,5687,222,0.34796238244514105
+ningbo,right axis deviation,t wave abnormal,638,5167,143,0.22413793103448276
+ningbo,right axis deviation,t wave inversion,638,2720,91,0.1426332288401254
+ningbo,sinus bradycardia,complete left bundle branch block / left bundle branch block,12670,248,28,0.0022099447513812156
+ningbo,sinus bradycardia,complete right bundle branch block / right bundle branch block,12670,1291,355,0.028018942383583267
+ningbo,sinus bradycardia,1st degree av block,12670,893,595,0.04696132596685083
+ningbo,sinus bradycardia,left axis deviation,12670,1163,372,0.02936069455406472
+ningbo,sinus bradycardia,nonspecific intraventricular conduction disorder,12670,536,30,0.0023677979479084454
+ningbo,sinus bradycardia,sinus rhythm,12670,6299,6,0.00047355958958168905
+ningbo,sinus bradycardia,premature atrial contraction / supraventricular premature beats,12670,1063,357,0.0281767955801105
+ningbo,sinus bradycardia,qwave abnormal,12670,828,253,0.019968429360694553
+ningbo,sinus bradycardia,right axis deviation,12670,638,96,0.007576953433307025
+ningbo,sinus bradycardia,sinus bradycardia,12670,12670,12670,1.0
+ningbo,sinus bradycardia,sinus tachycardia,12670,5687,0,0.0
+ningbo,sinus bradycardia,t wave abnormal,12670,5167,1665,0.1314127861089187
+ningbo,sinus bradycardia,t wave inversion,12670,2720,789,0.062273086029992104
+ningbo,sinus tachycardia,complete left bundle branch block / left bundle branch block,5687,248,44,0.007736943907156673
+ningbo,sinus tachycardia,complete right bundle branch block / right bundle branch block,5687,1291,157,0.02760682257780904
+ningbo,sinus tachycardia,1st degree av block,5687,893,147,0.02584842623527343
+ningbo,sinus tachycardia,left axis deviation,5687,1163,177,0.031123615262880253
+ningbo,sinus tachycardia,nonspecific intraventricular conduction disorder,5687,536,63,0.011077896957974327
+ningbo,sinus tachycardia,sinus rhythm,5687,6299,0,0.0
+ningbo,sinus tachycardia,premature atrial contraction / supraventricular premature beats,5687,1063,478,0.08405134517320204
+ningbo,sinus tachycardia,qwave abnormal,5687,828,146,0.02567258660101987
+ningbo,sinus tachycardia,right axis deviation,5687,638,222,0.03903639880429049
+ningbo,sinus tachycardia,sinus bradycardia,5687,12670,0,0.0
+ningbo,sinus tachycardia,sinus tachycardia,5687,5687,5687,1.0
+ningbo,sinus tachycardia,t wave abnormal,5687,5167,843,0.14823281167575172
+ningbo,sinus tachycardia,t wave inversion,5687,2720,416,0.07314928784948127
+ningbo,t wave abnormal,complete left bundle branch block / left bundle branch block,5167,248,15,0.002903038513644281
+ningbo,t wave abnormal,complete right bundle branch block / right bundle branch block,5167,1291,266,0.051480549641958584
+ningbo,t wave abnormal,1st degree av block,5167,893,183,0.035417069866460225
+ningbo,t wave abnormal,left axis deviation,5167,1163,268,0.05186762144377782
+ningbo,t wave abnormal,nonspecific intraventricular conduction disorder,5167,536,138,0.026707954325527385
+ningbo,t wave abnormal,sinus rhythm,5167,6299,514,0.09947745306754403
+ningbo,t wave abnormal,premature atrial contraction / supraventricular premature beats,5167,1063,268,0.05186762144377782
+ningbo,t wave abnormal,qwave abnormal,5167,828,322,0.062318560092897234
+ningbo,t wave abnormal,right axis deviation,5167,638,143,0.02767563383007548
+ningbo,t wave abnormal,sinus bradycardia,5167,12670,1665,0.3222372750145152
+ningbo,t wave abnormal,sinus tachycardia,5167,5687,843,0.1631507644668086
+ningbo,t wave abnormal,t wave abnormal,5167,5167,5167,1.0
+ningbo,t wave abnormal,t wave inversion,5167,2720,1291,0.2498548480743178
+ningbo,t wave inversion,complete left bundle branch block / left bundle branch block,2720,248,2,0.0007352941176470588
+ningbo,t wave inversion,complete right bundle branch block / right bundle branch block,2720,1291,161,0.05919117647058823
+ningbo,t wave inversion,1st degree av block,2720,893,117,0.04301470588235294
+ningbo,t wave inversion,left axis deviation,2720,1163,134,0.04926470588235294
+ningbo,t wave inversion,nonspecific intraventricular conduction disorder,2720,536,81,0.02977941176470588
+ningbo,t wave inversion,sinus rhythm,2720,6299,254,0.09338235294117647
+ningbo,t wave inversion,premature atrial contraction / supraventricular premature beats,2720,1063,146,0.05367647058823529
+ningbo,t wave inversion,qwave abnormal,2720,828,271,0.09963235294117648
+ningbo,t wave inversion,right axis deviation,2720,638,91,0.033455882352941176
+ningbo,t wave inversion,sinus bradycardia,2720,12670,789,0.29007352941176473
+ningbo,t wave inversion,sinus tachycardia,2720,5687,416,0.15294117647058825
+ningbo,t wave inversion,t wave abnormal,2720,5167,1291,0.47463235294117645
+ningbo,t wave inversion,t wave inversion,2720,2720,2720,1.0

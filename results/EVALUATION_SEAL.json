@@ -1,0 +1,11 @@
+{
+  "choices_commit_historical": "c2234694631d15b2fd8bef89b35d38b8e48d7fd9",
+  "commit_note": "History was squashed before publication; this commit is not present in this repository. The artifact digests below are verified against the working tree on every protected operation.",
+  "history_rewritten": true,
+  "choices_path": "results/evaluation_choices.json",
+  "choices_sha256": "351c12e35c07194cd960390e896db9a9027ae22b71bac0f9b11fca2ab5fc2d68",
+  "commit_store": ".git",
+  "schema_version": 1,
+  "sealed_before": "any PTB-XL fold-10 or external cohort model inference",
+  "study_id": "ecg-clinical-shift-v1"
+}

@@ -1,0 +1,4578 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seeds": {
+    "chapman_shaoxing": 20260717,
+    "ningbo": 20260718,
+    "ptb_test": 20260716
+  },
+  "changes_registered_quantities": false,
+  "decision_curve_summaries": [
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.015446915089422081,
+            "point": 0.023178966524591733,
+            "upper_95": 0.03137388007437579
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015446915089422081,
+            "point": 0.023178966524591733,
+            "upper_95": 0.03137388007437579
+          },
+          "net_benefit_treat_all": -0.02677074852736938
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.014559280937636962,
+            "point": 0.022444646648468305,
+            "upper_95": 0.03073108703340588
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.014559280937636962,
+            "point": 0.022444646648468305,
+            "upper_95": 0.03073108703340588
+          },
+          "net_benefit_treat_all": -0.08381356789000101
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.014100297691085149,
+            "point": 0.022065514103730664,
+            "upper_95": 0.030402350813743217
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.014100297691085149,
+            "point": 0.022065514103730664,
+            "upper_95": 0.030402350813743217
+          },
+          "net_benefit_treat_all": -0.2192902638762511
+        }
+      },
+      "label_key": "733534002|164909002",
+      "max_net_benefit_gain": 0.02371884468542161,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 54,
+      "prevalence": 0.02456778889899909,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.016260536579402796,
+            "point": 0.023945213351850965,
+            "upper_95": 0.031448326015460736
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.016260536579402796,
+            "point": 0.023945213351850965,
+            "upper_95": 0.031448326015460736
+          },
+          "net_benefit_treat_all": -0.02677074852736938
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.01597154220828255,
+            "point": 0.023607319785663734,
+            "upper_95": 0.031125570087295218
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01597154220828255,
+            "point": 0.023607319785663734,
+            "upper_95": 0.031125570087295218
+          },
+          "net_benefit_treat_all": -0.08381356789000101
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.014302607291185971,
+            "point": 0.022065514103730664,
+            "upper_95": 0.029534725163462734
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.014302607291185971,
+            "point": 0.022065514103730664,
+            "upper_95": 0.029534725163462734
+          },
+          "net_benefit_treat_all": -0.2192902638762511
+        }
+      },
+      "label_key": "713427006|59118001",
+      "max_net_benefit_gain": 0.02411752014483645,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 54,
+      "prevalence": 0.02456778889899909,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "1st degree av block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.02169940029609506,
+            "point": 0.029907571476461853,
+            "upper_95": 0.03865949170250552
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02169940029609506,
+            "point": 0.029907571476461853,
+            "upper_95": 0.03865949170250552
+          },
+          "net_benefit_treat_all": -0.014798141851443902
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.018646629470269207,
+            "point": 0.02669093114952988,
+            "upper_95": 0.03546245708501028
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.018646629470269207,
+            "point": 0.02669093114952988,
+            "upper_95": 0.03546245708501028
+          },
+          "net_benefit_treat_all": -0.07117581639874634
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.01367708696551221,
+            "point": 0.02081437670609645,
+            "upper_95": 0.02826992292790788
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01367708696551221,
+            "point": 0.02081437670609645,
+            "upper_95": 0.02826992292790788
+          },
+          "net_benefit_treat_all": -0.20507279344858964
+        }
+      },
+      "label_key": "270492004",
+      "max_net_benefit_gain": 0.031581740976645435,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 79,
+      "prevalence": 0.0359417652411283,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "left axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.19871905938850457,
+            "point": 0.21873952396915858,
+            "upper_95": 0.23987486271511574
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01386257226457698,
+            "point": 0.01850964992098081,
+            "upper_95": 0.022972302737417207
+          },
+          "net_benefit_treat_all": 0.20022987404817777
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.18612779705291746,
+            "point": 0.20670306339096148,
+            "upper_95": 0.22741358726861582
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.044484018634963526,
+            "point": 0.050904863006773854,
+            "upper_95": 0.05662323670122082
+          },
+          "net_benefit_treat_all": 0.15579820038418762
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.16495260921838695,
+            "point": 0.1855095541401274,
+            "upper_95": 0.20652779906014332
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.1249434094562602,
+            "point": 0.1352365787079163,
+            "upper_95": 0.14494753741412575
+          },
+          "net_benefit_treat_all": 0.0502729754322111
+        }
+      },
+      "label_key": "39732003",
+      "max_net_benefit_gain": 0.1769790718835305,
+      "max_net_benefit_gain_threshold": 0.24,
+      "positives": 528,
+      "prevalence": 0.24021838034576887,
+      "records": 2198,
+      "superior_threshold_count": 49,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.007677554325421749,
+            "point": 0.013289593410277285,
+            "upper_95": 0.01943493063264854
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.007677554325421749,
+            "point": 0.013289593410277285,
+            "upper_95": 0.01943493063264854
+          },
+          "net_benefit_treat_all": -0.014798141851443902
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.004642059134967605,
+            "point": 0.010009099181073703,
+            "upper_95": 0.015668948206695014
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004642059134967605,
+            "point": 0.010009099181073703,
+            "upper_95": 0.015668948206695014
+          },
+          "net_benefit_treat_all": -0.07117581639874634
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.00022569092912960725,
+            "point": 0.004094631483166516,
+            "upper_95": 0.00909397552366606
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.00022569092912960725,
+            "point": 0.004094631483166516,
+            "upper_95": 0.00909397552366606
+          },
+          "net_benefit_treat_all": -0.20507279344858964
+        }
+      },
+      "label_key": "698252002",
+      "max_net_benefit_gain": 0.013952077646345162,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 79,
+      "prevalence": 0.0359417652411283,
+      "records": 2198,
+      "superior_threshold_count": 47,
+      "superior_threshold_max": 0.49,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "sinus rhythm",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.8053700721839008,
+            "point": 0.8224222977826733,
+            "upper_95": 0.8405193795777417
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.000915584415584414,
+            "point": 0.002490302188592586,
+            "upper_95": 0.0036959904230716933
+          },
+          "net_benefit_treat_all": 0.8199319955940807
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.8002697305821629,
+            "point": 0.8178141745020726,
+            "upper_95": 0.8363708245671171
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005874473758444393,
+            "point": 0.007885956930542948,
+            "upper_95": 0.009686803135972932
+          },
+          "net_benefit_treat_all": 0.8099282175715297
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.7879552490074645,
+            "point": 0.8066424021838035,
+            "upper_95": 0.8260587240664075
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.016224600101918972,
+            "point": 0.020473157415832555,
+            "upper_95": 0.024476715051376097
+          },
+          "net_benefit_treat_all": 0.7861692447679709
+        }
+      },
+      "label_key": "426783006",
+      "max_net_benefit_gain": 0.09190172884440406,
+      "max_net_benefit_gain_threshold": 0.5,
+      "positives": 1822,
+      "prevalence": 0.8289353958143767,
+      "records": 2198,
+      "superior_threshold_count": 49,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.007808937457235279,
+            "point": 0.013505100330443942,
+            "upper_95": 0.019510833615869905
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.007808937457235279,
+            "point": 0.013505100330443942,
+            "upper_95": 0.019510833615869905
+          },
+          "net_benefit_treat_all": -0.02677074852736938
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.003649685620735987,
+            "point": 0.00823981397229805,
+            "upper_95": 0.012874578870716465
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.003649685620735987,
+            "point": 0.00823981397229805,
+            "upper_95": 0.012874578870716465
+          },
+          "net_benefit_treat_all": -0.08381356789000101
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0002286263000488207,
+            "point": 0.002274795268425842,
+            "upper_95": 0.005180583296922787
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0002286263000488207,
+            "point": 0.002274795268425842,
+            "upper_95": 0.005180583296922787
+          },
+          "net_benefit_treat_all": -0.2192902638762511
+        }
+      },
+      "label_key": "284470004|63593006",
+      "max_net_benefit_gain": 0.015506130221475945,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 54,
+      "prevalence": 0.02456778889899909,
+      "records": 2198,
+      "superior_threshold_count": 41,
+      "superior_threshold_max": 0.41,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "qwave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.004214999525568659,
+            "point": 0.009745701834203343,
+            "upper_95": 0.015530698517366704
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004214999525568659,
+            "point": 0.009745701834203343,
+            "upper_95": 0.015530698517366704
+          },
+          "net_benefit_treat_all": -0.026291844260332365
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.0005561694223107073,
+            "point": 0.004246284501061569,
+            "upper_95": 0.009119378974501064
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0005561694223107073,
+            "point": 0.004246284501061569,
+            "upper_95": 0.009119378974501064
+          },
+          "net_benefit_treat_all": -0.08330805783035083
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0041023778495114654,
+            "point": -0.00034121929026387655,
+            "upper_95": 0.003648054065225168
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0041023778495114654,
+            "point": -0.00034121929026387655,
+            "upper_95": 0.003648054065225168
+          },
+          "net_benefit_treat_all": -0.2187215650591447
+        }
+      },
+      "label_key": "164917005",
+      "max_net_benefit_gain": 0.012021237676238004,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 55,
+      "prevalence": 0.02502274795268426,
+      "records": 2198,
+      "superior_threshold_count": 16,
+      "superior_threshold_max": 0.16,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "right axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.005404836350957463,
+            "point": 0.009793592260907045,
+            "upper_95": 0.015083416558787942
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005404836350957463,
+            "point": 0.009793592260907045,
+            "upper_95": 0.015083416558787942
+          },
+          "net_benefit_treat_all": -0.04018006800440592
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.005080472273920263,
+            "point": 0.009453038115458497,
+            "upper_95": 0.014734480981934289
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005080472273920263,
+            "point": 0.009453038115458497,
+            "upper_95": 0.014734480981934289
+          },
+          "net_benefit_treat_all": -0.09796784956020625
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.004767379055772846,
+            "point": 0.009212920837124659,
+            "upper_95": 0.014486315525115192
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004767379055772846,
+            "point": 0.009212920837124659,
+            "upper_95": 0.014486315525115192
+          },
+          "net_benefit_treat_all": -0.23521383075523203
+        }
+      },
+      "label_key": "47665007",
+      "max_net_benefit_gain": 0.010408348962879056,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 26,
+      "prevalence": 0.011828935395814377,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "sinus bradycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.012838151668346594,
+            "point": 0.01937167760164743,
+            "upper_95": 0.02631578947368421
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.012838151668346594,
+            "point": 0.01937167760164743,
+            "upper_95": 0.02631578947368421
+          },
+          "net_benefit_treat_all": -0.021981705856999188
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.01020350740784107,
+            "point": 0.016530178950561115,
+            "upper_95": 0.023061722381733655
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01020350740784107,
+            "point": 0.016530178950561115,
+            "upper_95": 0.023061722381733655
+          },
+          "net_benefit_treat_all": -0.07875846729349915
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.008240470814879748,
+            "point": 0.014331210191082803,
+            "upper_95": 0.020729203908189216
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.008240470814879748,
+            "point": 0.014331210191082803,
+            "upper_95": 0.020729203908189216
+          },
+          "net_benefit_treat_all": -0.21360327570518653
+        }
+      },
+      "label_key": "426177001",
+      "max_net_benefit_gain": 0.022297683930095777,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 64,
+      "prevalence": 0.029117379435850774,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "sinus tachycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.027157082260759458,
+            "point": 0.03498395670705426,
+            "upper_95": 0.0431975983365676
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.027157082260759458,
+            "point": 0.03498395670705426,
+            "upper_95": 0.0431975983365676
+          },
+          "net_benefit_treat_all": -0.013361429050332843
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.026030221532079505,
+            "point": 0.034020827014457584,
+            "upper_95": 0.042129734334712135
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.026030221532079505,
+            "point": 0.034020827014457584,
+            "upper_95": 0.042129734334712135
+          },
+          "net_benefit_treat_all": -0.06965928621979578
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.02523118958558281,
+            "point": 0.033212010919017286,
+            "upper_95": 0.041494738982193774
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02523118958558281,
+            "point": 0.033212010919017286,
+            "upper_95": 0.041494738982193774
+          },
+          "net_benefit_treat_all": -0.20336669699727022
+        }
+      },
+      "label_key": "427084000",
+      "max_net_benefit_gain": 0.035183500151653016,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 82,
+      "prevalence": 0.0373066424021838,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "t wave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.07278868456921496,
+            "point": 0.08553230209281164,
+            "upper_95": 0.09858651007097112
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.024200851088514868,
+            "point": 0.0275369953546286,
+            "upper_95": 0.030627012544325403
+          },
+          "net_benefit_treat_all": 0.05799530673818304
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.05856714520841035,
+            "point": 0.0716307754524315,
+            "upper_95": 0.08482588688931576
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.05844239718580973,
+            "point": 0.06596906278434941,
+            "upper_95": 0.07010527040224111
+          },
+          "net_benefit_treat_all": 0.005661712668082089
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.04414381367823805,
+            "point": 0.056414922656960874,
+            "upper_95": 0.06954053181266835
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.04414381367823805,
+            "point": 0.056414922656960874,
+            "upper_95": 0.06954053181266835
+          },
+          "net_benefit_treat_all": -0.11863057324840764
+        }
+      },
+      "label_key": "164934002",
+      "max_net_benefit_gain": 0.07045219862796617,
+      "max_net_benefit_gain_threshold": 0.11,
+      "positives": 231,
+      "prevalence": 0.10509554140127389,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ptb_test",
+      "diagnosis": "t wave inversion",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0028679144418924545,
+            "point": 0.006896221445333077,
+            "upper_95": 0.011254139400343323
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0028679144418924545,
+            "point": 0.006896221445333077,
+            "upper_95": 0.011254139400343323
+          },
+          "net_benefit_treat_all": -0.03874335520329486
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0006973405484287306,
+            "point": 0.004347386512991608,
+            "upper_95": 0.00833091816131798
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0006973405484287306,
+            "point": 0.004347386512991608,
+            "upper_95": 0.00833091816131798
+          },
+          "net_benefit_treat_all": -0.09645131938125569
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.002743799278275877,
+            "point": 0.0,
+            "upper_95": 0.002972312319451755
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.002743799278275877,
+            "point": 0.0,
+            "upper_95": 0.002972312319451755
+          },
+          "net_benefit_treat_all": -0.23350773430391264
+        }
+      },
+      "label_key": "59931005",
+      "max_net_benefit_gain": 0.010194796754006426,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 29,
+      "prevalence": 0.013193812556869881,
+      "records": 2198,
+      "superior_threshold_count": 26,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.015537349178958326,
+            "point": 0.02332263780470284,
+            "upper_95": 0.03140239657826377
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015537349178958326,
+            "point": 0.02332263780470284,
+            "upper_95": 0.03140239657826377
+          },
+          "net_benefit_treat_all": -0.02677074852736938
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.014545493721766244,
+            "point": 0.022444646648468305,
+            "upper_95": 0.030656999505480915
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.014545493721766244,
+            "point": 0.022444646648468305,
+            "upper_95": 0.030656999505480915
+          },
+          "net_benefit_treat_all": -0.08381356789000101
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.012962216550968252,
+            "point": 0.020928116469517744,
+            "upper_95": 0.02922824998792184
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.012962216550968252,
+            "point": 0.020928116469517744,
+            "upper_95": 0.02922824998792184
+          },
+          "net_benefit_treat_all": -0.2192902638762511
+        }
+      },
+      "label_key": "733534002|164909002",
+      "max_net_benefit_gain": 0.023620348395448534,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 54,
+      "prevalence": 0.02456778889899909,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.016002060587346597,
+            "point": 0.023753651645036157,
+            "upper_95": 0.031374643721426974
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.016002060587346597,
+            "point": 0.023753651645036157,
+            "upper_95": 0.031374643721426974
+          },
+          "net_benefit_treat_all": -0.02677074852736938
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.01570542415167976,
+            "point": 0.023304013749873623,
+            "upper_95": 0.030875894608005647
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01570542415167976,
+            "point": 0.023304013749873623,
+            "upper_95": 0.030875894608005647
+          },
+          "net_benefit_treat_all": -0.08381356789000101
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.014650824681298462,
+            "point": 0.02240673339399454,
+            "upper_95": 0.029996078059406742
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.014650824681298462,
+            "point": 0.02240673339399454,
+            "upper_95": 0.029996078059406742
+          },
+          "net_benefit_treat_all": -0.2192902638762511
+        }
+      },
+      "label_key": "713427006|59118001",
+      "max_net_benefit_gain": 0.02400495295629579,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 54,
+      "prevalence": 0.02456778889899909,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "1st degree av block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.02148486482036582,
+            "point": 0.0297399549829989,
+            "upper_95": 0.03874023475135191
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02148486482036582,
+            "point": 0.0297399549829989,
+            "upper_95": 0.03874023475135191
+          },
+          "net_benefit_treat_all": -0.014798141851443902
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.019709853164848683,
+            "point": 0.027954706298655346,
+            "upper_95": 0.0368861421607176
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.019709853164848683,
+            "point": 0.027954706298655346,
+            "upper_95": 0.0368861421607176
+          },
+          "net_benefit_treat_all": -0.07117581639874634
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.01388140355182779,
+            "point": 0.02183803457688808,
+            "upper_95": 0.030127713837628994
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01388140355182779,
+            "point": 0.02183803457688808,
+            "upper_95": 0.030127713837628994
+          },
+          "net_benefit_treat_all": -0.20507279344858964
+        }
+      },
+      "label_key": "270492004",
+      "max_net_benefit_gain": 0.030899302396117684,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 79,
+      "prevalence": 0.0359417652411283,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "left axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.2001409381497095,
+            "point": 0.22010440113021407,
+            "upper_95": 0.24142762544973698
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015777416686662153,
+            "point": 0.019874527082036297,
+            "upper_95": 0.023559139891621724
+          },
+          "net_benefit_treat_all": 0.20022987404817777
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.18791335412937984,
+            "point": 0.20867455262359721,
+            "upper_95": 0.22954438930245383
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.04745178550594359,
+            "point": 0.05287635223940959,
+            "upper_95": 0.058089540779117335
+          },
+          "net_benefit_treat_all": 0.15579820038418762
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.16288131171636455,
+            "point": 0.18346223839854414,
+            "upper_95": 0.2043587403012323
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.12337337918872539,
+            "point": 0.13318926296633304,
+            "upper_95": 0.14240468435186143
+          },
+          "net_benefit_treat_all": 0.0502729754322111
+        }
+      },
+      "label_key": "39732003",
+      "max_net_benefit_gain": 0.1755902495091231,
+      "max_net_benefit_gain_threshold": 0.24,
+      "positives": 528,
+      "prevalence": 0.24021838034576887,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.00557661324287481,
+            "point": 0.011062688568555145,
+            "upper_95": 0.01700391905225574
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00557661324287481,
+            "point": 0.011062688568555145,
+            "upper_95": 0.01700391905225574
+          },
+          "net_benefit_treat_all": -0.014798141851443902
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.003096111986302851,
+            "point": 0.007835405924577899,
+            "upper_95": 0.013244363562834899
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.003096111986302851,
+            "point": 0.007835405924577899,
+            "upper_95": 0.013244363562834899
+          },
+          "net_benefit_treat_all": -0.07117581639874634
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0013661513516744631,
+            "point": 0.002274795268425841,
+            "upper_95": 0.006628009266334626
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0013661513516744631,
+            "point": 0.002274795268425841,
+            "upper_95": 0.006628009266334626
+          },
+          "net_benefit_treat_all": -0.20507279344858964
+        }
+      },
+      "label_key": "698252002",
+      "max_net_benefit_gain": 0.014122687291477098,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 79,
+      "prevalence": 0.0359417652411283,
+      "records": 2198,
+      "superior_threshold_count": 35,
+      "superior_threshold_max": 0.47,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "sinus rhythm",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.8036424003935071,
+            "point": 0.8209616397682103,
+            "upper_95": 0.8393594338986188
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0004291007905137978,
+            "point": 0.0010296441741296514,
+            "upper_95": 0.0021139323944330546
+          },
+          "net_benefit_treat_all": 0.8199319955940807
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.7957998197637928,
+            "point": 0.8138711960368011,
+            "upper_95": 0.8328756317960032
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0016684359612901157,
+            "point": 0.003942978465271474,
+            "upper_95": 0.005908782231276784
+          },
+          "net_benefit_treat_all": 0.8099282175715297
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.7813454978761619,
+            "point": 0.8002729754322111,
+            "upper_95": 0.8204930509692147
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.009876936445315152,
+            "point": 0.0141037306642402,
+            "upper_95": 0.018164342590127856
+          },
+          "net_benefit_treat_all": 0.7861692447679709
+        }
+      },
+      "label_key": "426783006",
+      "max_net_benefit_gain": 0.08826205641492268,
+      "max_net_benefit_gain_threshold": 0.5,
+      "positives": 1822,
+      "prevalence": 0.8289353958143767,
+      "records": 2198,
+      "superior_threshold_count": 49,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.00698402353847,
+            "point": 0.012451510942962502,
+            "upper_95": 0.01842951142616274
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00698402353847,
+            "point": 0.012451510942962502,
+            "upper_95": 0.01842951142616274
+          },
+          "net_benefit_treat_all": -0.02677074852736938
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0024260099036133415,
+            "point": 0.007077140835102618,
+            "upper_95": 0.012048242622747635
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0024260099036133415,
+            "point": 0.007077140835102618,
+            "upper_95": 0.012048242622747635
+          },
+          "net_benefit_treat_all": -0.08381356789000101
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.00114144863948546,
+            "point": 0.0048908098271155595,
+            "upper_95": 0.008810169497741008
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00114144863948546,
+            "point": 0.0048908098271155595,
+            "upper_95": 0.008810169497741008
+          },
+          "net_benefit_treat_all": -0.2192902638762511
+        }
+      },
+      "label_key": "284470004|63593006",
+      "max_net_benefit_gain": 0.014624353911240772,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 54,
+      "prevalence": 0.02456778889899909,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "qwave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.002286985875198187,
+            "point": 0.008093482112925623,
+            "upper_95": 0.014332765510800169
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.002286985875198187,
+            "point": 0.008093482112925623,
+            "upper_95": 0.014332765510800169
+          },
+          "net_benefit_treat_all": -0.026291844260332365
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.0036527114407016365,
+            "point": 0.0017692852087756537,
+            "upper_95": 0.00739803623695552
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0036527114407016365,
+            "point": 0.0017692852087756537,
+            "upper_95": 0.00739803623695552
+          },
+          "net_benefit_treat_all": -0.08330805783035083
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.00899802995568894,
+            "point": -0.0043221110100090995,
+            "upper_95": 0.000557332443689692
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.00899802995568894,
+            "point": -0.0043221110100090995,
+            "upper_95": 0.000557332443689692
+          },
+          "net_benefit_treat_all": -0.2187215650591447
+        }
+      },
+      "label_key": "164917005",
+      "max_net_benefit_gain": 0.011946192883877564,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 55,
+      "prevalence": 0.02502274795268426,
+      "records": 2198,
+      "superior_threshold_count": 12,
+      "superior_threshold_max": 0.12,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "right axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.003943071183826962,
+            "point": 0.008380824673147838,
+            "upper_95": 0.013655677699473578
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.003943071183826962,
+            "point": 0.008380824673147838,
+            "upper_95": 0.013655677699473578
+          },
+          "net_benefit_treat_all": -0.04018006800440592
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.003486194871167977,
+            "point": 0.007936507936507936,
+            "upper_95": 0.013293607994488142
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.003486194871167977,
+            "point": 0.007936507936507936,
+            "upper_95": 0.013293607994488142
+          },
+          "net_benefit_treat_all": -0.09796784956020625
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0036727166917963775,
+            "point": 0.00818926296633303,
+            "upper_95": 0.013628239499553172
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0036727166917963775,
+            "point": 0.00818926296633303,
+            "upper_95": 0.013628239499553172
+          },
+          "net_benefit_treat_all": -0.23521383075523203
+        }
+      },
+      "label_key": "47665007",
+      "max_net_benefit_gain": 0.009944105030547252,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 26,
+      "prevalence": 0.011828935395814377,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "sinus bradycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.013389239471789098,
+            "point": 0.02032948613572147,
+            "upper_95": 0.027445691357637688
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.013389239471789098,
+            "point": 0.02032948613572147,
+            "upper_95": 0.027445691357637688
+          },
+          "net_benefit_treat_all": -0.021981705856999188
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.009635841104959852,
+            "point": 0.016226872914771005,
+            "upper_95": 0.02301756165014551
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.009635841104959852,
+            "point": 0.016226872914771005,
+            "upper_95": 0.02301756165014551
+          },
+          "net_benefit_treat_all": -0.07875846729349915
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.007007790280267698,
+            "point": 0.012966333030027297,
+            "upper_95": 0.019545773543069907
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.007007790280267698,
+            "point": 0.012966333030027297,
+            "upper_95": 0.019545773543069907
+          },
+          "net_benefit_treat_all": -0.21360327570518653
+        }
+      },
+      "label_key": "426177001",
+      "max_net_benefit_gain": 0.023353001322664463,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 64,
+      "prevalence": 0.029117379435850774,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "sinus tachycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.026423284919522894,
+            "point": 0.03421770987979503,
+            "upper_95": 0.04243705866326399
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.026423284919522894,
+            "point": 0.03421770987979503,
+            "upper_95": 0.04243705866326399
+          },
+          "net_benefit_treat_all": -0.013361429050332843
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.025413888921293218,
+            "point": 0.033212010919017286,
+            "upper_95": 0.041516678008327465
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.025413888921293218,
+            "point": 0.033212010919017286,
+            "upper_95": 0.041516678008327465
+          },
+          "net_benefit_treat_all": -0.06965928621979578
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.02279003951006512,
+            "point": 0.030823475887170153,
+            "upper_95": 0.0392429428203358
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02279003951006512,
+            "point": 0.030823475887170153,
+            "upper_95": 0.0392429428203358
+          },
+          "net_benefit_treat_all": -0.20336669699727022
+        }
+      },
+      "label_key": "427084000",
+      "max_net_benefit_gain": 0.03448210494388838,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 82,
+      "prevalence": 0.0373066424021838,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "t wave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.07220739731037622,
+            "point": 0.08505339782577463,
+            "upper_95": 0.09821316873440755
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02335430151381871,
+            "point": 0.027058091087591593,
+            "upper_95": 0.030555031500877027
+          },
+          "net_benefit_treat_all": 0.05799530673818304
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.060915144228914746,
+            "point": 0.07340006066120716,
+            "upper_95": 0.08616859906864605
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0604832159314365,
+            "point": 0.06773834799312507,
+            "upper_95": 0.07213592760878965
+          },
+          "net_benefit_treat_all": 0.005661712668082089
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.046019744670723825,
+            "point": 0.058007279344858956,
+            "upper_95": 0.07048916597390764
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.046019744670723825,
+            "point": 0.058007279344858956,
+            "upper_95": 0.07048916597390764
+          },
+          "net_benefit_treat_all": -0.11863057324840764
+        }
+      },
+      "label_key": "164934002",
+      "max_net_benefit_gain": 0.070585108014436,
+      "max_net_benefit_gain_threshold": 0.11,
+      "positives": 231,
+      "prevalence": 0.10509554140127389,
+      "records": 2198,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ptb_test",
+      "diagnosis": "t wave inversion",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0025025502331641747,
+            "point": 0.006848331018629375,
+            "upper_95": 0.011637373688999569
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0025025502331641747,
+            "point": 0.006848331018629375,
+            "upper_95": 0.011637373688999569
+          },
+          "net_benefit_treat_all": -0.03874335520329486
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.0019302295860299027,
+            "point": 0.0018198362147406732,
+            "upper_95": 0.005903925242214381
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0019302295860299027,
+            "point": 0.0018198362147406732,
+            "upper_95": 0.005903925242214381
+          },
+          "net_benefit_treat_all": -0.09645131938125569
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.006053130619635987,
+            "point": -0.0026160145586897167,
+            "upper_95": 0.0009209489250957689
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.006053130619635987,
+            "point": -0.0026160145586897167,
+            "upper_95": 0.0009209489250957689
+          },
+          "net_benefit_treat_all": -0.23350773430391264
+        }
+      },
+      "label_key": "59931005",
+      "max_net_benefit_gain": 0.010269075783179513,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 29,
+      "prevalence": 0.013193812556869881,
+      "records": 2198,
+      "superior_threshold_count": 14,
+      "superior_threshold_max": 0.14,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.006820995105114205,
+            "point": 0.008716286666700908,
+            "upper_95": 0.010570744710903832
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.006820995105114205,
+            "point": 0.008716286666700908,
+            "upper_95": 0.010570744710903832
+          },
+          "net_benefit_treat_all": -0.031572783818627284
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.006266874857681923,
+            "point": 0.008034871995055462,
+            "upper_95": 0.009921874152868588
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.006266874857681923,
+            "point": 0.008034871995055462,
+            "upper_95": 0.009921874152868588
+          },
+          "net_benefit_treat_all": -0.08888238291966213
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.005147848150678248,
+            "point": 0.006880062457304577,
+            "upper_95": 0.008612276763930907
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005147848150678248,
+            "point": 0.006880062457304577,
+            "upper_95": 0.008612276763930907
+          },
+          "net_benefit_treat_all": -0.2249926807846199
+        }
+      },
+      "label_key": "733534002|164909002",
+      "max_net_benefit_gain": 0.009061885708709172,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 205,
+      "prevalence": 0.02000585537230409,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.03315437637716816,
+            "point": 0.036924799556224415,
+            "upper_95": 0.04064925292640208
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03315437637716816,
+            "point": 0.036924799556224415,
+            "upper_95": 0.04064861088996523
+          },
+          "net_benefit_treat_all": -0.005994052174449004
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.031846448282966296,
+            "point": 0.03534909946542619,
+            "upper_95": 0.039068616288778286
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.031846448282966296,
+            "point": 0.03534909946542619,
+            "upper_95": 0.039068616288778286
+          },
+          "net_benefit_treat_all": -0.06188261062858507
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.029789206597052798,
+            "point": 0.03332682736410657,
+            "upper_95": 0.03686505806577535
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.029789206597052798,
+            "point": 0.03332682736410657,
+            "upper_95": 0.03686505806577535
+          },
+          "net_benefit_treat_all": -0.19461793695715818
+        }
+      },
+      "label_key": "713427006|59118001",
+      "max_net_benefit_gain": 0.036924799556224415,
+      "max_net_benefit_gain_threshold": 0.05,
+      "positives": 454,
+      "prevalence": 0.044305650434273446,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "1st degree av block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.015372792036693667,
+            "point": 0.018233834806592946,
+            "upper_95": 0.021007432213792997
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015372792036693667,
+            "point": 0.018233834806592946,
+            "upper_95": 0.021007432213792997
+          },
+          "net_benefit_treat_all": -0.027258298962982756
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.013369495678952103,
+            "point": 0.016123960400333974,
+            "upper_95": 0.01884589527558201
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.013369495678952103,
+            "point": 0.016123960400333974,
+            "upper_95": 0.01884589527558201
+          },
+          "net_benefit_treat_all": -0.08432820446092625
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.01068605445496243,
+            "point": 0.013101395530399143,
+            "upper_95": 0.015614326144237337
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01068605445496243,
+            "point": 0.013101395530399143,
+            "upper_95": 0.015614326144237337
+          },
+          "net_benefit_treat_all": -0.21986923001854203
+        }
+      },
+      "label_key": "270492004",
+      "max_net_benefit_gain": 0.01919998712220524,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 247,
+      "prevalence": 0.02410461598516639,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "left axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.02257361589784944,
+            "point": 0.026297812453452356,
+            "upper_95": 0.030245180874504975
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02257361589784944,
+            "point": 0.026297812453452356,
+            "upper_95": 0.030245180874504975
+          },
+          "net_benefit_treat_all": -0.013390311926982486
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.014963458139509667,
+            "point": 0.01880225106535246,
+            "upper_95": 0.022803422139813276
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.014963458139509667,
+            "point": 0.01880225106535246,
+            "upper_95": 0.022803422139813276
+          },
+          "net_benefit_treat_all": -0.06968977370070374
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0019511808334146568,
+            "point": 0.005977359227090858,
+            "upper_95": 0.010027325070752414
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0019511808334146568,
+            "point": 0.005977359227090858,
+            "upper_95": 0.010027325070752414
+          },
+          "net_benefit_treat_all": -0.2034009954132917
+        }
+      },
+      "label_key": "39732003",
+      "max_net_benefit_gain": 0.027784554829055657,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 382,
+      "prevalence": 0.03727920366936664,
+      "records": 10247,
+      "superior_threshold_count": 24,
+      "superior_threshold_max": 0.24,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.002023442034382335,
+            "point": 0.003805991997657851,
+            "upper_95": 0.005737366006995629
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.002023442034382335,
+            "point": 0.003805991997657851,
+            "upper_95": 0.005737366006995629
+          },
+          "net_benefit_treat_all": -0.028491008921738333
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -8.674625635687365e-05,
+            "point": 0.0014855296401114684,
+            "upper_95": 0.0031445517929366866
+          },
+          "net_benefit_gain": {
+            "lower_95": -8.674625635687365e-05,
+            "point": 0.0014855296401114684,
+            "upper_95": 0.0031445517929366866
+          },
+          "net_benefit_treat_all": -0.08562939830627934
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0013906509222211378,
+            "point": -0.00017078169220259608,
+            "upper_95": 0.0011466770762174295
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0013906509222211378,
+            "point": -0.00017078169220259608,
+            "upper_95": 0.0011466770762174295
+          },
+          "net_benefit_treat_all": -0.22133307309456426
+        }
+      },
+      "label_key": "698252002",
+      "max_net_benefit_gain": 0.0058795181692605026,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 235,
+      "prevalence": 0.02293354152434859,
+      "records": 10247,
+      "superior_threshold_count": 18,
+      "superior_threshold_max": 0.42,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "sinus rhythm",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.13576720786058052,
+            "point": 0.143554210988582,
+            "upper_95": 0.15110969577745476
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.008238611557683129,
+            "point": 0.0086084245453098,
+            "upper_95": 0.008973101241441628
+          },
+          "net_benefit_treat_all": 0.1349457864432722
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.10342186873122758,
+            "point": 0.11159905880311852,
+            "upper_95": 0.11954799778797044
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.023789618641770476,
+            "point": 0.024711839779664513,
+            "upper_95": 0.025600988907322472
+          },
+          "net_benefit_treat_all": 0.086887219023454
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.033887967209915104,
+            "point": 0.04308578120425491,
+            "upper_95": 0.05211342344100714
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.033887967209915104,
+            "point": 0.04308578120425491,
+            "upper_95": 0.05211342344100714
+          },
+          "net_benefit_treat_all": -0.02725187859861425
+        }
+      },
+      "label_key": "426783006",
+      "max_net_benefit_gain": 0.057106541593375346,
+      "max_net_benefit_gain_threshold": 0.18,
+      "positives": 1826,
+      "prevalence": 0.1781984971211086,
+      "records": 10247,
+      "superior_threshold_count": 25,
+      "superior_threshold_max": 0.25,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.007021310473411986,
+            "point": 0.009563774763345368,
+            "upper_95": 0.012198692300185419
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.007021310473411986,
+            "point": 0.009563774763345368,
+            "upper_95": 0.012198692300185419
+          },
+          "net_benefit_treat_all": -0.026128314834123468
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.003491265736313067,
+            "point": 0.005465014150483068,
+            "upper_95": 0.007579454149181873
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.003491265736313067,
+            "point": 0.005465014150483068,
+            "upper_95": 0.007579454149181873
+          },
+          "net_benefit_treat_all": -0.08313544343601922
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0004153654728213138,
+            "point": 0.0005611398458085295,
+            "upper_95": 0.0016834195374255878
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0004153654728213138,
+            "point": 0.0005611398458085295,
+            "upper_95": 0.0016834195374255878
+          },
+          "net_benefit_treat_all": -0.21852737386552162
+        }
+      },
+      "label_key": "284470004|63593006",
+      "max_net_benefit_gain": 0.012758071509991862,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 258,
+      "prevalence": 0.02517810090758271,
+      "records": 10247,
+      "superior_threshold_count": 22,
+      "superior_threshold_max": 0.44,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "qwave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.004293939689665268,
+            "point": 0.0061995038342416,
+            "upper_95": 0.008105196386105303
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004293939689665268,
+            "point": 0.0061995038342416,
+            "upper_95": 0.008105196386105303
+          },
+          "net_benefit_treat_all": -0.028491008921738333
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0017023952810036541,
+            "point": 0.0031445517929366857,
+            "upper_95": 0.004651767997137374
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0017023952810036541,
+            "point": 0.0031445517929366857,
+            "upper_95": 0.004651767997137374
+          },
+          "net_benefit_treat_all": -0.08562939830627934
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -9.758953840148347e-05,
+            "point": 0.0010002927686152043,
+            "upper_95": 0.0021713672294330043
+          },
+          "net_benefit_gain": {
+            "lower_95": -9.758953840148347e-05,
+            "point": 0.0010002927686152043,
+            "upper_95": 0.0021713672294330043
+          },
+          "net_benefit_treat_all": -0.22133307309456426
+        }
+      },
+      "label_key": "164917005",
+      "max_net_benefit_gain": 0.009226738728659834,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 235,
+      "prevalence": 0.02293354152434859,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "right axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.01313863364373655,
+            "point": 0.015640007601711414,
+            "upper_95": 0.01813663049005357
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01313863364373655,
+            "point": 0.015640007601711414,
+            "upper_95": 0.01813663049005357
+          },
+          "net_benefit_treat_all": -0.030545525519664298
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.01071316266007395,
+            "point": 0.013131214556021818,
+            "upper_95": 0.015571495180161127
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01071316266007395,
+            "point": 0.013131214556021818,
+            "upper_95": 0.015571495180161127
+          },
+          "net_benefit_treat_all": -0.0877980547152012
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0072948179955108815,
+            "point": 0.009685761686347223,
+            "upper_95": 0.012174904850200053
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0072948179955108815,
+            "point": 0.009685761686347223,
+            "upper_95": 0.012174904850200053
+          },
+          "net_benefit_treat_all": -0.22377281155460135
+        }
+      },
+      "label_key": "47665007",
+      "max_net_benefit_gain": 0.016648574035749965,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 215,
+      "prevalence": 0.02098175075631892,
+      "records": 10247,
+      "superior_threshold_count": 47,
+      "superior_threshold_max": 0.47,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "sinus bradycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.1641711566414817,
+            "point": 0.17124395843712922,
+            "upper_95": 0.1784660979079885
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.1839314972803337,
+            "point": -0.17562521508220633,
+            "upper_95": -0.16717485990764952
+          },
+          "net_benefit_treat_all": 0.34686917351933555
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.09865190895980396,
+            "point": 0.10469188814070243,
+            "upper_95": 0.11037403901412879
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.2154251108725589,
+            "point": -0.20589223946304067,
+            "upper_95": -0.19596846773581428
+          },
+          "net_benefit_treat_all": 0.3105841276037431
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.05684407631501903,
+            "point": 0.061627793500536744,
+            "upper_95": 0.0660193227286035
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.17458829413486873,
+            "point": -0.16277935005367425,
+            "upper_95": -0.15131257929149994
+          },
+          "net_benefit_treat_all": 0.22440714355421099
+        }
+      },
+      "label_key": "426177001",
+      "max_net_benefit_gain": 0.03920895809001533,
+      "max_net_benefit_gain_threshold": 0.38,
+      "positives": 3889,
+      "prevalence": 0.3795257148433688,
+      "records": 10247,
+      "superior_threshold_count": 15,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.36,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "sinus tachycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.14182315234754203,
+            "point": 0.1482230999573688,
+            "upper_95": 0.15534251359833176
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03851704991961705,
+            "point": 0.03978057762734151,
+            "upper_95": 0.040838782082560775
+          },
+          "net_benefit_treat_all": 0.10844252233002728
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.13878262472485173,
+            "point": 0.14527829283367488,
+            "upper_95": 0.1522835951985947
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.08450115480953775,
+            "point": 0.08636674148531276,
+            "upper_95": 0.08809082333040565
+          },
+          "net_benefit_treat_all": 0.05891155134836212
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.1356970332780326,
+            "point": 0.14211476529716013,
+            "upper_95": 0.1488752805699229
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.1356970332780326,
+            "point": 0.14211476529716013,
+            "upper_95": 0.1488752805699229
+          },
+          "net_benefit_treat_all": -0.0587245047330926
+        }
+      },
+      "label_key": "427084000",
+      "max_net_benefit_gain": 0.14347520993368557,
+      "max_net_benefit_gain_threshold": 0.16,
+      "positives": 1568,
+      "prevalence": 0.15302039621352592,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "t wave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.11924350130718618,
+            "point": 0.1262603175255402,
+            "upper_95": 0.13280921758871658
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.017761681210932086,
+            "point": -0.01382176041254693,
+            "upper_95": -0.010184880812355851
+          },
+          "net_benefit_treat_all": 0.14008207793808714
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.09228608915346496,
+            "point": 0.09873892629821193,
+            "upper_95": 0.1051150472224933
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0014746863580668839,
+            "point": 0.0064300662524532926,
+            "upper_95": 0.010930299383017249
+          },
+          "net_benefit_treat_all": 0.09230886004575864
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.05391761003220455,
+            "point": 0.06045671903971894,
+            "upper_95": 0.06677686152044501
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.05391761003220455,
+            "point": 0.06045671903971894,
+            "upper_95": 0.06677686152044501
+          },
+          "net_benefit_treat_all": -0.021152532448521527
+        }
+      },
+      "label_key": "164934002",
+      "max_net_benefit_gain": 0.06335850179576799,
+      "max_net_benefit_gain_threshold": 0.19,
+      "positives": 1876,
+      "prevalence": 0.18307797404118278,
+      "records": 10247,
+      "superior_threshold_count": 42,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.09,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "t wave inversion",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0016487495698355873,
+            "point": 0.0032615450992074706,
+            "upper_95": 0.004905415192122981
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0016487495698355873,
+            "point": 0.0032615450992074706,
+            "upper_95": 0.004905415192122981
+          },
+          "net_benefit_treat_all": -0.0365036236536496
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.0010845992865120425,
+            "point": 0.00028192533315984057,
+            "upper_95": 0.0017246240091950997
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0010845992865120425,
+            "point": 0.00028192533315984057,
+            "upper_95": 0.0017246240091950997
+          },
+          "net_benefit_treat_all": -0.09408715830107459
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0033668390748511755,
+            "point": -0.002220161998633746,
+            "upper_95": -0.0010002927686152048
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0033668390748511755,
+            "point": -0.002220161998633746,
+            "upper_95": -0.0010002927686152048
+          },
+          "net_benefit_treat_all": -0.2308480530887089
+        }
+      },
+      "label_key": "59931005",
+      "max_net_benefit_gain": 0.007566176660963986,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 157,
+      "prevalence": 0.015321557529032888,
+      "records": 10247,
+      "superior_threshold_count": 10,
+      "superior_threshold_max": 0.1,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.007293405515349807,
+            "point": 0.009132326277780918,
+            "upper_95": 0.01100720108067573
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.007293405515349807,
+            "point": 0.009132326277780918,
+            "upper_95": 0.01100720108067573
+          },
+          "net_benefit_treat_all": -0.031572783818627284
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0062457304576949355,
+            "point": 0.00806740184118929,
+            "upper_95": 0.009867386660594429
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0062457304576949355,
+            "point": 0.00806740184118929,
+            "upper_95": 0.009867386660594429
+          },
+          "net_benefit_treat_all": -0.08888238291966213
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.005416219381282327,
+            "point": 0.007246023226310139,
+            "upper_95": 0.009027642236752217
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005416219381282327,
+            "point": 0.007246023226310139,
+            "upper_95": 0.009027642236752217
+          },
+          "net_benefit_treat_all": -0.2249926807846199
+        }
+      },
+      "label_key": "733534002|164909002",
+      "max_net_benefit_gain": 0.010392290028141639,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 205,
+      "prevalence": 0.02000585537230409,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.033452538098442154,
+            "point": 0.037161068964985895,
+            "upper_95": 0.04082850949957112
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.033452538098442154,
+            "point": 0.037161068964985895,
+            "upper_95": 0.04081836532386886
+          },
+          "net_benefit_treat_all": -0.005994052174449004
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.03182421955477484,
+            "point": 0.035435845721783064,
+            "upper_95": 0.03913367598104594
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03182421955477484,
+            "point": 0.035435845721783064,
+            "upper_95": 0.03913367598104594
+          },
+          "net_benefit_treat_all": -0.06188261062858507
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.029105469893627403,
+            "point": 0.03259490582609544,
+            "upper_95": 0.036133136527764224
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.029105469893627403,
+            "point": 0.03259490582609544,
+            "upper_95": 0.036133136527764224
+          },
+          "net_benefit_treat_all": -0.19461793695715818
+        }
+      },
+      "label_key": "713427006|59118001",
+      "max_net_benefit_gain": 0.037161068964985895,
+      "max_net_benefit_gain_threshold": 0.05,
+      "positives": 454,
+      "prevalence": 0.044305650434273446,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "1st degree av block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.013703368893591448,
+            "point": 0.01654913119629365,
+            "upper_95": 0.019307448136296628
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.013703368893591448,
+            "point": 0.01654913119629365,
+            "upper_95": 0.019307448136296628
+          },
+          "net_benefit_treat_all": -0.027258298962982756
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.011830020710668706,
+            "point": 0.014486624811597973,
+            "upper_95": 0.017197987486852518
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.011830020710668706,
+            "point": 0.014486624811597973,
+            "upper_95": 0.017197987486852518
+          },
+          "net_benefit_treat_all": -0.08432820446092625
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.008539084610129793,
+            "point": 0.010905630916365766,
+            "upper_95": 0.01332219186103249
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.008539084610129793,
+            "point": 0.010905630916365766,
+            "upper_95": 0.01332219186103249
+          },
+          "net_benefit_treat_all": -0.21986923001854203
+        }
+      },
+      "label_key": "270492004",
+      "max_net_benefit_gain": 0.018104368490048383,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 247,
+      "prevalence": 0.02410461598516639,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "left axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0203343212133975,
+            "point": 0.02402757161274417,
+            "upper_95": 0.027878249346406883
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0203343212133975,
+            "point": 0.02402757161274417,
+            "upper_95": 0.027878249346406883
+          },
+          "net_benefit_treat_all": -0.013390311926982486
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.011970983377248626,
+            "point": 0.015776975374906476,
+            "upper_95": 0.01971335783915075
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.011970983377248626,
+            "point": 0.015776975374906476,
+            "upper_95": 0.01971335783915075
+          },
+          "net_benefit_treat_all": -0.06968977370070374
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.002537327998438567,
+            "point": 0.0014882404606226252,
+            "upper_95": 0.005612008392700301
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.002537327998438567,
+            "point": 0.0014882404606226252,
+            "upper_95": 0.005612008392700301
+          },
+          "net_benefit_treat_all": -0.2034009954132917
+        }
+      },
+      "label_key": "39732003",
+      "max_net_benefit_gain": 0.025861227676393095,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 382,
+      "prevalence": 0.03727920366936664,
+      "records": 10247,
+      "superior_threshold_count": 20,
+      "superior_threshold_max": 0.2,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0021468414375452626,
+            "point": 0.004073079155388226,
+            "upper_95": 0.006143261442373376
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0021468414375452626,
+            "point": 0.004073079155388226,
+            "upper_95": 0.006143261442373376
+          },
+          "net_benefit_treat_all": -0.028491008921738333
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -4.3644210229552887e-05,
+            "point": 0.0015289027682899052,
+            "upper_95": 0.0032749422595231116
+          },
+          "net_benefit_gain": {
+            "lower_95": -4.3644210229552887e-05,
+            "point": 0.0015289027682899052,
+            "upper_95": 0.0032749422595231116
+          },
+          "net_benefit_treat_all": -0.08562939830627934
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0017322143066263295,
+            "point": -0.0005611398458085295,
+            "upper_95": 0.0006837367034253899
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0017322143066263295,
+            "point": -0.0005611398458085295,
+            "upper_95": 0.0006837367034253899
+          },
+          "net_benefit_treat_all": -0.22133307309456426
+        }
+      },
+      "label_key": "698252002",
+      "max_net_benefit_gain": 0.006305089042908208,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 235,
+      "prevalence": 0.02293354152434859,
+      "records": 10247,
+      "superior_threshold_count": 13,
+      "superior_threshold_max": 0.14,
+      "superior_threshold_min": 0.02,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "sinus rhythm",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.1336100938400456,
+            "point": 0.14143292260122345,
+            "upper_95": 0.14909190366371672
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.006158413502283105,
+            "point": 0.00648713615795124,
+            "upper_95": 0.006820995105114192
+          },
+          "net_benefit_treat_all": 0.1349457864432722
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.09721002352992204,
+            "point": 0.10544007460178047,
+            "upper_95": 0.1134977174891296
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01775018162497424,
+            "point": 0.018552855578326463,
+            "upper_95": 0.01936610173167215
+          },
+          "net_benefit_treat_all": 0.086887219023454
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.02051576071045183,
+            "point": 0.029398848443446868,
+            "upper_95": 0.03857226505318628
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02051576071045183,
+            "point": 0.029398848443446868,
+            "upper_95": 0.03857226505318628
+          },
+          "net_benefit_treat_all": -0.02725187859861425
+        }
+      },
+      "label_key": "426783006",
+      "max_net_benefit_gain": 0.04556241327027305,
+      "max_net_benefit_gain_threshold": 0.18,
+      "positives": 1826,
+      "prevalence": 0.1781984971211086,
+      "records": 10247,
+      "superior_threshold_count": 23,
+      "superior_threshold_max": 0.23,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.005125505282675802,
+            "point": 0.007524667039903848,
+            "upper_95": 0.01000562423918682
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005125505282675802,
+            "point": 0.007524667039903848,
+            "upper_95": 0.01000562423918682
+          },
+          "net_benefit_treat_all": -0.026128314834123468
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0004985198920009103,
+            "point": 0.002483111588215521,
+            "upper_95": 0.00469514112531581
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0004985198920009103,
+            "point": 0.002483111588215521,
+            "upper_95": 0.00469514112531581
+          },
+          "net_benefit_treat_all": -0.08313544343601922
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.002464135844637455,
+            "point": -0.0010734849224163174,
+            "upper_95": 0.00026837123060408
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.002464135844637455,
+            "point": -0.0010734849224163174,
+            "upper_95": 0.00026837123060408
+          },
+          "net_benefit_treat_all": -0.21852737386552162
+        }
+      },
+      "label_key": "284470004|63593006",
+      "max_net_benefit_gain": 0.011317368221425633,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 258,
+      "prevalence": 0.02517810090758271,
+      "records": 10247,
+      "superior_threshold_count": 15,
+      "superior_threshold_max": 0.15,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "qwave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0034874135176919557,
+            "point": 0.0054547415674934385,
+            "upper_95": 0.007494362920084437
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0034874135176919557,
+            "point": 0.0054547415674934385,
+            "upper_95": 0.007494362920084437
+          },
+          "net_benefit_treat_all": -0.028491008921738333
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.00037951487156132405,
+            "point": 0.0019951638962081037,
+            "upper_95": 0.0037517755874348037
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00037951487156132405,
+            "point": 0.0019951638962081037,
+            "upper_95": 0.0037517755874348037
+          },
+          "net_benefit_treat_all": -0.08562939830627934
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.0010246901532155752,
+            "point": 0.0003415633844051913,
+            "upper_95": 0.0018054064604274417
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0010246901532155752,
+            "point": 0.0003415633844051913,
+            "upper_95": 0.0018054064604274417
+          },
+          "net_benefit_treat_all": -0.22133307309456426
+        }
+      },
+      "label_key": "164917005",
+      "max_net_benefit_gain": 0.009356522753956651,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 235,
+      "prevalence": 0.02293354152434859,
+      "records": 10247,
+      "superior_threshold_count": 34,
+      "superior_threshold_max": 0.45,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "right axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.012111375344773566,
+            "point": 0.014653839634706947,
+            "upper_95": 0.017247923654163215
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.012111375344773566,
+            "point": 0.014653839634706947,
+            "upper_95": 0.017247923654163215
+          },
+          "net_benefit_treat_all": -0.030545525519664298
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.009291337301974562,
+            "point": 0.011840863992713314,
+            "upper_95": 0.014378463073202995
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.009291337301974562,
+            "point": 0.011840863992713314,
+            "upper_95": 0.014378463073202995
+          },
+          "net_benefit_treat_all": -0.0877980547152012
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0048794769200741685,
+            "point": 0.007416804918512735,
+            "upper_95": 0.00995474285156631
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0048794769200741685,
+            "point": 0.007416804918512735,
+            "upper_95": 0.00995474285156631
+          },
+          "net_benefit_treat_all": -0.22377281155460135
+        }
+      },
+      "label_key": "47665007",
+      "max_net_benefit_gain": 0.016476699003989223,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 215,
+      "prevalence": 0.02098175075631892,
+      "records": 10247,
+      "superior_threshold_count": 46,
+      "superior_threshold_max": 0.47,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": false
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "sinus bradycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.2088636982326021,
+            "point": 0.21722917619020715,
+            "upper_95": 0.2250572696501672
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.13726841745722754,
+            "point": -0.1296399973291284,
+            "upper_95": -0.12204239494999825
+          },
+          "net_benefit_treat_all": 0.34686917351933555
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.12921857887945526,
+            "point": 0.13594222699326633,
+            "upper_95": 0.14243789510208948
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.18368546891773202,
+            "point": -0.17464190061047677,
+            "upper_95": -0.1650453249189465
+          },
+          "net_benefit_treat_all": 0.3105841276037431
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.07116717087928173,
+            "point": 0.07653459549136332,
+            "upper_95": 0.08160925148824046
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.15912157216746367,
+            "point": -0.14787254806284766,
+            "upper_95": -0.1364539621352591
+          },
+          "net_benefit_treat_all": 0.22440714355421099
+        }
+      },
+      "label_key": "426177001",
+      "max_net_benefit_gain": 0.04590485964420744,
+      "max_net_benefit_gain_threshold": 0.38,
+      "positives": 3889,
+      "prevalence": 0.3795257148433688,
+      "records": 10247,
+      "superior_threshold_count": 16,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.35,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "sinus tachycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.14014319980687542,
+            "point": 0.14660003184500725,
+            "upper_95": 0.15356009204234358
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03714553168321412,
+            "point": 0.03815750951497997,
+            "upper_95": 0.03913854119048965
+          },
+          "net_benefit_treat_all": 0.10844252233002728
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.13616966483415202,
+            "point": 0.14275180811728094,
+            "upper_95": 0.14966982206174165
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.08215927696995329,
+            "point": 0.08384025676891882,
+            "upper_95": 0.08547786343970594
+          },
+          "net_benefit_treat_all": 0.05891155134836212
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.13047660290816826,
+            "point": 0.13713769883868449,
+            "upper_95": 0.14394517907680296
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.13047660290816826,
+            "point": 0.13713769883868449,
+            "upper_95": 0.14394517907680296
+          },
+          "net_benefit_treat_all": -0.0587245047330926
+        }
+      },
+      "label_key": "427084000",
+      "max_net_benefit_gain": 0.1390883278264951,
+      "max_net_benefit_gain_threshold": 0.16,
+      "positives": 1568,
+      "prevalence": 0.15302039621352592,
+      "records": 10247,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "t wave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.11601071944034969,
+            "point": 0.12264950460468532,
+            "upper_95": 0.1292929124313663
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.021557143811025577,
+            "point": -0.017432573333401813,
+            "upper_95": -0.013492780942304055
+          },
+          "net_benefit_treat_all": 0.14008207793808714
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0919182308101016,
+            "point": 0.098348568144606,
+            "upper_95": 0.10485697710983159
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0011271591685371254,
+            "point": 0.006039708098847366,
+            "upper_95": 0.010800451080533058
+          },
+          "net_benefit_treat_all": 0.09230886004575864
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.05491790280081975,
+            "point": 0.06118864057773007,
+            "upper_95": 0.06726419927783742
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.05491790280081975,
+            "point": 0.06118864057773007,
+            "upper_95": 0.06726419927783742
+          },
+          "net_benefit_treat_all": -0.021152532448521527
+        }
+      },
+      "label_key": "164934002",
+      "max_net_benefit_gain": 0.06430307214276507,
+      "max_net_benefit_gain_threshold": 0.19,
+      "positives": 1876,
+      "prevalence": 0.18307797404118278,
+      "records": 10247,
+      "superior_threshold_count": 42,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.09,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "chapman_shaoxing",
+      "diagnosis": "t wave inversion",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.0024292090624727126,
+            "point": 0.004437755851520084,
+            "upper_95": 0.006518210721494864
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0024292090624727126,
+            "point": 0.004437755851520084,
+            "upper_95": 0.006518210721494864
+          },
+          "net_benefit_treat_all": -0.0365036236536496
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.0016698654348698272,
+            "point": 1.0843282044608986e-05,
+            "upper_95": 0.0017999848194051359
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0016698654348698272,
+            "point": 1.0843282044608986e-05,
+            "upper_95": 0.0017999848194051359
+          },
+          "net_benefit_treat_all": -0.09408715830107459
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.004903874304674538,
+            "point": -0.0034644286132526595,
+            "upper_95": -0.002024372987215773
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.004903874304674538,
+            "point": -0.0034644286132526595,
+            "upper_95": -0.002024372987215773
+          },
+          "net_benefit_treat_all": -0.2308480530887089
+        }
+      },
+      "label_key": "59931005",
+      "max_net_benefit_gain": 0.007896786117589418,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 157,
+      "prevalence": 0.015321557529032888,
+      "records": 10247,
+      "superior_threshold_count": 10,
+      "superior_threshold_max": 0.1,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.00525034115154668,
+            "point": 0.006090214793537346,
+            "upper_95": 0.006937740785138609
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00525034115154668,
+            "point": 0.006090214793537346,
+            "upper_95": 0.006937740785138609
+          },
+          "net_benefit_treat_all": -0.045152632332873435
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.004867179168855146,
+            "point": 0.0057171051584459405,
+            "upper_95": 0.006573477215935316
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004867179168855146,
+            "point": 0.0057171051584459405,
+            "upper_95": 0.006573477215935316
+          },
+          "net_benefit_treat_all": -0.10321666746247753
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.004247063457957312,
+            "point": 0.0050637444492193096,
+            "upper_95": 0.005887587738146396
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004247063457957312,
+            "point": 0.0050637444492193096,
+            "upper_95": 0.005887587738146396
+          },
+          "net_benefit_treat_all": -0.2411187508952872
+        }
+      },
+      "label_key": "733534002|164909002",
+      "max_net_benefit_gain": 0.00675657882361793,
+      "max_net_benefit_gain_threshold": 0.01,
+      "positives": 248,
+      "prevalence": 0.007104999283770234,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.03269162915884469,
+            "point": 0.03460068305701943,
+            "upper_95": 0.03645274014430144
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03269162915884469,
+            "point": 0.03460068305701943,
+            "upper_95": 0.03645274014430144
+          },
+          "net_benefit_treat_all": -0.01369883669207398
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.03159003008165019,
+            "point": 0.03353546928965923,
+            "upper_95": 0.035404271912651795
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03159003008165019,
+            "point": 0.03353546928965923,
+            "upper_95": 0.035404271912651795
+          },
+          "net_benefit_treat_all": -0.07001543873052254
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.030189084658358404,
+            "point": 0.03200114596762641,
+            "upper_95": 0.03386352241799169
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.030189084658358404,
+            "point": 0.03200114596762641,
+            "upper_95": 0.03386352241799169
+          },
+          "net_benefit_treat_all": -0.20376736857183783
+        }
+      },
+      "label_key": "713427006|59118001",
+      "max_net_benefit_gain": 0.034763405433796496,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 1291,
+      "prevalence": 0.03698610514252972,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "1st degree av block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.018020265532761856,
+            "point": 0.01954176373464818,
+            "upper_95": 0.021120673406765732
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.018020265532761856,
+            "point": 0.01954176373464818,
+            "upper_95": 0.021120673406765732
+          },
+          "net_benefit_treat_all": -0.025701339726626412
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.015976619077177737,
+            "point": 0.01741552467809451,
+            "upper_95": 0.01888626271307835
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015976619077177737,
+            "point": 0.01741552467809451,
+            "upper_95": 0.01888626271307835
+          },
+          "net_benefit_treat_all": -0.08268474748921677
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.012197392923649908,
+            "point": 0.0135510671823521,
+            "upper_95": 0.014962039822375019
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.012197392923649908,
+            "point": 0.0135510671823521,
+            "upper_95": 0.014962039822375019
+          },
+          "net_benefit_treat_all": -0.21802034092536884
+        }
+      },
+      "label_key": "270492004",
+      "max_net_benefit_gain": 0.02070834385526547,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 893,
+      "prevalence": 0.025583727259704914,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "left axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.020019602077820248,
+            "point": 0.021862348178137654,
+            "upper_95": 0.023793152843432166
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.020019602077820248,
+            "point": 0.021862348178137654,
+            "upper_95": 0.023793152843432166
+          },
+          "net_benefit_treat_all": -0.017558938170523
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.012385761352241795,
+            "point": 0.01427366343567461,
+            "upper_95": 0.016285552849798653
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.012385761352241795,
+            "point": 0.01427366343567461,
+            "upper_95": 0.016285552849798653
+          },
+          "net_benefit_treat_all": -0.0740899902911076
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.000580146110872367,
+            "point": 0.0014539464260134617,
+            "upper_95": 0.003538354103996561
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.000580146110872367,
+            "point": 0.0014539464260134617,
+            "upper_95": 0.003538354103996561
+          },
+          "net_benefit_treat_all": -0.20835123907749606
+        }
+      },
+      "label_key": "39732003",
+      "max_net_benefit_gain": 0.023526954113546286,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 1163,
+      "prevalence": 0.03331900873800315,
+      "records": 34905,
+      "superior_threshold_count": 21,
+      "superior_threshold_max": 0.21,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": -0.004724100754679996,
+            "point": -0.0042596822955540984,
+            "upper_95": -0.003783125626701046
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.004724100754679996,
+            "point": -0.0042596822955540984,
+            "upper_95": -0.003783125626701046
+          },
+          "net_benefit_treat_all": -0.03646740400636314
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.004873545655668561,
+            "point": -0.004478823473236882,
+            "upper_95": -0.004077734803991788
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.004873545655668561,
+            "point": -0.004478823473236882,
+            "upper_95": -0.004077734803991788
+          },
+          "net_benefit_treat_all": -0.0940489264511611
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.004254404813064031,
+            "point": -0.0038676407391491194,
+            "upper_95": -0.0034665520699040248
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.004254404813064031,
+            "point": -0.0038676407391491194,
+            "upper_95": -0.0034665520699040248
+          },
+          "net_benefit_treat_all": -0.23080504225755621
+        }
+      },
+      "label_key": "698252002",
+      "max_net_benefit_gain": -0.0010138305429606316,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 536,
+      "prevalence": 0.01535596619395502,
+      "records": 34905,
+      "superior_threshold_count": 0,
+      "superior_threshold_max": null,
+      "superior_threshold_min": null,
+      "superior_thresholds_contiguous": null
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "sinus rhythm",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.13906113586501703,
+            "point": 0.14339523066368112,
+            "upper_95": 0.1475276502386176
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005707220349972507,
+            "point": 0.006067597011437054,
+            "upper_95": 0.00641297054410848
+          },
+          "net_benefit_treat_all": 0.13732763365224407
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.1038720972799185,
+            "point": 0.10832258988683569,
+            "upper_95": 0.11265904279870759
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.018262187843193417,
+            "point": 0.018921198809466966,
+            "upper_95": 0.01958649668146875
+          },
+          "net_benefit_treat_all": 0.08940139107736872
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.02963024638303968,
+            "point": 0.0345509239363988,
+            "upper_95": 0.03926532731700327
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02963024638303968,
+            "point": 0.0345509239363988,
+            "upper_95": 0.03926532731700327
+          },
+          "net_benefit_treat_all": -0.024423435037960184
+        }
+      },
+      "label_key": "426783006",
+      "max_net_benefit_gain": 0.049407974956414774,
+      "max_net_benefit_gain_threshold": 0.18,
+      "positives": 6299,
+      "prevalence": 0.18046125196963186,
+      "records": 34905,
+      "superior_threshold_count": 24,
+      "superior_threshold_max": 0.24,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.012514494228695935,
+            "point": 0.014087862544198915,
+            "upper_95": 0.015573813131884284
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.012514494228695935,
+            "point": 0.014087862544198915,
+            "upper_95": 0.015573813131884284
+          },
+          "net_benefit_treat_all": -0.020574642450561304
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.00739459485269541,
+            "point": 0.008715720447564022,
+            "upper_95": 0.009922249279791179
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00739459485269541,
+            "point": 0.008715720447564022,
+            "upper_95": 0.009922249279791179
+          },
+          "net_benefit_treat_all": -0.07727323369781472
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0012390774960607366,
+            "point": 0.0019839564532301967,
+            "upper_95": 0.0026786993267440195
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0012390774960607366,
+            "point": 0.0019839564532301967,
+            "upper_95": 0.0026786993267440195
+          },
+          "net_benefit_treat_all": -0.21193238791004154
+        }
+      },
+      "label_key": "284470004|63593006",
+      "max_net_benefit_gain": 0.016335355021066016,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 1063,
+      "prevalence": 0.030454089671966767,
+      "records": 34905,
+      "superior_threshold_count": 28,
+      "superior_threshold_max": 0.28,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "qwave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.006007282925836293,
+            "point": 0.007133648474430597,
+            "upper_95": 0.008243578434698692
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.006007282925836293,
+            "point": 0.007133648474430597,
+            "upper_95": 0.008243578434698692
+          },
+          "net_benefit_treat_all": -0.02766154750865131
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0027056773146158612,
+            "point": 0.0035843320759521872,
+            "upper_95": 0.0044947396902704165
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0027056773146158612,
+            "point": 0.0035843320759521872,
+            "upper_95": 0.0044947396902704165
+          },
+          "net_benefit_treat_all": -0.08475385570357638
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0008523134221458243,
+            "point": 0.0015040825096691017,
+            "upper_95": 0.0021701761925225615
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0008523134221458243,
+            "point": 0.0015040825096691017,
+            "upper_95": 0.0021701761925225615
+          },
+          "net_benefit_treat_all": -0.22034808766652342
+        }
+      },
+      "label_key": "164917005",
+      "max_net_benefit_gain": 0.010246072919574042,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 828,
+      "prevalence": 0.023721529866781263,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "right axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.010996765657159659,
+            "point": 0.012298042053996185,
+            "upper_95": 0.013593362434879635
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.010996765657159659,
+            "point": 0.012298042053996185,
+            "upper_95": 0.013593362434879635
+          },
+          "net_benefit_treat_all": -0.033391385640724074
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.008091645577679097,
+            "point": 0.009358735615718856,
+            "upper_95": 0.010613092680131785
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.008091645577679097,
+            "point": 0.009358735615718856,
+            "upper_95": 0.010613092680131785
+          },
+          "net_benefit_treat_all": -0.09080201817631986
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0029222174473571127,
+            "point": 0.004182781836413121,
+            "upper_95": 0.005393210141813494
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0029222174473571127,
+            "point": 0.004182781836413121,
+            "upper_95": 0.005393210141813494
+          },
+          "net_benefit_treat_all": -0.22715227044835984
+        }
+      },
+      "label_key": "47665007",
+      "max_net_benefit_gain": 0.014713405774858287,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 638,
+      "prevalence": 0.018278183641312132,
+      "records": 34905,
+      "superior_threshold_count": 30,
+      "superior_threshold_max": 0.3,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "sinus bradycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.16424852418971797,
+            "point": 0.16804408959657416,
+            "upper_95": 0.17196322348630494
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.16590908405521756,
+            "point": -0.16141406373690995,
+            "upper_95": -0.1571448819728737
+          },
+          "net_benefit_treat_all": 0.3294581533334841
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.09627369526810868,
+            "point": 0.09936494294036194,
+            "upper_95": 0.10253410049499434
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.19818260675802574,
+            "point": -0.19284088557831572,
+            "upper_95": -0.18792173996084616
+          },
+          "net_benefit_treat_all": 0.29220582851867766
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.05546447500358115,
+            "point": 0.057892852026930244,
+            "upper_95": 0.06041469703480876
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.15196336484744305,
+            "point": -0.14583870505658214,
+            "upper_95": -0.14002882824810203
+          },
+          "net_benefit_treat_all": 0.20373155708351237
+        }
+      },
+      "label_key": "426177001",
+      "max_net_benefit_gain": 0.03517347539693908,
+      "max_net_benefit_gain_threshold": 0.37,
+      "positives": 12670,
+      "prevalence": 0.3629852456668099,
+      "records": 34905,
+      "superior_threshold_count": 17,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.34,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "sinus tachycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.14433963615527862,
+            "point": 0.14810576074910095,
+            "upper_95": 0.1518892256425335
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.028033911594629052,
+            "point": 0.0292342372906913,
+            "upper_95": 0.030463249873717388
+          },
+          "net_benefit_treat_all": 0.11887152345840965
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.14057481417816614,
+            "point": 0.14438237119801367,
+            "upper_95": 0.1481992392048258
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.072978640436741,
+            "point": 0.07446242976969236,
+            "upper_95": 0.07596173741425136
+          },
+          "net_benefit_treat_all": 0.06991994142832131
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.13406299240796446,
+            "point": 0.13776679558802463,
+            "upper_95": 0.1415055149692021
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.13406299240796446,
+            "point": 0.13776679558802463,
+            "upper_95": 0.1415055149692021
+          },
+          "net_benefit_treat_all": -0.04634006589313852
+        }
+      },
+      "label_key": "427084000",
+      "max_net_benefit_gain": 0.13956677591327923,
+      "max_net_benefit_gain_threshold": 0.17,
+      "positives": 5687,
+      "prevalence": 0.16292794728548918,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "t wave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.09662561539215464,
+            "point": 0.09997059688326963,
+            "upper_95": 0.1034733751008376
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.00513619674454723,
+            "point": -0.003219264318940887,
+            "upper_95": -0.0014669516507211278
+          },
+          "net_benefit_treat_all": 0.10318986120221052
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.07326529150551497,
+            "point": 0.0766047525824062,
+            "upper_95": 0.08001742825765171
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.020862977287558315,
+            "point": 0.023237676868961776,
+            "upper_95": 0.02551377548584255
+          },
+          "net_benefit_treat_all": 0.05336707571344443
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.04183480160435468,
+            "point": 0.04499355393210142,
+            "upper_95": 0.04830987680848016
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.04183480160435468,
+            "point": 0.04499355393210142,
+            "upper_95": 0.04830987680848016
+          },
+          "net_benefit_treat_all": -0.064962039822375
+        }
+      },
+      "label_key": "164934002",
+      "max_net_benefit_gain": 0.05932404762506635,
+      "max_net_benefit_gain_threshold": 0.15,
+      "positives": 5167,
+      "prevalence": 0.1480303681421,
+      "records": 34905,
+      "superior_threshold_count": 41,
+      "superior_threshold_max": 0.46,
+      "superior_threshold_min": 0.06,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "xresnet1d101",
+      "cohort": "ningbo",
+      "diagnosis": "t wave inversion",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.030328824855434675,
+            "point": 0.03222732378862929,
+            "upper_95": 0.03408967196676694
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.000654671702892821,
+            "point": 0.002831746318955969,
+            "upper_95": 0.005040862792994525
+          },
+          "net_benefit_treat_all": 0.02939557746967332
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.019115297076190932,
+            "point": 0.020684715656782697,
+            "upper_95": 0.022228668290120802
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.019115297076190932,
+            "point": 0.020684715656782697,
+            "upper_95": 0.022228668290120802
+          },
+          "net_benefit_treat_all": -0.024526890448678174
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.007842536885832975,
+            "point": 0.008924222890703338,
+            "upper_95": 0.010020054433462254
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.007842536885832975,
+            "point": 0.008924222890703338,
+            "upper_95": 0.010020054433462254
+          },
+          "net_benefit_treat_all": -0.15259275175476295
+        }
+      },
+      "label_key": "59931005",
+      "max_net_benefit_gain": 0.02444149648424606,
+      "max_net_benefit_gain_threshold": 0.08,
+      "positives": 2720,
+      "prevalence": 0.07792579859618966,
+      "records": 34905,
+      "superior_threshold_count": 46,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.05,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "complete left bundle branch block / left bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.005280460498043562,
+            "point": 0.006127911097037825,
+            "upper_95": 0.006998054870739375
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005280460498043562,
+            "point": 0.006127911097037825,
+            "upper_95": 0.006998054870739375
+          },
+          "net_benefit_treat_all": -0.045152632332873435
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.004746056757229941,
+            "point": 0.005605691639211192,
+            "upper_95": 0.006496999793089178
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004746056757229941,
+            "point": 0.005605691639211192,
+            "upper_95": 0.006496999793089178
+          },
+          "net_benefit_treat_all": -0.10321666746247753
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0041396289929809486,
+            "point": 0.005020770663228764,
+            "upper_95": 0.005902091390918206
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0041396289929809486,
+            "point": 0.005020770663228764,
+            "upper_95": 0.005902091390918206
+          },
+          "net_benefit_treat_all": -0.2411187508952872
+        }
+      },
+      "label_key": "733534002|164909002",
+      "max_net_benefit_gain": 0.006661370907180963,
+      "max_net_benefit_gain_threshold": 0.01,
+      "positives": 248,
+      "prevalence": 0.007104999283770234,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "complete right bundle branch block / right bundle branch block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.03225291957870611,
+            "point": 0.03413777245003355,
+            "upper_95": 0.03605319702349987
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.03225291957870611,
+            "point": 0.03413777245003355,
+            "upper_95": 0.03605319702349987
+          },
+          "net_benefit_treat_all": -0.01369883669207398
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.031135224179916918,
+            "point": 0.032956118989638544,
+            "upper_95": 0.03484067866749431
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.031135224179916918,
+            "point": 0.032956118989638544,
+            "upper_95": 0.03484067866749431
+          },
+          "net_benefit_treat_all": -0.07001543873052254
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.02888536742587022,
+            "point": 0.030697607792579858,
+            "upper_95": 0.032538318292508236
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.02888536742587022,
+            "point": 0.030697607792579858,
+            "upper_95": 0.032538318292508236
+          },
+          "net_benefit_treat_all": -0.20376736857183783
+        }
+      },
+      "label_key": "713427006|59118001",
+      "max_net_benefit_gain": 0.034350379601776254,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 1291,
+      "prevalence": 0.03698610514252972,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "1st degree av block",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.015680079011452137,
+            "point": 0.017166896614118018,
+            "upper_95": 0.01875206387261665
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015680079011452137,
+            "point": 0.017166896614118018,
+            "upper_95": 0.01875206387261665
+          },
+          "net_benefit_treat_all": -0.025701339726626412
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.013137245539480178,
+            "point": 0.014544239125244711,
+            "upper_95": 0.015995877699788313
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.013137245539480178,
+            "point": 0.014544239125244711,
+            "upper_95": 0.015995877699788313
+          },
+          "net_benefit_treat_all": -0.08268474748921677
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.009690409683426444,
+            "point": 0.010943990832258988,
+            "upper_95": 0.012240366709640453
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.009690409683426444,
+            "point": 0.010943990832258988,
+            "upper_95": 0.012240366709640453
+          },
+          "net_benefit_treat_all": -0.21802034092536884
+        }
+      },
+      "label_key": "270492004",
+      "max_net_benefit_gain": 0.01895099659310913,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 893,
+      "prevalence": 0.025583727259704914,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "left axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.017658192537639762,
+            "point": 0.01950708313542774,
+            "upper_95": 0.021452928625818945
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.017658192537639762,
+            "point": 0.01950708313542774,
+            "upper_95": 0.021452928625818945
+          },
+          "net_benefit_treat_all": -0.017558938170523
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.00874731413837559,
+            "point": 0.010654315682248644,
+            "upper_95": 0.012691591462541178
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.00874731413837559,
+            "point": 0.010654315682248644,
+            "upper_95": 0.012691591462541178
+          },
+          "net_benefit_treat_all": -0.0740899902911076
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.006733634149835268,
+            "point": -0.004634006589313851,
+            "upper_95": -0.0025136083655636723
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.006733634149835268,
+            "point": -0.004634006589313851,
+            "upper_95": -0.0025136083655636723
+          },
+          "net_benefit_treat_all": -0.20835123907749606
+        }
+      },
+      "label_key": "39732003",
+      "max_net_benefit_gain": 0.021574034283531485,
+      "max_net_benefit_gain_threshold": 0.04,
+      "positives": 1163,
+      "prevalence": 0.03331900873800315,
+      "records": 34905,
+      "superior_threshold_count": 16,
+      "superior_threshold_max": 0.16,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "nonspecific intraventricular conduction disorder",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": -0.0038812868010162926,
+            "point": -0.0032660077352814794,
+            "upper_95": -0.0025844208716893223
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.0038812868010162926,
+            "point": -0.0032660077352814794,
+            "upper_95": -0.0025844208716893223
+          },
+          "net_benefit_treat_all": -0.03646740400636314
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": -0.004771761447739102,
+            "point": -0.004310111572681406,
+            "upper_95": -0.003807159114421685
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.004771761447739102,
+            "point": -0.004310111572681406,
+            "upper_95": -0.003807159114421685
+          },
+          "net_benefit_treat_all": -0.0940489264511611
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.004304540896719667,
+            "point": -0.003867640739149119,
+            "upper_95": -0.003466552069904025
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.004304540896719667,
+            "point": -0.003867640739149119,
+            "upper_95": -0.003466552069904025
+          },
+          "net_benefit_treat_all": -0.23080504225755621
+        }
+      },
+      "label_key": "698252002",
+      "max_net_benefit_gain": 0.0011190724678354358,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 536,
+      "prevalence": 0.01535596619395502,
+      "records": 34905,
+      "superior_threshold_count": 2,
+      "superior_threshold_max": 0.02,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "sinus rhythm",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.13747909739970898,
+            "point": 0.14179690739526082,
+            "upper_95": 0.1459378086384849
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.004259606902947069,
+            "point": 0.004469273743016755,
+            "upper_95": 0.004663786669079213
+          },
+          "net_benefit_treat_all": 0.13732763365224407
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.09877246176128857,
+            "point": 0.10336627990259273,
+            "upper_95": 0.10770527940919002
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.013506501774658217,
+            "point": 0.013964888825224009,
+            "upper_95": 0.014381893711502655
+          },
+          "net_benefit_treat_all": 0.08940139107736872
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.015663407821229065,
+            "point": 0.02063457957312706,
+            "upper_95": 0.025469488611946704
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.015663407821229065,
+            "point": 0.02063457957312706,
+            "upper_95": 0.025469488611946704
+          },
+          "net_benefit_treat_all": -0.024423435037960184
+        }
+      },
+      "label_key": "426783006",
+      "max_net_benefit_gain": 0.037419336806174264,
+      "max_net_benefit_gain_threshold": 0.18,
+      "positives": 6299,
+      "prevalence": 0.18046125196963186,
+      "records": 34905,
+      "superior_threshold_count": 22,
+      "superior_threshold_max": 0.22,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "premature atrial contraction / supraventricular premature beats",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.009651573066745077,
+            "point": 0.011174692209681916,
+            "upper_95": 0.012623813508847323
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.009651573066745077,
+            "point": 0.011174692209681916,
+            "upper_95": 0.012623813508847323
+          },
+          "net_benefit_treat_all": -0.020574642450561304
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0048193509366693706,
+            "point": 0.006130926801317861,
+            "upper_95": 0.0074109089751547815
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0048193509366693706,
+            "point": 0.006130926801317861,
+            "upper_95": 0.0074109089751547815
+          },
+          "net_benefit_treat_all": -0.07727323369781472
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 6.410256410256413e-05,
+            "point": 0.000859475719810915,
+            "upper_95": 0.0016473284629709211
+          },
+          "net_benefit_gain": {
+            "lower_95": 6.410256410256413e-05,
+            "point": 0.000859475719810915,
+            "upper_95": 0.0016473284629709211
+          },
+          "net_benefit_treat_all": -0.21193238791004154
+        }
+      },
+      "label_key": "284470004|63593006",
+      "max_net_benefit_gain": 0.014576235644023468,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 1063,
+      "prevalence": 0.030454089671966767,
+      "records": 34905,
+      "superior_threshold_count": 29,
+      "superior_threshold_max": 0.29,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "qwave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.005934755237901371,
+            "point": 0.0071140463966103485,
+            "upper_95": 0.00826152187516492
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.005934755237901371,
+            "point": 0.0071140463966103485,
+            "upper_95": 0.00826152187516492
+          },
+          "net_benefit_treat_all": -0.02766154750865131
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.0024062932722150594,
+            "point": 0.003390154228143055,
+            "upper_95": 0.004389772238934249
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0024062932722150594,
+            "point": 0.003390154228143055,
+            "upper_95": 0.004389772238934249
+          },
+          "net_benefit_treat_all": -0.08475385570357638
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": -0.00014324595330181874,
+            "point": 0.0006660936828534591,
+            "upper_95": 0.0014611087236785563
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.00014324595330181874,
+            "point": 0.0006660936828534591,
+            "upper_95": 0.0014611087236785563
+          },
+          "net_benefit_treat_all": -0.22034808766652342
+        }
+      },
+      "label_key": "164917005",
+      "max_net_benefit_gain": 0.009553471351547719,
+      "max_net_benefit_gain_threshold": 0.03,
+      "positives": 828,
+      "prevalence": 0.023721529866781263,
+      "records": 34905,
+      "superior_threshold_count": 26,
+      "superior_threshold_max": 0.26,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "right axis deviation",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.01056382361145666,
+            "point": 0.011943696801091686,
+            "upper_95": 0.013237773203959616
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.01056382361145666,
+            "point": 0.011943696801091686,
+            "upper_95": 0.013237773203959616
+          },
+          "net_benefit_treat_all": -0.033391385640724074
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.006487450062869057,
+            "point": 0.007811679320059207,
+            "upper_95": 0.009104155724267456
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.006487450062869057,
+            "point": 0.007811679320059207,
+            "upper_95": 0.009104155724267456
+          },
+          "net_benefit_treat_all": -0.09080201817631986
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.0002503223033949281,
+            "point": 0.0015398939979945556,
+            "upper_95": 0.002843432173041111
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.0002503223033949281,
+            "point": 0.0015398939979945556,
+            "upper_95": 0.002843432173041111
+          },
+          "net_benefit_treat_all": -0.22715227044835984
+        }
+      },
+      "label_key": "47665007",
+      "max_net_benefit_gain": 0.014956046879430758,
+      "max_net_benefit_gain_threshold": 0.02,
+      "positives": 638,
+      "prevalence": 0.018278183641312132,
+      "records": 34905,
+      "superior_threshold_count": 23,
+      "superior_threshold_max": 0.23,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "sinus bradycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.2052590489976553,
+            "point": 0.20937431675449905,
+            "upper_95": 0.21366004719577197
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.12422145824380464,
+            "point": -0.12008383657898505,
+            "upper_95": -0.11617525765423439
+          },
+          "net_benefit_treat_all": 0.3294581533334841
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.12644702287160386,
+            "point": 0.12988588072386956,
+            "upper_95": 0.1334737143675691
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.16736276241862838,
+            "point": -0.1623199477948081,
+            "upper_95": -0.1574682869375607
+          },
+          "net_benefit_treat_all": 0.29220582851867766
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.07042651482595617,
+            "point": 0.0732130067325598,
+            "upper_95": 0.0760858043260278
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.13691501933820366,
+            "point": -0.13051855035095256,
+            "upper_95": -0.1248214797306976
+          },
+          "net_benefit_treat_all": 0.20373155708351237
+        }
+      },
+      "label_key": "426177001",
+      "max_net_benefit_gain": 0.0408787570798744,
+      "max_net_benefit_gain_threshold": 0.37,
+      "positives": 12670,
+      "prevalence": 0.3629852456668099,
+      "records": 34905,
+      "superior_threshold_count": 17,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.34,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "sinus tachycardia",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.1465435882357376,
+            "point": 0.15038864888908995,
+            "upper_95": 0.15421599227979704
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.030455371346285797,
+            "point": 0.031517125430680304,
+            "upper_95": 0.032607377920521104
+          },
+          "net_benefit_treat_all": 0.11887152345840965
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.14075021088987572,
+            "point": 0.14454471661175572,
+            "upper_95": 0.14839357621480526
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.07324929570739626,
+            "point": 0.07462477518343441,
+            "upper_95": 0.07609304620477805
+          },
+          "net_benefit_treat_all": 0.06991994142832131
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.13277359977080647,
+            "point": 0.13654204268729409,
+            "upper_95": 0.14033823950723393
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.13277359977080647,
+            "point": 0.13654204268729409,
+            "upper_95": 0.14033823950723393
+          },
+          "net_benefit_treat_all": -0.04634006589313852
+        }
+      },
+      "label_key": "427084000",
+      "max_net_benefit_gain": 0.13902071543587327,
+      "max_net_benefit_gain_threshold": 0.17,
+      "positives": 5687,
+      "prevalence": 0.16292794728548918,
+      "records": 34905,
+      "superior_threshold_count": 50,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.01,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "t wave abnormal",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.09779005420728444,
+            "point": 0.10113013517894434,
+            "upper_95": 0.10455770927102888
+          },
+          "net_benefit_gain": {
+            "lower_95": -0.003959619719690277,
+            "point": -0.0020597260232661785,
+            "upper_95": -0.000263874124503349
+          },
+          "net_benefit_treat_all": 0.10318986120221052
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.07425838386732242,
+            "point": 0.07747696127584394,
+            "upper_95": 0.08086425058492097
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.021706377628165362,
+            "point": 0.024109885562399513,
+            "upper_95": 0.026452832290821113
+          },
+          "net_benefit_treat_all": 0.05336707571344443
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.04291612949434179,
+            "point": 0.04606789858186506,
+            "upper_95": 0.049420391061452504
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.04291612949434179,
+            "point": 0.04606789858186506,
+            "upper_95": 0.049420391061452504
+          },
+          "net_benefit_treat_all": -0.064962039822375
+        }
+      },
+      "label_key": "164934002",
+      "max_net_benefit_gain": 0.06044473655383942,
+      "max_net_benefit_gain_threshold": 0.15,
+      "positives": 5167,
+      "prevalence": 0.1480303681421,
+      "records": 34905,
+      "superior_threshold_count": 45,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.06,
+      "superior_thresholds_contiguous": true
+    },
+    {
+      "architecture": "s4d",
+      "cohort": "ningbo",
+      "diagnosis": "t wave inversion",
+      "intervals": {
+        "0.05": {
+          "net_benefit": {
+            "lower_95": 0.03585367048907184,
+            "point": 0.03794660695572192,
+            "upper_95": 0.03999438325077843
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.006477695097218768,
+            "point": 0.008551029486048599,
+            "upper_95": 0.010538529391807834
+          },
+          "net_benefit_treat_all": 0.02939557746967332
+        },
+        "0.10": {
+          "net_benefit": {
+            "lower_95": 0.021827500039790542,
+            "point": 0.02353053526237884,
+            "upper_95": 0.0252336500660523
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.021827500039790542,
+            "point": 0.02353053526237884,
+            "upper_95": 0.0252336500660523
+          },
+          "net_benefit_treat_all": -0.024526890448678174
+        },
+        "0.20": {
+          "net_benefit": {
+            "lower_95": 0.009654777252542615,
+            "point": 0.010979802320584443,
+            "upper_95": 0.012326314281621543
+          },
+          "net_benefit_gain": {
+            "lower_95": 0.009654777252542615,
+            "point": 0.010979802320584443,
+            "upper_95": 0.012326314281621543
+          },
+          "net_benefit_treat_all": -0.15259275175476295
+        }
+      },
+      "label_key": "59931005",
+      "max_net_benefit_gain": 0.027929224042899048,
+      "max_net_benefit_gain_threshold": 0.08,
+      "positives": 2720,
+      "prevalence": 0.07792579859618966,
+      "records": 34905,
+      "superior_threshold_count": 47,
+      "superior_threshold_max": 0.5,
+      "superior_threshold_min": 0.04,
+      "superior_thresholds_contiguous": true
+    }
+  ],
+  "external_cluster_unit": "record",
+  "interval_thresholds": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "interval_type": "percentile",
+  "multiplicity_adjustment": "none; marginal intervals, matching the registered plan",
+  "operating_point_probability_scale": "uncalibrated, as the registered thresholds are",
+  "outputs": [
+    "exploratory_decision_curves.csv",
+    "exploratory_operating_points.csv",
+    "exploratory_clinical_utility.json"
+  ],
+  "primary_probability_scale": "temperature-calibrated, temperature sealed from fold 9",
+  "ptb_cluster_unit": "patient_id",
+  "registered_resample_cross_check": [
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ptb_test",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ptb_test",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "chapman_shaoxing",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "chapman_shaoxing",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ningbo",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ningbo",
+      "largest_absolute_difference": 0.0
+    }
+  ],
+  "sensitivity_target": 0.9,
+  "stage": "post-seal exploratory addition",
+  "stage_date": "2026-07-26",
+  "threshold_grid": {
+    "maximum": 0.5,
+    "minimum": 0.01,
+    "points": 50,
+    "step": 0.01
+  },
+  "validation_sensitivity_90_thresholds": {
+    "s4d": {
+      "164917005": {
+        "attainable": true,
+        "threshold": 0.013988303020596504,
+        "validation_positives": 55
+      },
+      "164934002": {
+        "attainable": true,
+        "threshold": 0.059640076011419296,
+        "validation_positives": 235
+      },
+      "270492004": {
+        "attainable": true,
+        "threshold": 0.03462343290448189,
+        "validation_positives": 80
+      },
+      "284470004|63593006": {
+        "attainable": true,
+        "threshold": 0.006787722464650869,
+        "validation_positives": 55
+      },
+      "39732003": {
+        "attainable": true,
+        "threshold": 0.24347727000713348,
+        "validation_positives": 489
+      },
+      "426177001": {
+        "attainable": true,
+        "threshold": 0.05472344160079956,
+        "validation_positives": 64
+      },
+      "426783006": {
+        "attainable": true,
+        "threshold": 0.9225329160690308,
+        "validation_positives": 1784
+      },
+      "427084000": {
+        "attainable": true,
+        "threshold": 0.29129886627197266,
+        "validation_positives": 83
+      },
+      "47665007": {
+        "attainable": true,
+        "threshold": 0.038587674498558044,
+        "validation_positives": 36
+      },
+      "59931005": {
+        "attainable": true,
+        "threshold": 0.012925218790769577,
+        "validation_positives": 30
+      },
+      "698252002": {
+        "attainable": true,
+        "threshold": 0.011922342702746391,
+        "validation_positives": 78
+      },
+      "713427006|59118001": {
+        "attainable": true,
+        "threshold": 0.16629035770893097,
+        "validation_positives": 55
+      },
+      "733534002|164909002": {
+        "attainable": true,
+        "threshold": 0.17419558763504028,
+        "validation_positives": 54
+      }
+    },
+    "xresnet1d101": {
+      "164917005": {
+        "attainable": true,
+        "threshold": 0.012685593217611313,
+        "validation_positives": 55
+      },
+      "164934002": {
+        "attainable": true,
+        "threshold": 0.11323405802249908,
+        "validation_positives": 235
+      },
+      "270492004": {
+        "attainable": true,
+        "threshold": 0.03383258357644081,
+        "validation_positives": 80
+      },
+      "284470004|63593006": {
+        "attainable": true,
+        "threshold": 0.028317920863628387,
+        "validation_positives": 55
+      },
+      "39732003": {
+        "attainable": true,
+        "threshold": 0.23052160441875458,
+        "validation_positives": 489
+      },
+      "426177001": {
+        "attainable": true,
+        "threshold": 0.038722556084394455,
+        "validation_positives": 64
+      },
+      "426783006": {
+        "attainable": true,
+        "threshold": 0.8731671571731567,
+        "validation_positives": 1784
+      },
+      "427084000": {
+        "attainable": true,
+        "threshold": 0.3075614273548126,
+        "validation_positives": 83
+      },
+      "47665007": {
+        "attainable": true,
+        "threshold": 0.021505795419216156,
+        "validation_positives": 36
+      },
+      "59931005": {
+        "attainable": true,
+        "threshold": 0.008624532260000706,
+        "validation_positives": 30
+      },
+      "698252002": {
+        "attainable": true,
+        "threshold": 0.010655773803591728,
+        "validation_positives": 78
+      },
+      "713427006|59118001": {
+        "attainable": true,
+        "threshold": 0.22424593567848206,
+        "validation_positives": 55
+      },
+      "733534002|164909002": {
+        "attainable": true,
+        "threshold": 0.14095604419708252,
+        "validation_positives": 54
+      }
+    }
+  }
+}

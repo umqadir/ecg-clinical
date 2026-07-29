@@ -1,0 +1,342 @@
+{
+  "bootstrap": {
+    "batch_size": 100,
+    "design": "the registered cluster bootstrap design: same seeds, cluster units, replicate count and batch size as the registered analysis, so the intervals are commensurable with the deep models'",
+    "external_cluster_unit": "record",
+    "interval_type": "percentile",
+    "ptb_cluster_unit": "patient_id",
+    "registered_cross_check": "not applicable; a different model's scores are bootstrapped on the same records, so the replicate values cannot equal the registered ones",
+    "replicates": 2000,
+    "seeds": {
+      "chapman_shaoxing": 20260717,
+      "ningbo": 20260718,
+      "ptb_test": 20260716
+    }
+  },
+  "changes_registered_quantities": false,
+  "chosen_inverse_regularization": {
+    "111975006": 0.01,
+    "164890007": 10.0,
+    "164917005": 0.01,
+    "164934002": 0.01,
+    "164947007": 1.0,
+    "270492004": 0.1,
+    "284470004|63593006": 0.01,
+    "39732003": 0.1,
+    "426177001": 1.0,
+    "426783006": 0.01,
+    "427084000": 0.01,
+    "47665007": 1.0,
+    "59931005": 0.1,
+    "698252002": 1.0,
+    "713427006|59118001": 0.01,
+    "733534002|164909002": 10.0
+  },
+  "comparison_source": "results/exploratory_per_label_shift_deltas.csv, read only",
+  "detection_failure_rates": {
+    "chapman_shaoxing": {
+      "p_wave": 0.5543085781204254,
+      "r_peak": 0.0,
+      "t_wave_end": 0.050941739045574315
+    },
+    "ningbo": {
+      "p_wave": 0.5520126056438905,
+      "r_peak": 0.0,
+      "t_wave_end": 0.0396218306832832
+    },
+    "ptb_test": {
+      "p_wave": 0.5204731574158326,
+      "r_peak": 0.0,
+      "t_wave_end": 0.029572338489535943
+    }
+  },
+  "estimators": {
+    "frontal_axis_cos": "cosine of the frontal axis",
+    "frontal_axis_degrees": "atan2 of the baseline-corrected median-beat QRS area in aVF against the same area in lead I, in degrees",
+    "frontal_axis_sin": "sine of the frontal axis",
+    "heart_rate_bpm": "60 divided by the median RR interval of the accepted R peaks",
+    "pr_interval_missing": "1 when no P wave passed the amplitude and interval checks",
+    "pr_interval_ms": "median-beat lead II P-wave onset, taken where the P deflection first exceeds 20 percent of its peak inside a 220 ms search window, to the QRS onset",
+    "qrs_duration_ms": "width of the median-beat QRS energy envelope at 5 percent of its peak height above the envelope noise floor, with linearly interpolated crossings",
+    "qt_interval_missing": "1 when the T-wave tangent gave no usable baseline intersection",
+    "qt_interval_ms": "QRS onset to the tangent-method T-wave end on the median-beat lead II, the tangent taken at the steepest post-peak T slope and extended to the isoelectric line",
+    "r_amplitude_avf_mv": "largest positive median-beat aVF deflection inside the QRS bounds",
+    "r_amplitude_i_mv": "largest positive median-beat lead I deflection inside the QRS bounds",
+    "r_amplitude_v1_mv": "largest positive median-beat V1 deflection inside the QRS bounds",
+    "r_amplitude_v6_mv": "largest positive median-beat V6 deflection inside the QRS bounds",
+    "r_peak_detection_failed": "1 when fewer than two R peaks were accepted",
+    "rr_interquartile_range_ms": "75th minus 25th percentile of the accepted RR intervals",
+    "rr_standard_deviation_ms": "standard deviation of the accepted RR intervals",
+    "s_amplitude_avf_mv": "largest negative median-beat aVF deflection inside the QRS bounds",
+    "s_amplitude_i_mv": "largest negative median-beat lead I deflection inside the QRS bounds",
+    "s_amplitude_v1_mv": "largest negative median-beat V1 deflection inside the QRS bounds",
+    "s_amplitude_v6_mv": "largest negative median-beat V6 deflection inside the QRS bounds",
+    "t_amplitude_ii_mv": "signed median-beat lead II value at the largest T-window deflection",
+    "t_amplitude_v5_mv": "signed median-beat V5 value at the largest T-window deflection"
+  },
+  "evaluation_splits": {
+    "chapman_shaoxing": "all records",
+    "ningbo": "all records",
+    "ptb_test": "ptb_xl strat_fold 10"
+  },
+  "feature_validation_auroc": {
+    "chapman_shaoxing": {
+      "frontal_axis_degrees__39732003": 0.9445081904135144,
+      "frontal_axis_degrees__47665007": 0.8490996253848151,
+      "heart_rate_bpm__426177001": 0.9874822567195963,
+      "heart_rate_bpm__427084000": 0.8333642327480595,
+      "pr_interval_ms__164947007": 0.893600701293009,
+      "qrs_duration_ms__713427006|59118001": 0.9499186013924358,
+      "qrs_duration_ms__733534002|164909002": 0.876038686298036,
+      "qt_interval_ms__111975006": 0.7937820814139325
+    },
+    "ningbo": {
+      "frontal_axis_degrees__39732003": 0.9368207682666909,
+      "frontal_axis_degrees__47665007": 0.8308072244396827,
+      "heart_rate_bpm__426177001": 0.9756588063678696,
+      "heart_rate_bpm__427084000": 0.9105399762062218,
+      "pr_interval_ms__164947007": 0.8772654498879283,
+      "qrs_duration_ms__713427006|59118001": 0.9554771288953825,
+      "qrs_duration_ms__733534002|164909002": 0.9582208640064336,
+      "qt_interval_ms__111975006": 0.7410933352159362
+    },
+    "ptb_test": {
+      "frontal_axis_degrees__39732003": 0.8779849392124841,
+      "frontal_axis_degrees__47665007": 0.8769655758606035,
+      "heart_rate_bpm__426177001": 0.9552666647141518,
+      "heart_rate_bpm__427084000": 0.9574323389736733,
+      "pr_interval_ms__164947007": 0.8900584795321638,
+      "qrs_duration_ms__713427006|59118001": 0.9619869402985075,
+      "qrs_duration_ms__733534002|164909002": 0.9729563985627419,
+      "qt_interval_ms__111975006": 0.6739782366549567
+    }
+  },
+  "feature_validation_orientation": {
+    "frontal_axis_degrees__39732003": -1.0,
+    "frontal_axis_degrees__47665007": 1.0,
+    "heart_rate_bpm__426177001": -1.0,
+    "heart_rate_bpm__427084000": 1.0,
+    "pr_interval_ms__164947007": 1.0,
+    "qrs_duration_ms__713427006|59118001": 1.0,
+    "qrs_duration_ms__733534002|164909002": 1.0,
+    "qt_interval_ms__111975006": 1.0
+  },
+  "features": [
+    "heart_rate_bpm",
+    "rr_standard_deviation_ms",
+    "rr_interquartile_range_ms",
+    "qrs_duration_ms",
+    "frontal_axis_degrees",
+    "frontal_axis_sin",
+    "frontal_axis_cos",
+    "pr_interval_ms",
+    "qt_interval_ms",
+    "r_amplitude_i_mv",
+    "s_amplitude_i_mv",
+    "r_amplitude_avf_mv",
+    "s_amplitude_avf_mv",
+    "r_amplitude_v1_mv",
+    "s_amplitude_v1_mv",
+    "r_amplitude_v6_mv",
+    "s_amplitude_v6_mv",
+    "t_amplitude_ii_mv",
+    "t_amplitude_v5_mv",
+    "r_peak_detection_failed",
+    "pr_interval_missing",
+    "qt_interval_missing"
+  ],
+  "finding_class_mean_shift_deltas": {
+    "chapman_shaoxing": {
+      "geometric": {
+        "feature_model_mean_shift_delta": -0.04556387446256597,
+        "labels": 7,
+        "xresnet1d101_mean_shift_delta": -0.015450306018089647
+      },
+      "interpretive": {
+        "feature_model_mean_shift_delta": -0.07494218766110114,
+        "labels": 4,
+        "xresnet1d101_mean_shift_delta": -0.10553657593385328
+      },
+      "unclassified": {
+        "feature_model_mean_shift_delta": 0.021982109933696425,
+        "labels": 2,
+        "xresnet1d101_mean_shift_delta": -0.02856013603649195
+      }
+    },
+    "ningbo": {
+      "geometric": {
+        "feature_model_mean_shift_delta": -0.007918157563284465,
+        "labels": 7,
+        "xresnet1d101_mean_shift_delta": -0.0030495984788743856
+      },
+      "interpretive": {
+        "feature_model_mean_shift_delta": -0.08946682751980156,
+        "labels": 4,
+        "xresnet1d101_mean_shift_delta": -0.1482512356304698
+      },
+      "unclassified": {
+        "feature_model_mean_shift_delta": 0.0329017920005949,
+        "labels": 2,
+        "xresnet1d101_mean_shift_delta": -0.019500442805361298
+      }
+    }
+  },
+  "finding_classes": {
+    "164917005": "unclassified",
+    "164934002": "interpretive",
+    "270492004": "geometric",
+    "284470004|63593006": "unclassified",
+    "39732003": "geometric",
+    "426177001": "geometric",
+    "426783006": "interpretive",
+    "427084000": "geometric",
+    "47665007": "geometric",
+    "59931005": "interpretive",
+    "698252002": "interpretive",
+    "713427006|59118001": "geometric",
+    "733534002|164909002": "geometric"
+  },
+  "fitting_split": "ptb_xl strat_fold 1 to 8",
+  "headline_labels": [
+    "733534002|164909002",
+    "713427006|59118001",
+    "270492004",
+    "39732003",
+    "698252002",
+    "426783006",
+    "284470004|63593006",
+    "164917005",
+    "47665007",
+    "426177001",
+    "427084000",
+    "164934002",
+    "59931005"
+  ],
+  "macro_auroc": {
+    "chapman_shaoxing": {
+      "lower_95": 0.8055536858399661,
+      "point": 0.8119407196124323,
+      "upper_95": 0.8182454363166564
+    },
+    "ningbo": {
+      "lower_95": 0.8263175268539223,
+      "point": 0.8294223213811989,
+      "upper_95": 0.8324066455613695
+    },
+    "ptb_test": {
+      "lower_95": 0.8449821748689585,
+      "point": 0.8561523851520456,
+      "upper_95": 0.867343386561776
+    }
+  },
+  "macro_shift_deltas": {
+    "chapman_shaoxing": {
+      "lower_95": -0.05701783350336575,
+      "point": -0.04421166553961331,
+      "upper_95": -0.031084470307321987
+    },
+    "ningbo": {
+      "lower_95": -0.03807391701736308,
+      "point": -0.026730063770846746,
+      "upper_95": -0.015013714293337787
+    }
+  },
+  "model": "one L2-penalized logistic regression per target over standardized features",
+  "outputs": [
+    "exploratory_feature_baseline.csv",
+    "exploratory_feature_baseline.json"
+  ],
+  "rank_correlation_with_xresnet1d101_shift_deltas": {
+    "chapman_shaoxing": {
+      "labels": 13,
+      "p_value": 0.03252444027009699,
+      "spearman_rho": 0.5934065934065934
+    },
+    "ningbo": {
+      "labels": 13,
+      "p_value": 0.07074904067496371,
+      "spearman_rho": 0.5164835164835164
+    }
+  },
+  "rate_detector_check": {
+    "chapman_shaoxing": {
+      "426177001": {
+        "auroc_excluding_competing_rhythm_negatives": 0.996561969545132,
+        "median_measured_rate_bpm": 55.81395348837209,
+        "positives": 3889,
+        "records_after_exclusion": 7306,
+        "share_of_positives_on_the_defining_side": 0.9892003085626125
+      },
+      "427084000": {
+        "auroc_excluding_competing_rhythm_negatives": 0.9929522948513668,
+        "median_measured_rate_bpm": 109.0909090909091,
+        "positives": 1568,
+        "records_after_exclusion": 7306,
+        "share_of_positives_on_the_defining_side": 0.9591836734693877
+      }
+    },
+    "ningbo": {
+      "426177001": {
+        "auroc_excluding_competing_rhythm_negatives": 0.9838858231779812,
+        "median_measured_rate_bpm": 55.81395348837209,
+        "positives": 12670,
+        "records_after_exclusion": 27059,
+        "share_of_positives_on_the_defining_side": 0.9795580110497237
+      },
+      "427084000": {
+        "auroc_excluding_competing_rhythm_negatives": 0.9824402397274337,
+        "median_measured_rate_bpm": 111.11111111111111,
+        "positives": 5687,
+        "records_after_exclusion": 27141,
+        "share_of_positives_on_the_defining_side": 0.9609636011957096
+      }
+    },
+    "ptb_test": {
+      "426177001": {
+        "auroc_excluding_competing_rhythm_negatives": 0.9532674050632911,
+        "median_measured_rate_bpm": 49.586776859504134,
+        "positives": 64,
+        "records_after_exclusion": 2039,
+        "share_of_positives_on_the_defining_side": 0.953125
+      },
+      "427084000": {
+        "auroc_excluding_competing_rhythm_negatives": 0.9772486508717924,
+        "median_measured_rate_bpm": 109.0909090909091,
+        "positives": 82,
+        "records_after_exclusion": 2039,
+        "share_of_positives_on_the_defining_side": 0.9512195121951219
+      }
+    }
+  },
+  "rate_detector_check_note": "the rate AUROC for sinus tachycardia is bounded by what the label names, not by the detector: a record in atrial fibrillation, flutter or another supraventricular tachycardia is fast and is a negative for sinus tachycardia. auroc_excluding_competing_rhythm_negatives drops those records from the negatives and is the number that reflects rate measurement alone",
+  "regularization_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "sampling_frequency_hz": 100,
+  "selection_auroc_fold_9": {
+    "111975006": 0.8632734530938124,
+    "164890007": 0.9198398109243697,
+    "164917005": 0.7059466848940533,
+    "164934002": 0.7595744680851064,
+    "164947007": 0.7936249418334109,
+    "270492004": 0.7940501664289111,
+    "284470004|63593006": 0.7498462064251538,
+    "39732003": 0.9129684221708761,
+    "426177001": 0.9591936054742803,
+    "426783006": 0.8390595322386685,
+    "427084000": 0.9565576592082616,
+    "47665007": 0.9954846555917818,
+    "59931005": 0.8250348351137947,
+    "698252002": 0.7140568853157927,
+    "713427006|59118001": 0.9944634313055366,
+    "733534002|164909002": 0.9566132595723953
+  },
+  "selection_split": "ptb_xl strat_fold 9",
+  "stage": "post-seal exploratory addition",
+  "stage_date": "2026-07-26",
+  "standardization": "centre and scale from the fitting split only",
+  "trained_targets": 16
+}

@@ -1,0 +1,23 @@
+{
+  "all_targets": 16,
+  "architectures": [
+    "xresnet1d101",
+    "s4d"
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_statistics": "discrimination and calibration share one set of resamples",
+  "calibration_bins": 15,
+  "cohorts": [
+    "ptb_test",
+    "chapman_shaoxing",
+    "ningbo"
+  ],
+  "evaluation_choices_commit": "c2234694631d15b2fd8bef89b35d38b8e48d7fd9",
+  "external_cluster_unit": "record",
+  "headline_labels": 13,
+  "interval_type": "percentile",
+  "ptb_cluster_unit": "patient_id",
+  "ptb_sex_encoding_deviation": "deviations/001_ptb_sex_encoding.md",
+  "registration_commit": "f34661970a4bdf9986b9cf006f6bd8713f017fff",
+  "schema_version": 2
+}

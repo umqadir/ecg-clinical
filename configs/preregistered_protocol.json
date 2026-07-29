@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "study_id": "ecg-clinical-shift-v1",
+  "status": "frozen_at_preregistration_commit",
+  "data": {
+    "development_dataset": "PTB-XL 1.0.3",
+    "external_dataset": "PhysioNet/CinC Challenge 2021 1.0.3",
+    "external_cohorts": [
+      "chapman_shaoxing",
+      "ningbo"
+    ],
+    "ptb_train_folds": [1, 2, 3, 4, 5, 6, 7, 8],
+    "ptb_validation_fold": 9,
+    "ptb_test_fold": 10,
+    "sampling_frequency_hz": 100,
+    "input_seconds": 2.5,
+    "input_leads": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "normalization": "per-lead training-fold mean and standard deviation in physical mV units",
+    "external_resampling": "polyphase 500 Hz to 100 Hz before training-fold normalization",
+    "label_manifest": "data/derived/preregistration/harmonized_labels.json",
+    "label_manifest_sha256": "3f553708a045c6b1f08203d13b5dbff7ee41e8ad3f21401e48a2b900a7d5daf7"
+  },
+  "hypotheses": {
+    "h1_shift": "Both architectures will lose headline macro-AUROC outside PTB-XL, and the loss will differ between Chapman-Shaoxing and Ningbo.",
+    "h2_architecture": "The S4D seed ensemble will exceed the xResNet1d101 seed ensemble in headline macro-AUROC on PTB-XL fold 10 and on each external hospital.",
+    "h3_calibration": "Calibration error will increase under external shift. A scalar temperature fit only on PTB-XL fold 9 will improve PTB-XL fold-10 calibration but is not assumed to improve either external hospital.",
+    "h4_subgroups": "Discrimination and calibration will vary across prespecified age and sex subgroups within each cohort."
+  },
+  "models": {
+    "xresnet1d101": {
+      "block_layout": [3, 4, 23, 3],
+      "stem_convolutions": 3,
+      "kernel_size": 5,
+      "base_width": 64,
+      "pooling": "concatenated adaptive mean and max",
+      "head_hidden_units": 128,
+      "head_dropout": [0.25, 0.5],
+      "optimizer": "AdamW",
+      "maximum_learning_rate": 0.01,
+      "weight_decay": 0.01,
+      "schedule": "one-cycle",
+      "batch_size": 128
+    },
+    "s4d": {
+      "encoder": "Conv1d(12, 512, kernel_size=1)",
+      "d_model": 512,
+      "d_state": 8,
+      "blocks": 4,
+      "bidirectional": true,
+      "dropout": 0.2,
+      "normalization": "post-residual LayerNorm",
+      "pooling": "temporal mean",
+      "head": "single linear multilabel classifier",
+      "optimizer": "AdamW",
+      "learning_rate": 0.001,
+      "weight_decay": 0.01,
+      "schedule": "constant",
+      "batch_size": 32,
+      "implementation_scope": "diagonal S4D kernel at the published ECG S4 block scale"
+    }
+  },
+  "training": {
+    "seeds": [17, 29, 43],
+    "maximum_epochs": 50,
+    "loss": "unweighted binary cross-entropy with logits over all 16 frozen targets",
+    "training_crop": "one uniformly random 2.5-second crop per record and epoch",
+    "checkpoint_selection": "highest fold-9 macro-AUROC over the 13 headline labels; lower fold-9 NLL breaks exact ties",
+    "selection_scope": "architecture and seed checkpoints only; no fold-10 or external selection",
+    "training_lock": "/tmp/ml-train.lock"
+  },
+  "inference": {
+    "record_windows": 10,
+    "window_positions": "ten deterministic equidistant starts spanning the full 10-second record",
+    "record_aggregation": "arithmetic mean of window probabilities",
+    "seed_ensemble": "arithmetic mean of the three selected seed probabilities",
+    "primary_prediction_unit": "record",
+    "primary_model_unit": "three-seed architecture ensemble",
+    "one_shot_rule": "PTB-XL fold 10 and both external cohorts receive exactly one frozen model inference pass after run IDs, thresholds, and temperatures are sealed"
+  },
+  "metrics": {
+    "primary_discrimination": "term-centric macro-AUROC over the 13 headline labels",
+    "primary_shift_estimand": "external hospital macro-AUROC minus PTB-XL fold-10 macro-AUROC, separately by hospital",
+    "primary_model_contrast": "S4D macro-AUROC minus xResNet1d101 macro-AUROC within each cohort",
+    "secondary_discrimination": [
+      "macro-AUPRC",
+      "micro-AUROC",
+      "micro-AUPRC",
+      "per-label AUROC",
+      "per-label AUPRC"
+    ],
+    "coverage_analysis": "all 16 model targets, with sparse labels flagged and undefined metrics never imputed",
+    "threshold_selection": "per-label fold-9 threshold maximizing F1; smallest threshold breaks ties",
+    "threshold_metrics": ["macro-F1", "micro-F1", "sensitivity", "specificity"],
+    "missing_class_rule": "report undefined when a cohort or resample lacks a positive or negative; never replace with 0.5 or zero"
+  },
+  "calibration": {
+    "temperature_model": "one positive scalar per architecture ensemble",
+    "temperature_fit": "minimize binary cross-entropy on fold-9 logits formed from the logit of mean seed probabilities",
+    "external_recalibration": false,
+    "ece_bins": 15,
+    "ece_binning": "equal-width bins on [0, 1]",
+    "primary_calibration_metric": "macro average of per-label ECE over headline labels",
+    "secondary_calibration_metrics": ["pooled ECE", "macro Brier score", "per-label ECE"],
+    "reliability_curves": "pooled and per-headline-label curves before and after temperature scaling"
+  },
+  "subgroups": {
+    "age_groups": ["under_40", "40_to_64", "65_plus"],
+    "age_rule": "PTB-XL age 300 is a documented 90-plus sentinel and belongs to 65_plus; missing ages are excluded only from age analyses",
+    "sex_groups": ["female", "male"],
+    "sex_rule": "unknown sex is excluded only from sex analyses",
+    "label_rule": "within each cohort and stratification, use the manifest's common labels having at least 10 positives and 10 negatives in every subgroup",
+    "reported_metrics": ["macro-AUROC", "macro-AUPRC", "macro per-label ECE", "Brier score"],
+    "interpretation": "descriptive heterogeneity analysis, not a causal fairness claim"
+  },
+  "uncertainty": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20260716,
+    "interval": "2.5th and 97.5th percentile",
+    "ptb_resampling_unit": "patient_id clusters",
+    "external_resampling_unit": "record, because each source record is described as one patient ECG",
+    "paired_model_resampling": true,
+    "shift_difference_resampling": "independent cohort bootstrap draws combined replicate-wise"
+  },
+  "data_integrity": {
+    "waveform_validation_timing": "after preregistration and before any model inference",
+    "required_record_properties": "12 expected leads, 10 seconds, finite physical values, interpretable gain and units",
+    "attrition": "report every failed record and reason; both models use the same validated records",
+    "external_pooling": false,
+    "external_adaptation": false,
+    "demographics_as_model_inputs": false
+  }
+}

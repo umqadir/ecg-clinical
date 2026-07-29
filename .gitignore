@@ -1,0 +1,41 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Source datasets and large training artifacts. All are rebuilt by the pipeline:
+# scripts/fetch_source_metadata.py and scripts/fetch_challenge_headers.py repopulate
+# data/raw-metadata/ and data/cache/, scripts/build_waveform_store.py rebuilds the
+# waveform stores, and scripts/train_all.py rebuilds runs/ and artifacts/.
+data/raw-metadata/
+data/cache/
+checkpoints/
+runs/
+artifacts/
+*.ckpt
+*.pt
+*.pth
+
+# The per-run training curve and manifest are aggregate metadata, not training
+# artifacts: they carry per-epoch loss, validation macro-AUROC and elapsed time,
+# and no record-level data. RESULTS.md section 12 and METHODOLOGY.md section 14
+# quote them, so they are committed while the rest of runs/ is not.
+!runs/*/*/history.json
+!runs/*/*/run_manifest.json
+
+# Local environment and logs.
+.env
+*.log
+
+# Local scratch files. Never part of the published tree.
+BRIEF.md
+STATE.md
+
+# Legacy registration object store, since reconciled into .git and archived.
+# METHODOLOGY.md section 1 records why the registration seal names it.
+.git-shadow/
+
+reviews/

@@ -1,0 +1,91 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seeds": {
+    "chapman_shaoxing": 20260717,
+    "ningbo": 20260718,
+    "ptb_test": 20260716
+  },
+  "changes_registered_quantities": false,
+  "external_cluster_unit": "record",
+  "headline_shift_deltas_excluding_zero": 34,
+  "headline_shift_deltas_total": 52,
+  "interval_type": "percentile",
+  "micro_auroc_intervals": {
+    "chapman_shaoxing": {
+      "s4d": {
+        "lower_95": 0.8788442070043221,
+        "upper_95": 0.88454582155108
+      },
+      "xresnet1d101": {
+        "lower_95": 0.8821972235016267,
+        "upper_95": 0.8878668474681555
+      }
+    },
+    "ningbo": {
+      "s4d": {
+        "lower_95": 0.8775936720089507,
+        "upper_95": 0.8805160775445023
+      },
+      "xresnet1d101": {
+        "lower_95": 0.8775273138929994,
+        "upper_95": 0.8805349373041991
+      }
+    },
+    "ptb_test": {
+      "s4d": {
+        "lower_95": 0.9788436168768333,
+        "upper_95": 0.9830897314637168
+      },
+      "xresnet1d101": {
+        "lower_95": 0.9799736816025217,
+        "upper_95": 0.9841608117526527
+      }
+    }
+  },
+  "multiplicity_adjustment": "none; marginal intervals, matching the registered plan",
+  "outputs": [
+    "exploratory_per_label_intervals.csv",
+    "exploratory_per_label_shift_deltas.csv"
+  ],
+  "ptb_cluster_unit": "patient_id",
+  "registered_resample_cross_check": [
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ptb_test",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ptb_test",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "chapman_shaoxing",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "chapman_shaoxing",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ningbo",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ningbo",
+      "largest_absolute_difference": 0.0
+    }
+  ],
+  "stage": "post-seal exploratory addition",
+  "stage_date": "2026-07-25"
+}

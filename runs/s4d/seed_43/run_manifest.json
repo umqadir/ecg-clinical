@@ -1,0 +1,25 @@
+{
+  "batch_size": 32,
+  "best_epoch": 11,
+  "best_validation_macro_auroc": 0.9370601691058963,
+  "best_validation_nll": 0.09034111350774765,
+  "completed_epochs": 50,
+  "development_limits": {
+    "train_limit": null,
+    "validation_limit": null
+  },
+  "device": "mps",
+  "label_manifest_sha256": "3f553708a045c6b1f08203d13b5dbff7ee41e8ad3f21401e48a2b900a7d5daf7",
+  "maximum_epochs": 50,
+  "model": "s4d",
+  "normalization_sha256": "1199aa03ef00cbeb1ebccaf7aca779a9dbd2c9ddb8a21c3cee56b4017252238f",
+  "protected_evaluation_accessed": false,
+  "protocol_sha256": "663b66de111445107dc89c0a361f8d5e2fb4b27c5441158d2658d0c150728982",
+  "schema_version": 1,
+  "seed": 43,
+  "status": "complete",
+  "torch_version": "2.12.1",
+  "trainable_parameters": 2165264,
+  "training_records": 17418,
+  "validation_records": 2183
+}

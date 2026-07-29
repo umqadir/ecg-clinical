@@ -1,0 +1,52 @@
+{
+  "cohort": "ptb_test",
+  "completed_seed_passes": [
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "10962ef01152d545cac854e53c5493aa3e11abf9367eee70af5f3ca338eafa77",
+      "seed": 17
+    },
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "0862c62d2e8faebb716dffebcee4e068f33d90ba503478c93b79f9851812556c",
+      "seed": 29
+    },
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "56c7b192f0df69b80a5c27419dd78047024d99cb572bf80efab9f27c0aeb315d",
+      "seed": 43
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "a51e22057e8ba7869c92b90894ecfc0f8fc281df8b7ddb32eb2307b41c8f2b3e",
+      "seed": 17
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "e0439a88c8eff9426d1aaba779b4d6032b8bc8f75e3ded6cfec02ad32568dd4c",
+      "seed": 29
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "756573a5f5cc4489815cecb11fb7b557a15455b1dd2112047cbce7fb5078d04f",
+      "seed": 43
+    }
+  ],
+  "device": "mps",
+  "ensemble_file": "artifacts/predictions/protected/ptb_test/ensembles.npz",
+  "ensemble_sha256": "3b53907597071a7b56fb0f29557edf5d38801af4ffcbb2b331fdb0a07af9cc80",
+  "evaluation_seal_choices_commit": "c2234694631d15b2fd8bef89b35d38b8e48d7fd9",
+  "record_indices_sha256": "1b17c511445780edcd62fb0c5ff602dfbcb939b1e428eee10bc41203a5624d6f",
+  "records": 2198,
+  "schema_version": 2,
+  "sealed_checkpoint_sha256": {
+    "s4d-seed-17": "adc2e2c2834f17d217e458e7dd36f833c022a9b6ee35c44a27ba4b6d22a7ecf7",
+    "s4d-seed-29": "a71b3aea1bd8fa9da3c0563a5194eb56740208633492bbb6bb9f78032a6a6625",
+    "s4d-seed-43": "c23cb8aa9de465833aaa2982a4b40a44d9725d00d5d0ea08c7ccb9eb0cad2340",
+    "xresnet1d101-seed-17": "77f4c6e8f7c5c28c3fb3376390f0b9f91bfb2702356aafea8f3a399cc6ba1c80",
+    "xresnet1d101-seed-29": "899e1dcd8873caaffebdab05456a1c585730337b27c574c2ef59bc8e77602613",
+    "xresnet1d101-seed-43": "306d3d59dd97d340c07df5ff42330cdcc8eb5c73ac93c6006824ff480e5bf2e1"
+  },
+  "status": "complete",
+  "targets_sha256": "8989394f9813e8b8dd0dda56e9812165cf522db49a2daee90a06c25df8ae1924"
+}

@@ -1,0 +1,52 @@
+{
+  "cohort": "ningbo",
+  "completed_seed_passes": [
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "a51bfaa22bd657f6cdd9f4da08d09be773a8b51e8ff2c7db2dd709dd8ec2840c",
+      "seed": 17
+    },
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "673d207af295e2e4ede2ea05142f8930fc2dd8184132e52296cb91fcfd8c6289",
+      "seed": 29
+    },
+    {
+      "architecture": "s4d",
+      "prediction_sha256": "c3e95859f10e4b180acd1c2a36e84274342fcad1a134bc18e6972177169338a0",
+      "seed": 43
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "8dbfed3762c7b693412090f6bc16aff57da93f29cc6bddb23b2ac88c765c3c41",
+      "seed": 17
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "8ce19c80524ca55384fbcb3328cbd11d8083c1dc3b61b14da597072ab13ad5fe",
+      "seed": 29
+    },
+    {
+      "architecture": "xresnet1d101",
+      "prediction_sha256": "b041cd783e24200d640b8dc2cc1434c82b8fd6a8176522369ea1bce9d8bf4ab4",
+      "seed": 43
+    }
+  ],
+  "device": "mps",
+  "ensemble_file": "artifacts/predictions/protected/ningbo/ensembles.npz",
+  "ensemble_sha256": "abf542bfe215a5f8d6a8b221ace6fb765fc12b1ae818e948db50072b0f40d4f6",
+  "evaluation_seal_choices_commit": "c2234694631d15b2fd8bef89b35d38b8e48d7fd9",
+  "record_indices_sha256": "9f444eeb1e579fca28f81b25221c0d6b81ea363fe24407470d99ad018fff7142",
+  "records": 34905,
+  "schema_version": 2,
+  "sealed_checkpoint_sha256": {
+    "s4d-seed-17": "adc2e2c2834f17d217e458e7dd36f833c022a9b6ee35c44a27ba4b6d22a7ecf7",
+    "s4d-seed-29": "a71b3aea1bd8fa9da3c0563a5194eb56740208633492bbb6bb9f78032a6a6625",
+    "s4d-seed-43": "c23cb8aa9de465833aaa2982a4b40a44d9725d00d5d0ea08c7ccb9eb0cad2340",
+    "xresnet1d101-seed-17": "77f4c6e8f7c5c28c3fb3376390f0b9f91bfb2702356aafea8f3a399cc6ba1c80",
+    "xresnet1d101-seed-29": "899e1dcd8873caaffebdab05456a1c585730337b27c574c2ef59bc8e77602613",
+    "xresnet1d101-seed-43": "306d3d59dd97d340c07df5ff42330cdcc8eb5c73ac93c6006824ff480e5bf2e1"
+  },
+  "status": "complete",
+  "targets_sha256": "a6148c689f731ba9e0320dc4ea761cc3a1c475c793e77b56f2ccf8075579e13b"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "study_id": "ecg-clinical-shift-v1",
+  "registration_commit_historical": "f34661970a4bdf9986b9cf006f6bd8713f017fff",
+  "commit_note": "History was squashed before publication; this commit is not present in this repository. The artifact digests below are verified against the working tree on every protected operation.",
+  "history_rewritten": true,
+  "registration_commit_time": "2026-07-16T22:52:18-04:00",
+  "commit_store": ".git-shadow",
+  "commit_store_reason": "managed runner exposes the primary .git directory read-only",
+  "artifacts": {
+    "configs/preregistered_protocol.json": "663b66de111445107dc89c0a361f8d5e2fb4b27c5441158d2658d0c150728982",
+    "data/derived/preregistration/harmonized_labels.json": "3f553708a045c6b1f08203d13b5dbff7ee41e8ad3f21401e48a2b900a7d5daf7",
+    "preregistration/PREREGISTRATION.md": "bd17f9ecc0463c9e2b4ffba2dae1cd614755c289b72acd89999db413f942420a"
+  },
+  "precommit_attestation": {
+    "model_training_completed": false,
+    "ptb_xl_fold_10_model_inference_completed": false,
+    "external_waveform_matrix_accessed": false,
+    "external_model_inference_completed": false
+  }
+}

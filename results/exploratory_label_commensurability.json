@@ -1,0 +1,217 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seeds": {
+    "chapman_shaoxing": 20260717,
+    "ningbo": 20260718,
+    "ptb_test": 20260716
+  },
+  "changes_registered_quantities": false,
+  "competing_label_sets": {
+    "nonspecific intraventricular conduction disorder": [
+      "complete left bundle branch block / left bundle branch block",
+      "complete right bundle branch block / right bundle branch block"
+    ],
+    "sinus rhythm": [
+      "sinus bradycardia",
+      "sinus tachycardia"
+    ],
+    "t wave abnormal": [
+      "t wave inversion"
+    ],
+    "t wave inversion": [
+      "t wave abnormal"
+    ]
+  },
+  "external_cluster_unit": "record",
+  "interval_type": "percentile",
+  "label_structure": [
+    {
+      "cohort": "ptb_test",
+      "mean_labels_per_record_all_targets": 1.4599636032757053,
+      "mean_labels_per_record_headline": 1.4363057324840764,
+      "records": 2198,
+      "share_more_than_one_rhythm_label": 0.028207461328480437,
+      "share_no_label_all_targets": 0.05777979981801638,
+      "share_no_label_headline": 0.06005459508644222
+    },
+    {
+      "cohort": "chapman_shaoxing",
+      "mean_labels_per_record_all_targets": 1.1770274226602908,
+      "mean_labels_per_record_headline": 1.1268663999219284,
+      "records": 10247,
+      "share_more_than_one_rhythm_label": 0.0,
+      "share_no_label_all_targets": 0.1319410559188055,
+      "share_no_label_headline": 0.15467941836635113
+    },
+    {
+      "cohort": "ningbo",
+      "mean_labels_per_record_all_targets": 1.3520985532158716,
+      "mean_labels_per_record_headline": 1.1231342214582438,
+      "records": 34905,
+      "share_more_than_one_rhythm_label": 0.0010313708637730984,
+      "share_no_label_all_targets": 0.06211144535166881,
+      "share_no_label_headline": 0.17023349090388196
+    }
+  ],
+  "macro_variants": {
+    "drop_sinus_rhythm": {
+      "s4d": {
+        "macro_auroc": {
+          "chapman_shaoxing": 0.8945708234928914,
+          "ningbo": 0.8944789787449731,
+          "ptb_test": 0.9332927093836658
+        },
+        "shift_delta": {
+          "chapman_shaoxing": -0.03872188589077441,
+          "ningbo": -0.038813730638692756
+        }
+      },
+      "xresnet1d101": {
+        "macro_auroc": {
+          "chapman_shaoxing": 0.8955491499598353,
+          "ningbo": 0.8927601963754217,
+          "ptb_test": 0.9370597364338842
+        },
+        "shift_delta": {
+          "chapman_shaoxing": -0.04151058647404893,
+          "ningbo": -0.04429954005846248
+        }
+      }
+    },
+    "registered": {
+      "s4d": {
+        "macro_auroc": {
+          "chapman_shaoxing": 0.891173524080964,
+          "ningbo": 0.888676935165413,
+          "ptb_test": 0.9331428427101476
+        },
+        "shift_delta": {
+          "chapman_shaoxing": -0.04196931862918363,
+          "ningbo": -0.04446590754473456
+        }
+      },
+      "xresnet1d101": {
+        "macro_auroc": {
+          "chapman_shaoxing": 0.8919263553169059,
+          "ningbo": 0.8868544861207754,
+          "ptb_test": 0.937112410542677
+        },
+        "shift_delta": {
+          "chapman_shaoxing": -0.04518605522577113,
+          "ningbo": -0.05025792442190158
+        }
+      }
+    },
+    "union_reconciled": {
+      "s4d": {
+        "macro_auroc": {
+          "chapman_shaoxing": 0.8843772546203655,
+          "ningbo": 0.876202503629314,
+          "ptb_test": 0.9003328248646294
+        },
+        "shift_delta": {
+          "chapman_shaoxing": -0.01595557024426386,
+          "ningbo": -0.024130321235315444
+        }
+      },
+      "xresnet1d101": {
+        "macro_auroc": {
+          "chapman_shaoxing": 0.883871730606604,
+          "ningbo": 0.8764655716542916,
+          "ptb_test": 0.9018456871103335
+        },
+        "shift_delta": {
+          "chapman_shaoxing": -0.01797395650372957,
+          "ningbo": -0.025380115456041907
+        }
+      }
+    }
+  },
+  "multiplicity_adjustment": "none; marginal intervals, matching the registered plan",
+  "outputs": [
+    "exploratory_label_structure.csv",
+    "exploratory_label_cooccurrence.csv",
+    "exploratory_reconciled_auroc.csv",
+    "exploratory_reconciled_shift_deltas.csv",
+    "exploratory_macro_variants.csv"
+  ],
+  "ptb_cluster_unit": "patient_id",
+  "registered_resample_cross_check": [
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ptb_test",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ptb_test",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "chapman_shaoxing",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "chapman_shaoxing",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "xresnet1d101",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ningbo",
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "architecture": "s4d",
+      "bit_identical_to_registered_macro": true,
+      "cohort": "ningbo",
+      "largest_absolute_difference": 0.0
+    }
+  ],
+  "sinus_rhythm_conditional_annotation": {
+    "chapman_shaoxing": {
+      "sinus_bradycardia": {
+        "also_sinus_rhythm": 0,
+        "conditional_sinus_rhythm": 0.0,
+        "positives": 3889
+      },
+      "sinus_tachycardia": {
+        "also_sinus_rhythm": 0,
+        "conditional_sinus_rhythm": 0.0,
+        "positives": 1568
+      }
+    },
+    "ningbo": {
+      "sinus_bradycardia": {
+        "also_sinus_rhythm": 6,
+        "conditional_sinus_rhythm": 0.00047355958958168905,
+        "positives": 12670
+      },
+      "sinus_tachycardia": {
+        "also_sinus_rhythm": 0,
+        "conditional_sinus_rhythm": 0.0,
+        "positives": 5687
+      }
+    },
+    "ptb_test": {
+      "sinus_bradycardia": {
+        "also_sinus_rhythm": 36,
+        "conditional_sinus_rhythm": 0.5625,
+        "positives": 64
+      },
+      "sinus_tachycardia": {
+        "also_sinus_rhythm": 24,
+        "conditional_sinus_rhythm": 0.2926829268292683,
+        "positives": 82
+      }
+    }
+  },
+  "stage": "post-seal exploratory addition",
+  "stage_date": "2026-07-26"
+}
